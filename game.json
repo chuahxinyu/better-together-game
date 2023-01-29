@@ -176,58 +176,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bub_Squished.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Bub_Squished.png\",\"extension\":\".png\"}",
-        "name": "BlueBubSquished",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/d816dc8c2ec02c8eeff295e05ff31453495764b3e203f5f3cff9195e05209fd7_Bub_Squished.png",
-          "name": "Bub_Squished.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Large Block Narrow Rectangle_Locked.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Block Narrow Rectangle_Locked.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/6f733837f9a71ad12aa56b64fd266698433d878030e56eb417914c2c0c4cab80_Large Block Narrow Rectangle_Locked.png",
-          "name": "Large Block Narrow Rectangle_Locked.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Large Block Narrow Rectangle_Normal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Block Narrow Rectangle_Normal.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/9cd15eead3dcc7175b7386671e7c1336f1c6919fee7c806f168705c42ae9ae2b_Large Block Narrow Rectangle_Normal.png",
-          "name": "Large Block Narrow Rectangle_Normal.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Large Block Narrow Rectangle_Rotate.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Block Narrow Rectangle_Rotate.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/34803267fe02bf0f2c85d6a8db6d6a85122fe931d6a5dc258c7ac3671822c843_Large Block Narrow Rectangle_Rotate.png",
-          "name": "Large Block Narrow Rectangle_Rotate.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Big Demon_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -375,24 +323,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Big Demon_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Big Demon_Idle_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Big Demon_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Big Demon_Idle_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -441,19 +371,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Floor button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "e3742fda4b60ac8cd1c9f0200bcb93596ecf57574392610556184be4d8c2f424_Floor button.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/e3742fda4b60ac8cd1c9f0200bcb93596ecf57574392610556184be4d8c2f424_Floor button.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Green button.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Green button.png\",\"extension\":\".png\"}",
@@ -464,95 +381,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
           "name": "gdevelop-asset-store"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Green button_pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "b2b171566d6cb08c9785acf253392a4f2dcef72ff3f069b271afa15bbb0dbbb6_Green button_pressed.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/b2b171566d6cb08c9785acf253392a4f2dcef72ff3f069b271afa15bbb0dbbb6_Green button_pressed.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Small Plastic Green Square Slider Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Small Plastic Green Square Slider Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Small Plastic Green Square Slider Border.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png4",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png5",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png6",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png7",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -605,6 +433,24 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Hurt",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
         "smoothed": true,
         "userAdded": false
       }

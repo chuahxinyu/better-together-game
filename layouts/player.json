@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5710872247649879,
+    "zoomFactor": 0.622775034632561,
     "windowMask": false
   },
   "objectsGroups": [
@@ -59,8 +59,8 @@
       "name": "Bub1",
       "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
       "width": 50,
-      "x": 71,
-      "y": 618,
+      "x": 82,
+      "y": 449,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -74,8 +74,8 @@
       "name": "Bub2",
       "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
       "width": 50,
-      "x": 156,
-      "y": 614,
+      "x": 163,
+      "y": 443,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -349,6 +349,21 @@
           "value": 2
         }
       ]
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 23,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "c4a23424-824a-426a-ab99-31763d935900",
+      "width": 337,
+      "x": 46,
+      "y": 502,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -432,6 +447,12 @@
           "name": "Ability",
           "type": "string",
           "value": "c"
+        },
+        {
+          "folded": true,
+          "name": "Combined",
+          "type": "string",
+          "value": "False"
         }
       ],
       "effects": [],
@@ -465,12 +486,70 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.5,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Idle",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 14,
+                        "y": 5
+                      },
+                      {
+                        "x": 14,
+                        "y": 16
+                      },
+                      {
+                        "x": 2,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle",
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -506,7 +585,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Idle2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -555,7 +645,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubHurt",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -604,7 +705,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning1",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -640,7 +752,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -676,7 +799,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -712,7 +846,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -748,7 +893,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -784,7 +940,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "BlueBubRunning6",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -826,14 +993,72 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Combined Idle",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Combined Idle",
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -869,7 +1094,18 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Combined Idle2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 2.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 2.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -938,6 +1174,12 @@
           "name": "Ability",
           "type": "string",
           "value": "Down"
+        },
+        {
+          "folded": true,
+          "name": "Combined",
+          "type": "string",
+          "value": "False"
         }
       ],
       "effects": [],
@@ -976,7 +1218,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "PinkBubIdle1",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -993,7 +1246,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "BlueBubIdle2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1023,7 +1287,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Hurt",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1053,7 +1328,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1070,7 +1356,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1087,7 +1384,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1104,7 +1412,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1121,7 +1440,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1138,7 +1468,18 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running6",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "TopPoint",
+                      "x": 1.5,
+                      "y": 3.5
+                    },
+                    {
+                      "name": "BottomPoint",
+                      "x": 1.5,
+                      "y": 12.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1522,6 +1863,90 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TopCollider",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "BottomCollider",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1541,7 +1966,60 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Players"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Players",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1563,20 +2041,55 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Players",
-                    "\"Running\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"False\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Players",
+                        "\"Running\""
+                      ]
+                    }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Bottom\""
+                      ]
+                    }
+                  ],
+                  "actions": []
                 }
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1599,14 +2112,60 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Players",
-                    "\"Idle\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"False\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Players",
+                        "\"Idle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Bottom\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Players",
+                        "\"Combined Idle\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1621,58 +2180,169 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
       "name": "Player Controls",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateLeftKey"
-              },
-              "parameters": [
-                "Bub2",
-                "PlatformerObject"
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Uses Player Object Variables for controls. Players on Top cannot move.",
+          "comment2": ""
         },
         {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Players.VariableString(Up)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "Players",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Players.VariableString(Right)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "Players",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Players.VariableString(Left)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "Players",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ]
+                }
               ]
-            }
-          ],
-          "actions": [
+            },
             {
-              "type": {
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "Bub2",
-                "PlatformerObject"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Players.VariableString(Up)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Players"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"False\""
+                  ]
+                }
               ]
             }
           ]
@@ -1895,6 +2565,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Buttons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2056,13 +2727,147 @@
       "parameters": []
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Player Controls",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Players",
+      "conditions": [],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TopCollider",
+                "Players.PointX(\"TopPoint\")",
+                "Players.PointY(\"TopPoint\")",
+                "\"Utility Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "TopCollider"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BottomCollider",
+                "Players.PointX(\"BottomPoint\")",
+                "Players.PointY(\"BottomPoint\")",
+                "\"Utility Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Players",
+                "BottomCollider"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "TopCollider",
+                "Players",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TopCollider",
+                "=",
+                "Players.PointX(\"TopPoint\")",
+                "=",
+                "Players.PointY(\"TopPoint\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "BottomCollider",
+                "Players",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "BottomCollider",
+                "=",
+                "Players.PointX(\"BottomPoint\")",
+                "=",
+                "Players.PointY(\"BottomPoint\")"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "TopCollider",
+            "BottomCollider",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -2071,44 +2876,30 @@
           "actions": [],
           "events": [
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
                   },
                   "parameters": [
-                    "Bub1",
-                    "Left",
-                    "=",
+                    "",
+                    "Players",
+                    "TopCollider",
                     ""
                   ]
                 }
               ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Players.VariableString(Left)"
-                  ]
-                }
-              ],
               "actions": [
                 {
                   "type": {
-                    "value": "PlatformBehavior::SimulateLeftKey"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "Players",
-                    "PlatformerObject"
+                    "Combined",
+                    "=",
+                    "\"Bottom\""
                   ]
                 }
               ]
@@ -2118,55 +2909,38 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
                   },
                   "parameters": [
                     "",
-                    "Players.VariableString(Right)"
+                    "Players",
+                    "BottomCollider",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "PlatformBehavior::SimulateRightKey"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "Players",
-                    "PlatformerObject"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Players.VariableString(Up)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Players",
-                    "PlatformerObject"
+                    "Combined",
+                    "=",
+                    "\"Top\""
                   ]
                 }
               ]
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
