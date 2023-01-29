@@ -458,17 +458,24 @@
       "effects": [],
       "behaviors": [
         {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        },
+        {
+          "canGoDownFromJumpthru": false,
+          "gravity": 1000,
           "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1000,
-          "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1000,
-          "gravity": 1000,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
@@ -1185,10 +1192,17 @@
       "effects": [],
       "behaviors": [
         {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        },
+        {
+          "canGoDownFromJumpthru": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
@@ -2165,6 +2179,16 @@
                         "Players",
                         "\"Combined Idle\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Players",
+                        "LargeBlockNarrowRectangle",
+                        "yes"
+                      ]
                     }
                   ]
                 }
@@ -2180,23 +2204,10 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Player Controls",
+      "name": "Player Controls and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Uses Player Object Variables for controls. Players on Top cannot move.",
-          "comment2": ""
-        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
@@ -2221,6 +2232,19 @@
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Uses Player Object Variables for controls. Players on Top cannot move.",
+                  "comment2": ""
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -2299,6 +2323,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Separation",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2355,6 +2392,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EnemyGrunt Movements",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2727,148 +2765,27 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Players",
-      "conditions": [],
-      "actions": [],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Combining",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "TopCollider",
-                "Players.PointX(\"TopPoint\")",
-                "Players.PointY(\"TopPoint\")",
-                "\"Utility Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "Players",
-                "TopCollider"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BottomCollider",
-                "Players.PointX(\"BottomPoint\")",
-                "Players.PointY(\"BottomPoint\")",
-                "\"Utility Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "Players",
-                "BottomCollider"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "TopCollider",
-                "Players",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "TopCollider",
-                "=",
-                "Players.PointX(\"TopPoint\")",
-                "=",
-                "Players.PointY(\"TopPoint\")"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "BottomCollider",
-                "Players",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BottomCollider",
-                "=",
-                "Players.PointX(\"BottomPoint\")",
-                "=",
-                "Players.PointY(\"BottomPoint\")"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            "TopCollider",
-            "BottomCollider",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
+          "comment": "Create Top and Bottom Colliders that follow each player",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
@@ -2880,26 +2797,54 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "",
-                    "Players",
-                    "TopCollider",
-                    ""
-                  ]
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarObjetTxt"
+                    "value": "Create"
                   },
                   "parameters": [
+                    "",
+                    "TopCollider",
+                    "Players.PointX(\"TopPoint\")",
+                    "Players.PointY(\"TopPoint\")",
+                    "\"Utility Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
                     "Players",
-                    "Combined",
-                    "=",
-                    "\"Bottom\""
+                    "TopCollider"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BottomCollider",
+                    "Players.PointX(\"BottomPoint\")",
+                    "Players.PointY(\"BottomPoint\")",
+                    "\"Utility Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Players",
+                    "BottomCollider"
                   ]
                 }
               ]
@@ -2913,8 +2858,8 @@
                   },
                   "parameters": [
                     "",
+                    "TopCollider",
                     "Players",
-                    "BottomCollider",
                     ""
                   ]
                 }
@@ -2922,25 +2867,151 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarObjetTxt"
+                    "value": "MettreXY"
                   },
                   "parameters": [
-                    "Players",
-                    "Combined",
+                    "TopCollider",
                     "=",
-                    "\"Top\""
+                    "Players.PointX(\"TopPoint\")",
+                    "=",
+                    "Players.PointY(\"TopPoint\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BottomCollider",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "BottomCollider",
+                    "=",
+                    "Players.PointX(\"BottomPoint\")",
+                    "=",
+                    "Players.PointY(\"BottomPoint\")"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Label Players with \"Top\" and \"Bottom\" upon collision",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopCollider",
+                "BottomCollider",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Players",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Players",
+                        "TopCollider",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Bottom\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Players",
+                        "BottomCollider",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Top\""
+                      ]
+                    }
                   ]
                 }
               ]
             }
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      ],
+      "parameters": []
     }
   ],
   "layers": [
