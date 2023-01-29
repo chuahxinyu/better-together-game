@@ -18,22 +18,34 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5710872247649916,
+    "zoomFactor": 0.5710872247649879,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Players",
+      "objects": [
+        {
+          "name": "Bub1"
+        },
+        {
+          "name": "Bub2"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": true,
-      "height": 1259,
+      "height": 1309,
       "layer": "",
       "name": "LargeBlockNarrowRectangle",
       "persistentUuid": "4f4023ff-cbf4-413f-b6d9-b19ab65928df",
       "width": 47,
-      "x": 611,
-      "y": 65,
+      "x": 617,
+      "y": 41,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -42,13 +54,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 50,
       "layer": "",
       "name": "Bub1",
       "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
-      "width": 100,
-      "x": 199,
-      "y": 563,
+      "width": 50,
+      "x": 176,
+      "y": 621,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -57,17 +69,286 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 100,
+      "height": 50,
       "layer": "",
       "name": "Bub2",
       "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
-      "width": 100,
-      "x": 331,
-      "y": 563,
+      "width": 50,
+      "x": 74,
+      "y": 622,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 733,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "93fd6809-cf9b-4e72-a34e-a6de7c15f5f2",
+      "width": 47,
+      "x": 1238,
+      "y": -3,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 1251,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "1ee32e4a-b9a4-47b8-a7e4-d79173dc31fb",
+      "width": 47,
+      "x": 591,
+      "y": -604,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "height": 727,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "bd85cac2-a307-4296-bfdf-6a78dc2bdf17",
+      "width": 47,
+      "x": 1,
+      "y": -1,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 142,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "4bbee184-ee66-4f38-ab81-e3744d4e3395",
+      "width": 44,
+      "x": 460,
+      "y": 572,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 136,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "85012217-f337-44fa-965d-3480dc481a35",
+      "width": 44,
+      "x": 648,
+      "y": 581,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 249,
+      "customSize": true,
+      "height": 368,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "6b673230-beda-457a-8d0f-eb02f77a1236",
+      "width": 44,
+      "x": 811,
+      "y": 357,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 118,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "5661e183-2a55-4bcf-8024-eec73cae3f07",
+      "width": 44,
+      "x": 912,
+      "y": 585,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "f804a59e-d816-4c64-bf28-09d4a64d8431",
+      "width": 85,
+      "x": 530,
+      "y": 523,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "d6437426-ca8c-411c-8262-fc41af1cccb4",
+      "width": 85,
+      "x": 1075,
+      "y": 144,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 278,
+      "customSize": true,
+      "height": 368,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "5351bcc4-bd71-4744-85d9-bb17338be104",
+      "width": 44,
+      "x": 572,
+      "y": 157,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 325,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "06d1d651-f167-40ad-ac52-407108a0df42",
+      "width": 39,
+      "x": 1100,
+      "y": 155,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 164,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "24351b09-9a05-4e0c-b240-8ead42c1b599",
+      "width": 44,
+      "x": 945,
+      "y": 493,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 29,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "88e9b3fc-0557-4e41-aa23-1ac5c7120af1",
+      "width": 117,
+      "x": 1090,
+      "y": 645,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "b8025ff5-e300-4577-8ab9-c948c43d3759",
+      "width": 253,
+      "x": 307,
+      "y": 154,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 392,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "2fd8de34-48ee-4ecb-9257-73db164a953d",
+      "width": 44,
+      "x": 203,
+      "y": 117,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 29,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "ddec7a07-eacf-4d8b-9011-54d6321a69ed",
+      "width": 117,
+      "x": 513,
+      "y": 642,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLink",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "e6924694-5294-473e-909e-669864f684d1",
+      "width": 253,
+      "x": 849,
+      "y": 159,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonDoorLink",
+          "type": "number",
+          "value": 2
+        }
+      ]
     }
   ],
   "objects": [
@@ -90,74 +371,17 @@
       ],
       "animations": [
         {
-          "name": "Normal",
+          "name": "LargeBlockNarrowRectangle",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Large Block Narrow Rectangle_Normal.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Locked",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Large Block Narrow Rectangle_Locked.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Rotate",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Large Block Narrow Rectangle_Rotate.png",
+                  "image": "LargeBlockNarrowRectangle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -179,18 +403,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "tags": "",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "c016f940e04825953443de87d6e7b39669be7f682bc1623a126a3738996b9eef",
       "name": "Bub1",
       "tags": "",
@@ -200,6 +412,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1000,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -212,9 +426,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -501,6 +713,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -513,9 +727,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -744,6 +956,371 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemyGrunt",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "AlertRadius",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Button",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLink",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Pressed",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Door",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "ButtonDoorLink",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 0
+                      },
+                      {
+                        "x": 529,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 95.89591217041016,
+                        "y": 0
+                      },
+                      {
+                        "x": 96.86670684814453,
+                        "y": 60.628910064697266
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -920,6 +1497,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player 2 Controls",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -977,9 +1555,397 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "EnemyGrunt Movements",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "EnemyGrunt",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "EnemyGrunt",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "EnemyGrunt.BoundingBoxCenterX() - 200",
+                "EnemyGrunt.BoundingBoxCenterY() - 200",
+                "\"Utility Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "AlertRadius",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "EnemyGrunt",
+                "AlertRadius"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "EnemyGrunt",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "EnemyGrunt",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "AlertRadius",
+                "=",
+                "EnemyGrunt.BoundingBoxCenterX() - 200",
+                "=",
+                "EnemyGrunt.BoundingBoxCenterY() - 200"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "AlertRadius",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "AlertRadius",
+                "Players",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "Players",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    ">",
+                    "Players.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "<",
+                    "Players.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "LargeBlockNarrowRectangle",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "LargeBlockNarrowRectangle",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Buttons & Doors",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "Button"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "Door"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Button",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "Button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "Button"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Button",
+                "Pressed",
+                "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Door",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "DoorButtonLink",
+                    "=",
+                    "Door.Variable(ButtonDoorLink)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayAnimation"
+                  },
+                  "parameters": [
+                    "Door"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "Players",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Players",
+                "Door",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "EnemyGrunt",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "Door",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 7195584,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Utility Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 16777215,
       "ambientLightColorG": 0,
