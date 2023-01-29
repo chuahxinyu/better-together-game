@@ -8,7 +8,7 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "folderProject": false,
+    "folderProject": true,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
@@ -56,7 +56,69 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EnemyAI.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EnemyAI",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Demon_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1c7a9353a7ff8721e616e81f316fa3dd3e559819ac12d8b38691059d32756f3f_Big Demon_Idle_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/1c7a9353a7ff8721e616e81f316fa3dd3e559819ac12d8b38691059d32756f3f_Big Demon_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Demon_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5e670f69aa969d6090e24967b50b9dc1fe87a79eb8e7eb92bd0c8d5e613eef5c_Big Demon_Idle_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/5e670f69aa969d6090e24967b50b9dc1fe87a79eb8e7eb92bd0c8d5e613eef5c_Big Demon_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pink Man_Fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b6b6870938b9d4e0fc2462d6b2d6af7f745b11b2fe231178607989661d725694_Pink Man_Fall.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Main Characters/Pink Man/b6b6870938b9d4e0fc2462d6b2d6af7f745b11b2fe231178607989661d725694_Pink Man_Fall.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Side Mid Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -64,82 +126,12 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.546875,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 8042920,
-          "ambientLightColorR": 16,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/enemyaiscene"
     }
   ],
   "externalEvents": [],
