@@ -363,6 +363,81 @@
         "name": "Combined Idle2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LargeBlockNarrowRectangle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/LargeBlockNarrowRectangle.png\"}",
+        "name": "LargeBlockNarrowRectangle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Demon_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Big Demon_Idle_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Demon_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Big Demon_Idle_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
