@@ -61,8 +61,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Hurt.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Hurt.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Hurt.png\",\"extension\":\".png\"}",
+        "name": "BlueBubHurt",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -74,8 +74,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Idle_1.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Idle_1.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Idle_1.png\",\"extension\":\".png\"}",
+        "name": "PinkBubIdle1",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -87,8 +87,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Idle_2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Idle_2.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Idle_2.png\",\"extension\":\".png\"}",
+        "name": "BlueBubIdle2",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -100,8 +100,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_1.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_1.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_1.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning1",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -113,8 +113,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_2.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_2.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning2",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -126,8 +126,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_3.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_3.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_3.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning3",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -139,8 +139,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_4.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_4.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_4.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning4",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -152,8 +152,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_5.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_5.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_5.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning5",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -165,8 +165,8 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Running_6.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Running_6.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_6.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning6",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -178,26 +178,13 @@
         "alwaysLoaded": false,
         "file": "assets/Bub_Squished.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Bub_Squished.png",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Squished.png\",\"extension\":\".png\"}",
+        "name": "BlueBubSquished",
         "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/d816dc8c2ec02c8eeff295e05ff31453495764b3e203f5f3cff9195e05209fd7_Bub_Squished.png",
           "name": "Bub_Squished.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Alien Green Square.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Alien Green Square.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Alien/7a28038b0fcb68974c75b4b4fe01177ad9c6b0454b5f39f73dcd5170ad6c67c5_Alien Green Square.png",
-          "name": "Alien Green Square.png"
         }
       },
       {
@@ -241,15 +228,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/EnemyAI.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "EnemyAI",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Big Demon_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -289,25 +267,102 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Wall Side Mid Left.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/New image.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
         "name": "New image",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running.png\"}",
+        "name": "Running",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running2.png\"}",
+        "name": "Running2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running3.png\"}",
+        "name": "Running3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running4.png\"}",
+        "name": "Running4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running5.png\"}",
+        "name": "Running5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running6.png\"}",
+        "name": "Running6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Combined Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Combined Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Combined Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Combined Idle2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
