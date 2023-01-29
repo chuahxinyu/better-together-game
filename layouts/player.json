@@ -486,6 +486,7 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
@@ -516,7 +517,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1667,
+              "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -606,36 +607,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "BlueBubRunning6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Squished",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "BlueBubSquished",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -792,7 +763,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BlueBubHurt",
+                  "image": "Hurt",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -818,7 +789,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1667,
+              "timeBetweenFrames": 0.0833,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -908,35 +879,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Running6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Squished",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "BlueBubSquished",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

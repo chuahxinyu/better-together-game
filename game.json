@@ -598,6 +598,15 @@
         "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png11",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
