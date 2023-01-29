@@ -352,7 +352,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Combined Idle",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -361,7 +361,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Combined Idle2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
