@@ -59,6 +59,188 @@
     "resources": [
       {
         "alwaysLoaded": false,
+        "file": "assets/Bub_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/dab95eede1c788dde1e4dde510f75097358e9f8c3a6f7042b86ecaad18ccd062_Bub_Hurt.png",
+          "name": "Bub_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/3096fb5af167f94ed7fc0ff75a471198b2b84d13a8162bac4f0262a87d6ef571_Bub_Idle_1.png",
+          "name": "Bub_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/2c8d3031370fdb41a5a3998131e181cf2b7251aa7ec50dabddda951d8e100976_Bub_Idle_2.png",
+          "name": "Bub_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/a4238165becbe652f01fca7a6714a9a38ec676c52733bf4ed31ca4519c1c867f_Bub_Running_1.png",
+          "name": "Bub_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/b7eeb7749bef3a27b7087d837f7066fdf3a385bb9b6c8f9355d26c67a667ed02_Bub_Running_2.png",
+          "name": "Bub_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/2c73df1712d2609076ebce0c2dfe7eb2a60db54da0a0135c5d5cc0d52a6bfc7a_Bub_Running_3.png",
+          "name": "Bub_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/f9144db72f2de545aeb4edf6f004fedfb32f143472be7a484e2f05fa13f98770_Bub_Running_4.png",
+          "name": "Bub_Running_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/e7fdbd6c744c32e87561985f34b6ad8e5b3c137efed49b42048bf4c2aaec73f6_Bub_Running_5.png",
+          "name": "Bub_Running_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Running_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/f9ba9dd68ba91cf08881c25f5a41fd5f967b67fca4a2e057aaf1c6f9eb41b452_Bub_Running_6.png",
+          "name": "Bub_Running_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Squished.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bub_Squished.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/d816dc8c2ec02c8eeff295e05ff31453495764b3e203f5f3cff9195e05209fd7_Bub_Squished.png",
+          "name": "Bub_Squished.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alien Green Square.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alien Green Square.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Alien/7a28038b0fcb68974c75b4b4fe01177ad9c6b0454b5f39f73dcd5170ad6c67c5_Alien Green Square.png",
+          "name": "Alien Green Square.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Locked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Locked.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/6f733837f9a71ad12aa56b64fd266698433d878030e56eb417914c2c0c4cab80_Large Block Narrow Rectangle_Locked.png",
+          "name": "Large Block Narrow Rectangle_Locked.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Normal.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/9cd15eead3dcc7175b7386671e7c1336f1c6919fee7c806f168705c42ae9ae2b_Large Block Narrow Rectangle_Normal.png",
+          "name": "Large Block Narrow Rectangle_Normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Rotate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Rotate.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/34803267fe02bf0f2c85d6a8db6d6a85122fe931d6a5dc258c7ac3671822c843_Large Block Narrow Rectangle_Rotate.png",
+          "name": "Large Block Narrow Rectangle_Rotate.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/EnemyAI.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -128,6 +310,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/player"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
