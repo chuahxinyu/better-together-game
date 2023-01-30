@@ -3849,6 +3849,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Win",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3959,6 +3960,58 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Game Loss",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "Enemies",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Lose Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "LoseDesciption",
+                "=",
+                "Players.VariableString(Name)+\" died in the hands of \"+Enemies.VariableString(Name)"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
