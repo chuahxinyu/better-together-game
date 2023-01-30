@@ -14,7 +14,7 @@
     "pixelsRounding": true,
     "projectUuid": "fdf42daa-c101-4329-b727-7ea20b9b5c72",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -489,6 +489,15 @@
         "name": "CombinedTop2",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
