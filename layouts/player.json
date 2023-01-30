@@ -2451,6 +2451,12 @@
           "name": "Pressed",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "PermaPressed",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -5371,7 +5377,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5493,11 +5498,12 @@
                 },
                 {
                   "type": {
-                    "value": "AjoutObjConcern"
+                    "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "Players"
+                    "MultiButton",
+                    "PermaPressed",
+                    ""
                   ]
                 }
               ],
@@ -5519,14 +5525,32 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Players",
-                    "MultiButton",
-                    "False",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Players",
+                        "MultiButton",
+                        "False",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -5681,7 +5705,18 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "MultiButton",
+                            "MultiDoor"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5735,9 +5770,75 @@
                                 "MultiDoor",
                                 "\"MultiDoorOpen\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "MultiButton",
+                                "PermaPressed",
+                                "True"
+                              ]
                             }
                           ]
                         }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiDoor",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "MultiDoor",
+                        "ButtonsNeeded",
+                        "=",
+                        "MultiDoor.Variable(ButtonsPressed)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "MultiButton",
+                        "MultiDoor",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "MultiDoor",
+                        "\"MultiDoorOpen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
                       ]
                     }
                   ]
