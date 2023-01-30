@@ -2928,7 +2928,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "AxeIdle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2994,6 +2994,53 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AxeAttacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Attacking6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Attacking7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -3546,7 +3593,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3995,6 +4041,60 @@
                     "IsAttacking",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "\"AxeAttacking\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationEnded2"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "\"AxeIdle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "False"
+                  ]
                 }
               ]
             },
@@ -4313,6 +4413,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Buttons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5270,6 +5371,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5518,7 +5620,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Openning MultiDoors - Check if All MultiButtons of the MultiDoorID are Pressed",
+          "comment": "Openning MultiDoors - Check if All MultiButtons of the same colour as MultiDoor are pressed",
           "comment2": ""
         },
         {
@@ -5652,7 +5754,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
