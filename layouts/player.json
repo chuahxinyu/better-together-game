@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45986522709187105,
+    "zoomFactor": 0.6791409909776783,
     "windowMask": false
   },
   "objectsGroups": [
@@ -202,8 +202,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "f804a59e-d816-4c64-bf28-09d4a64d8431",
       "width": 50,
-      "x": 530,
-      "y": 523,
+      "x": 477,
+      "y": 446,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,7 +497,7 @@
         },
         {
           "folded": true,
-          "name": "Ability",
+          "name": "Attack",
           "type": "string",
           "value": "c"
         },
@@ -516,6 +516,12 @@
         {
           "folded": true,
           "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsAttacking",
           "type": "boolean",
           "value": false
         }
@@ -1226,7 +1232,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "CombinedTop2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "WeaponPoint",
+                      "x": 13,
+                      "y": 13.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1273,7 +1285,7 @@
         },
         {
           "folded": true,
-          "name": "Ability",
+          "name": "Attack",
           "type": "string",
           "value": "Down"
         },
@@ -1292,6 +1304,12 @@
         {
           "folded": true,
           "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsAttacking",
           "type": "boolean",
           "value": false
         }
@@ -1801,7 +1819,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "CombinedTop",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "WeaponPoint",
+                      "x": 13,
+                      "y": 13.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2474,6 +2498,90 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "71c958902db5880449c448446b74c8a81b7fe8ffc14f1c1134d5019feb45872f",
+      "name": "BronzeBattleAxe",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bronze Battle Axe.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.2320308685302734,
+                        "y": 5.05000114440918
+                      },
+                      {
+                        "x": 8.382030487060547,
+                        "y": 0.20000076293945312
+                      },
+                      {
+                        "x": 10.732032775878906,
+                        "y": 0
+                      },
+                      {
+                        "x": 12.232032775878906,
+                        "y": 3.6499996185302734
+                      },
+                      {
+                        "x": 16,
+                        "y": 5.149999618530273
+                      },
+                      {
+                        "x": 15.882030487060547,
+                        "y": 7.850000381469727
+                      },
+                      {
+                        "x": 10.83203125,
+                        "y": 12.55000114440918
+                      },
+                      {
+                        "x": 8.33203125,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 7.33203125,
+                        "y": 8.600000381469727
+                      },
+                      {
+                        "x": 3.282032012939453,
+                        "y": 7.350000381469727
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2482,7 +2590,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Debugging Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2671,6 +2778,44 @@
                     "DebugText",
                     "=",
                     "\"False\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "DebugText",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "DebugText",
+                    "=",
+                    "\"Attack\""
                   ]
                 }
               ]
@@ -3016,6 +3161,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3277,6 +3423,104 @@
                     "Combined",
                     "=",
                     "\"False\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Attack",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Players.VariableString(Attack)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"False\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "False"
                   ]
                 }
               ]
@@ -3723,6 +3967,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Combining",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4009,6 +4254,168 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Weapon Holding",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Players",
+                "Combined",
+                "=",
+                "\"Top\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players.PointX(\"WeaponPoint\")",
+                    "Players.PointY(\"WeaponPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "=",
+                    "Players.PointX(\"WeaponPoint\")",
+                    "=",
+                    "Players.PointY(\"WeaponPoint\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "BronzeBattleAxe",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "BronzeBattleAxe",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "Game Win",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4176,9 +4583,91 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Attacking",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "BronzeBattleAxe",
+                "Enemies",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Players"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -4222,7 +4711,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },

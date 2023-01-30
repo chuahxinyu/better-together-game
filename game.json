@@ -538,6 +538,37 @@
         "name": "assets\\Door_Closing_1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Battle Axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze Battle Axe.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Weapons/3a8271d67ace48bc1e61bf6c1133207f4d3497680ff6e5c04d3216dfc0ea8efc_Bronze Battle Axe.png",
+          "name": "Bronze Battle Axe.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
