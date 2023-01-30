@@ -349,21 +349,6 @@
           "value": 2
         }
       ]
-    },
-    {
-      "angle": 180,
-      "customSize": true,
-      "height": 23,
-      "layer": "",
-      "name": "LargeBlockNarrowRectangle",
-      "persistentUuid": "c4a23424-824a-426a-ab99-31763d935900",
-      "width": 337,
-      "x": 46,
-      "y": 502,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -2062,6 +2047,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Debugging",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2264,103 +2250,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Animations",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Make Top Player stick to bottom player",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "Bub1",
-                "Combined",
-                "=",
-                "\"Top\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Bub1",
-                "=",
-                "Bub2.BoundingBoxLeft()+Bub1.Width()",
-                "=",
-                "Bub2.BoundingBoxTop()+Bub1.Height()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Bub1",
-                "Platform",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "Bub2",
-                "Combined",
-                "=",
-                "\"Top\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Bub2",
-                "=",
-                "Bub1.PointX(\"TopPoint\")-2",
-                "=",
-                "Bub1.PointY(\"TopPoint\")-Bub2.Height()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Bub2",
-                "Platform",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
@@ -2531,10 +2425,104 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Player Controls and Separation",
+      "folded": true,
+      "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Make Top Player stick to bottom player",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Bub1",
+                "Combined",
+                "=",
+                "\"Top\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Bub1",
+                "=",
+                "Bub2.BoundingBoxLeft()+Bub1.Width()",
+                "=",
+                "Bub2.BoundingBoxTop()+Bub1.Height()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Bub1",
+                "Platform",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Bub2",
+                "Combined",
+                "=",
+                "\"Top\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Bub2",
+                "=",
+                "Bub1.PointX(\"TopPoint\")-2",
+                "=",
+                "Bub1.PointY(\"TopPoint\")-Bub2.Height()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Bub2",
+                "Platform",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
@@ -3089,6 +3077,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Combining",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3360,95 +3349,6 @@
                     "Combined",
                     "=",
                     "\"Top\""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Players",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Players",
-                        "Combined",
-                        "=",
-                        "\"False\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "LinkedObjects::PickObjectsLinkedTo"
-                      },
-                      "parameters": [
-                        "",
-                        "Players",
-                        "TopCollider",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Players",
-                        "Combined",
-                        "=",
-                        "\"Bottom\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Players",
-                        "Combined",
-                        "=",
-                        "\"False\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "LinkedObjects::PickObjectsLinkedTo"
-                      },
-                      "parameters": [
-                        "",
-                        "Players",
-                        "BottomCollider",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Players",
-                        "Combined",
-                        "=",
-                        "\"Top\""
-                      ]
-                    }
                   ]
                 }
               ]
