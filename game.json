@@ -550,6 +550,7 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Weapons/3a8271d67ace48bc1e61bf6c1133207f4d3497680ff6e5c04d3216dfc0ea8efc_Bronze Battle Axe.png",
           "name": "Bronze Battle Axe.png"
+        }
         },
         {
         "alwaysLoaded": false,
@@ -569,7 +570,7 @@
         "file": "assets/Attack.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack",
+        "name": "Attack"
       },
       {
         "alwaysLoaded": false,
