@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6791409909776802,
+    "zoomFactor": 0.45986522709187105,
     "windowMask": false
   },
   "objectsGroups": [
@@ -512,6 +512,12 @@
           "name": "Name",
           "type": "string",
           "value": "Player 1"
+        },
+        {
+          "folded": true,
+          "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -560,12 +566,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -577,8 +583,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -607,12 +613,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -624,8 +630,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -654,12 +660,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -671,8 +677,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -774,12 +780,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -821,12 +827,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -868,12 +874,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -915,12 +921,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -962,12 +968,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1009,12 +1015,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1069,12 +1075,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1116,12 +1122,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1163,12 +1169,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1282,6 +1288,12 @@
           "name": "Name",
           "type": "string",
           "value": "Player 2"
+        },
+        {
+          "folded": true,
+          "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1330,12 +1342,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1377,12 +1389,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1497,12 +1509,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1544,12 +1556,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1591,12 +1603,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1638,12 +1650,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1685,12 +1697,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1732,12 +1744,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -2471,7 +2483,7 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "Player Debugging",
+      "name": "Player Debugging Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -2689,6 +2701,58 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsFacingLeft",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Players",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsFacingLeft",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Players",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "VarObjetTxt"
                   },
                   "parameters": [
@@ -2888,7 +2952,7 @@
               "parameters": [
                 "Bub1",
                 "=",
-                "Bub2.PointX(\"TopPoint\")-5",
+                "Bub2.PointX(\"TopPoint\")-Players.Width()/2",
                 "=",
                 "Bub2.PointY(\"TopPoint\")-Bub1.Height()+10"
               ]
@@ -2928,7 +2992,7 @@
               "parameters": [
                 "Bub2",
                 "=",
-                "Bub1.PointX(\"TopPoint\")-5",
+                "Bub1.PointX(\"TopPoint\")-Players.Width()/2",
                 "=",
                 "Bub1.PointY(\"TopPoint\")-Bub2.Height()+10"
               ]
@@ -3029,6 +3093,55 @@
                         "Players",
                         "PlatformerObject"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Players",
+                            "Combined",
+                            "=",
+                            "\"Bottom\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Players"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "False"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -3053,6 +3166,55 @@
                       "parameters": [
                         "Players",
                         "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Players",
+                            "Combined",
+                            "=",
+                            "\"Bottom\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Players"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3561,7 +3723,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Combining",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3603,7 +3764,7 @@
                   "parameters": [
                     "",
                     "TopCollider",
-                    "Players.PointX(\"TopPoint\")",
+                    "Players.PointX(\"TopPoint\")-Players.Width()/2+10",
                     "Players.PointY(\"TopPoint\")",
                     "\"Utility Layer\""
                   ]
@@ -3625,7 +3786,7 @@
                   "parameters": [
                     "",
                     "BottomCollider",
-                    "Players.PointX(\"BottomPoint\")",
+                    "Players.PointX(\"BottomPoint\")-Players.Width()/2+5",
                     "Players.PointY(\"BottomPoint\")",
                     "\"Utility Layer\""
                   ]
@@ -3665,7 +3826,7 @@
                   "parameters": [
                     "TopCollider",
                     "=",
-                    "Players.PointX(\"TopPoint\")",
+                    "Players.PointX(\"TopPoint\")-Players.Width()/2+10",
                     "=",
                     "Players.PointY(\"TopPoint\")"
                   ]
@@ -3695,7 +3856,7 @@
                   "parameters": [
                     "BottomCollider",
                     "=",
-                    "Players.PointX(\"BottomPoint\")",
+                    "Players.PointX(\"BottomPoint\")-Players.Width()/2+5",
                     "=",
                     "Players.PointY(\"BottomPoint\")"
                   ]
@@ -4013,6 +4174,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -4023,7 +4189,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -4056,7 +4222,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
