@@ -541,6 +541,18 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Bronze Battle Axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze Battle Axe.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Weapons/3a8271d67ace48bc1e61bf6c1133207f4d3497680ff6e5c04d3216dfc0ea8efc_Bronze Battle Axe.png",
+          "name": "Bronze Battle Axe.png"
+        },
+        {
+        "alwaysLoaded": false,
         "file": "assets/tiled_Background.png",
         "kind": "image",
         "metadata": "",
@@ -551,6 +563,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Background/e10d4d02f445ddc7daf068b27546f89a8fe1f2ecb3e5c8ce21a73c8dbc8234b7_tiled_Background.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
       },
       {
         "alwaysLoaded": false,
@@ -621,6 +640,15 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
         "smoothed": true,
         "userAdded": true
       },
