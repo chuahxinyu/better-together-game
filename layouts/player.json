@@ -2798,7 +2798,13 @@
     {
       "assetStoreId": "71c958902db5880449c448446b74c8a81b7fe8ffc14f1c1134d5019feb45872f",
       "name": "BronzeBattleAxe",
-       "animations": [
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
         {
           "name": "",
           "useMultipleDirections": false,
