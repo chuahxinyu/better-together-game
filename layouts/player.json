@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.622775034632561,
+    "zoomFactor": 0.5014865861275509,
     "windowMask": false
   },
   "objectsGroups": [
@@ -458,20 +458,20 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": false,
           "gravity": 1000,
           "ignoreDefaultControls": true,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1000,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -501,12 +501,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -548,12 +548,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -595,12 +595,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -655,12 +655,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -715,12 +715,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -762,12 +762,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -809,12 +809,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -856,12 +856,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -903,12 +903,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -950,12 +950,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -1010,12 +1010,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -1057,12 +1057,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -1104,12 +1104,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 12.5
                     }
                   ],
@@ -1192,16 +1192,16 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {
-          "canGoDownFromJumpthru": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGoDownFromJumpthru": false,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -1899,7 +1899,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite6",
+                  "image": "NewSprite3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1941,7 +1941,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite4",
+                  "image": "NewSprite2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
