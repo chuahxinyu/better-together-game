@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5963714163013054,
+    "zoomFactor": 0.8807369002847404,
     "windowMask": false
   },
   "objectsGroups": [
@@ -30,6 +30,14 @@
         },
         {
           "name": "Bub2"
+        }
+      ]
+    },
+    {
+      "name": "Enemies",
+      "objects": [
+        {
+          "name": "EnemyGrunt"
         }
       ]
     }
@@ -59,8 +67,8 @@
       "name": "Bub1",
       "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
       "width": 50,
-      "x": 119,
-      "y": 576,
+      "x": 114,
+      "y": 579,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -74,8 +82,8 @@
       "name": "Bub2",
       "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
       "width": 50,
-      "x": 200,
-      "y": 570,
+      "x": 188,
+      "y": 581,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,13 +362,43 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Win Layer",
-      "name": "WinText",
-      "persistentUuid": "beda2f14-ff8c-4c32-a8e5-6d63e6ff9b8c",
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
       "width": 0,
-      "x": 298,
-      "y": 277,
+      "x": 346,
+      "y": 246,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
+      "width": 0,
+      "x": 346,
+      "y": 246,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseDesciption",
+      "persistentUuid": "6397507c-b997-45a4-ae53-fa53d5676cdc",
+      "width": 0,
+      "x": 283,
+      "y": 378,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -468,6 +506,12 @@
           "name": "Combined",
           "type": "string",
           "value": "False"
+        },
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Player 1"
         }
       ],
       "effects": [],
@@ -1232,6 +1276,12 @@
           "name": "Combined",
           "type": "string",
           "value": "False"
+        },
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Player 2"
         }
       ],
       "effects": [],
@@ -1784,7 +1834,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Enemy Grunt"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2265,6 +2322,28 @@
     },
     {
       "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "LoseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You've Lost",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "WinText",
@@ -2302,6 +2381,28 @@
         "b": 35,
         "g": 166,
         "r": 245
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LoseDesciption",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Player X was slain by Enemy Y",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     },
     {
@@ -2748,6 +2849,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3870,7 +3972,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -3904,6 +4006,17 @@
       "isLightingLayer": false,
       "name": "Debug Layer",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8168304,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8666984,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Lose Layer",
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
