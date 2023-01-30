@@ -14,7 +14,7 @@
     "pixelsRounding": true,
     "projectUuid": "fdf42daa-c101-4329-b727-7ea20b9b5c72",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -59,12 +59,120 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/EnemyAI.png",
+        "file": "assets/Bub_Hurt.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "EnemyAI",
-        "smoothed": true,
-        "userAdded": false
+        "metadata": "{\"localFilePath\":\"assets/Bub_Hurt.png\",\"extension\":\".png\"}",
+        "name": "BlueBubHurt",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/dab95eede1c788dde1e4dde510f75097358e9f8c3a6f7042b86ecaad18ccd062_Bub_Hurt.png",
+          "name": "Bub_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Idle_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Idle_1.png\",\"extension\":\".png\"}",
+        "name": "PinkBubIdle1",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/3096fb5af167f94ed7fc0ff75a471198b2b84d13a8162bac4f0262a87d6ef571_Bub_Idle_1.png",
+          "name": "Bub_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Idle_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Idle_2.png\",\"extension\":\".png\"}",
+        "name": "BlueBubIdle2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/2c8d3031370fdb41a5a3998131e181cf2b7251aa7ec50dabddda951d8e100976_Bub_Idle_2.png",
+          "name": "Bub_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_1.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning1",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/a4238165becbe652f01fca7a6714a9a38ec676c52733bf4ed31ca4519c1c867f_Bub_Running_1.png",
+          "name": "Bub_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_2.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/b7eeb7749bef3a27b7087d837f7066fdf3a385bb9b6c8f9355d26c67a667ed02_Bub_Running_2.png",
+          "name": "Bub_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_3.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning3",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/2c73df1712d2609076ebce0c2dfe7eb2a60db54da0a0135c5d5cc0d52a6bfc7a_Bub_Running_3.png",
+          "name": "Bub_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_4.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning4",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/f9144db72f2de545aeb4edf6f004fedfb32f143472be7a484e2f05fa13f98770_Bub_Running_4.png",
+          "name": "Bub_Running_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_5.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning5",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/e7fdbd6c744c32e87561985f34b6ad8e5b3c137efed49b42048bf4c2aaec73f6_Bub_Running_5.png",
+          "name": "Bub_Running_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub_Running_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Bub_Running_6.png\",\"extension\":\".png\"}",
+        "name": "BlueBubRunning6",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Bub/f9ba9dd68ba91cf08881c25f5a41fd5f967b67fca4a2e057aaf1c6f9eb41b452_Bub_Running_6.png",
+          "name": "Bub_Running_6.png"
+        }
       },
       {
         "alwaysLoaded": false,
@@ -107,16 +215,329 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Wall Side Mid Left.png",
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running.png\"}",
+        "name": "Running",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running2.png\"}",
+        "name": "Running2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running3.png\"}",
+        "name": "Running3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running4.png\"}",
+        "name": "Running4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running5.png\"}",
+        "name": "Running5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Running6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Running6.png\"}",
+        "name": "Running6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Combined Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Combined Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Combined Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Combined Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LargeBlockNarrowRectangle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/LargeBlockNarrowRectangle.png\"}",
+        "name": "LargeBlockNarrowRectangle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
+        "name": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 1_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
         "smoothed": false,
         "userAdded": true,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/ec2e73ceb7cd915803dc97a916fbce14ce0a900819d183c365000661e46d86e4_Wall Side Mid Left.png",
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green button.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Green button.png\",\"extension\":\".png\"}",
+        "name": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CombinedTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CombinedTop",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CombinedTop2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CombinedTop2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door_Closed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closing_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Door_Closing_1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -127,11 +548,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/enemyaiscene"
+      "referenceTo": "/layouts/player"
     }
   ],
   "externalEvents": [],
