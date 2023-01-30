@@ -197,11 +197,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "height": 50,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "f804a59e-d816-4c64-bf28-09d4a64d8431",
-      "width": 85,
+      "width": 50,
       "x": 530,
       "y": 523,
       "zOrder": 5,
@@ -212,11 +212,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "height": 50,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "d6437426-ca8c-411c-8262-fc41af1cccb4",
-      "width": 85,
+      "width": 50,
       "x": 1075,
       "y": 144,
       "zOrder": 5,
@@ -378,12 +378,42 @@
       "customSize": false,
       "height": 0,
       "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
+      "width": 0,
+      "x": 346,
+      "y": 246,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
       "name": "LoseDesciption",
       "persistentUuid": "6397507c-b997-45a4-ae53-fa53d5676cdc",
       "width": 0,
       "x": 283,
       "y": 378,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GoalDoor",
+      "persistentUuid": "9d3fb664-8bcf-4ba9-8c00-70d4fb1d13d1",
+      "width": 0,
+      "x": 162,
+      "y": 196,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2256,7 +2286,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "DebugText",
       "smoothed": true,
@@ -2264,16 +2294,30 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "#ffffff"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
-      "string": "Text",
-      "font": "",
+      "string": "",
+      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 5,
+        "g": 117,
+        "r": 65
       }
     },
     {
@@ -2302,6 +2346,47 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
+      "name": "WinText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 1,
+            "gain": 0.6,
+            "lacunarity": 2.75,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
+      "behaviors": [],
+      "string": "You Win!",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 144,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
       "name": "LoseDesciption",
       "smoothed": true,
       "tags": "",
@@ -2319,6 +2404,64 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "GoalDoor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Door_Closed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Door_Closing_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -3189,6 +3332,35 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "EnemyGrunt",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "EnemyGrunt",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3204,8 +3376,20 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Button",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Button",
+                "Pressed",
+                "False"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -3214,13 +3398,34 @@
               "parameters": [
                 "Button"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "PauseAnimation"
-              },
-              "parameters": [
-                "Door"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Door",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "DoorButtonLink",
+                    "=",
+                    "Door.Variable(ButtonDoorLink)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "Door"
+                  ]
+                }
               ]
             }
           ]
@@ -3638,6 +3843,125 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Game Win",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "GoalDoor",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "GoalDoor"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "GoalDoor",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Players"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Players",
+                "Combined",
+                "!=",
+                "\"False\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "GoalDoor"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Win Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bub1",
+                "Bub1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bub2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -3692,6 +4016,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Lose Layer",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8190464,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8688392,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Win Layer",
       "visibility": false,
       "cameras": [],
       "effects": []
