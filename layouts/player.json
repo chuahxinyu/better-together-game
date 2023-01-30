@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5963714163013054,
+    "zoomFactor": 0.8076392985606506,
     "windowMask": false
   },
   "objectsGroups": [
@@ -30,6 +30,14 @@
         },
         {
           "name": "Bub2"
+        }
+      ]
+    },
+    {
+      "name": "Enemies",
+      "objects": [
+        {
+          "name": "EnemyGrunt"
         }
       ]
     }
@@ -59,8 +67,8 @@
       "name": "Bub1",
       "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
       "width": 50,
-      "x": 119,
-      "y": 576,
+      "x": 114,
+      "y": 579,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -74,8 +82,8 @@
       "name": "Bub2",
       "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
       "width": 50,
-      "x": 200,
-      "y": 570,
+      "x": 188,
+      "y": 581,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,36 +270,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "",
-      "name": "Button",
-      "persistentUuid": "88e9b3fc-0557-4e41-aa23-1ac5c7120af1",
-      "width": 117,
-      "x": 1090,
-      "y": 645,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": true,
-      "height": 35,
-      "layer": "",
-      "name": "Door",
-      "persistentUuid": "b8025ff5-e300-4577-8ab9-c948c43d3759",
-      "width": 253,
-      "x": 307,
-      "y": 154,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 270,
       "customSize": true,
       "height": 392,
@@ -335,9 +313,9 @@
       "layer": "",
       "name": "Door",
       "persistentUuid": "e6924694-5294-473e-909e-669864f684d1",
-      "width": 253,
-      "x": 849,
-      "y": 159,
+      "width": 258,
+      "x": 846,
+      "y": 154,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,13 +332,43 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Win Layer",
-      "name": "WinText",
-      "persistentUuid": "beda2f14-ff8c-4c32-a8e5-6d63e6ff9b8c",
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
       "width": 0,
-      "x": 298,
-      "y": 277,
+      "x": 346,
+      "y": 246,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
+      "width": 0,
+      "x": 346,
+      "y": 246,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseDesciption",
+      "persistentUuid": "6397507c-b997-45a4-ae53-fa53d5676cdc",
+      "width": 0,
+      "x": 283,
+      "y": 378,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -376,6 +384,148 @@
       "x": 162,
       "y": 196,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "WinText",
+      "persistentUuid": "e6192b46-dd4a-4f86-bef5-3478b438469d",
+      "width": 0,
+      "x": 343,
+      "y": 280,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "ReturnToMenu",
+      "persistentUuid": "4ad73722-0dee-4151-a5fb-4316e418d9c7",
+      "width": 0,
+      "x": 43,
+      "y": 620,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "NextLevel",
+      "persistentUuid": "f1f02f92-238f-4894-9715-feaab712211d",
+      "width": 0,
+      "x": 930,
+      "y": 616,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "ReturnToMenu",
+      "persistentUuid": "d5a73402-5cbf-4ee9-810e-f3b0bf2538bd",
+      "width": 0,
+      "x": 48,
+      "y": 621,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "RetryLevel",
+      "persistentUuid": "c864a0c8-411b-4d3a-a7dd-78d6f66cada5",
+      "width": 0,
+      "x": 908,
+      "y": 620,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 802,
+      "layer": "Background Layer",
+      "name": "CityBackground",
+      "persistentUuid": "9a2887d7-edb3-491e-ad00-6cc0794085f9",
+      "width": 1496,
+      "x": -83,
+      "y": -32,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 35,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "00d04ca3-7469-4c6f-9dc3-1239c2c316a3",
+      "width": 257,
+      "x": 257,
+      "y": 146,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "34d4e7d6-a515-4c7c-9fe1-cb2f319743cb",
+      "width": 0,
+      "x": 381,
+      "y": 645,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "fc1ebe55-867b-4b31-850b-187bd8b31b64",
+      "width": 0,
+      "x": 1085,
+      "y": 644,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -468,6 +618,12 @@
           "name": "Combined",
           "type": "string",
           "value": "False"
+        },
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Player 1"
         }
       ],
       "effects": [],
@@ -1232,6 +1388,12 @@
           "name": "Combined",
           "type": "string",
           "value": "False"
+        },
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Player 2"
         }
       ],
       "effects": [],
@@ -1784,7 +1946,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Name",
+          "type": "string",
+          "value": "Enemy Grunt"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2145,6 +2314,190 @@
     },
     {
       "assetStoreId": "",
+      "name": "MultiButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLink",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Pressed",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "MultiDoor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "ButtonDoorLink",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "TopCollider",
       "tags": "",
       "type": "Sprite",
@@ -2265,6 +2618,28 @@
     },
     {
       "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "LoseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You've Lost",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "WinText",
@@ -2306,6 +2681,28 @@
     },
     {
       "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LoseDesciption",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Player X was slain by Enemy Y",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
       "name": "GoalDoor",
       "tags": "",
       "type": "Sprite",
@@ -2342,6 +2739,114 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Door_Closing_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ReturnToMenu",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Return To Menu",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NextLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Next Level",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "RetryLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Retry Level",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CityBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\City-Background.jpg",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\City-Background.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2748,6 +3253,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2848,7 +3354,18 @@
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Lose Layer\""
+              ]
+            }
+          ],
           "actions": [],
           "events": [
             {
@@ -3142,7 +3659,7 @@
               "parameters": [
                 "EnemyGrunt",
                 "Players",
-                "200",
+                "50",
                 ""
               ]
             }
@@ -3273,6 +3790,19 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "This ensures that the animation only pauses at the beginning of the game by ",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Button",
@@ -3747,6 +4277,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Win",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3855,8 +4386,416 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ReturnToMenu",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Win Layer\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Game Loss",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "Enemies",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Lose Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "LoseDesciption",
+                "=",
+                "Players.VariableString(Name)+\" died in the hands of \"+Enemies.VariableString(Name)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ReturnToMenu",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Lose Layer\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Menu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RetryLevel",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Lose Layer\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Player\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "MultiButtons & Doors",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "MultiButton",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "MultiButton",
+                "Pressed",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "MultiButton",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiDoor",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "DoorButtonLink",
+                    "=",
+                    "MultiDoor.Variable(ButtonDoorLink)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "MultiDoor"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "MultiButton",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Players",
+                "MultiButton",
+                "False",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "MultiButton",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "MultiDoor",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "MultiDoor",
+                "ButtonsPressed",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiButton",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "DoorButtonLink",
+                    "=",
+                    "MultiDoor.Variable(ButtonDoorLink)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "MultiDoor",
+                    "ButtonsPressed",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "MultiDoor",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "MultiDoor",
+                "ButtonsNeeded",
+                "=",
+                "MultiDoor.Variable(ButtonsPressed)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "MultiDoor"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiButton",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "DoorButtonLink",
+                    "=",
+                    "MultiDoor.Variable(ButtonDoorLink)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "Pressed",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3864,13 +4803,24 @@
   ],
   "layers": [
     {
+      "ambientLightColorB": 13,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8557184,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 0,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 7195584,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -3904,6 +4854,17 @@
       "isLightingLayer": false,
       "name": "Debug Layer",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8168304,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8666984,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Lose Layer",
+      "visibility": false,
       "cameras": [],
       "effects": []
     },

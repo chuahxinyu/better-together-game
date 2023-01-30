@@ -1,0 +1,277 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Main_32Menu",
+  "name": "Main Menu",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5236892941320311,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 153,
+      "layer": "",
+      "name": "TitleText",
+      "persistentUuid": "d69a0bb5-c025-4411-ae03-c675d34d1fdd",
+      "width": 1251,
+      "x": 53,
+      "y": 42,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewGame",
+      "persistentUuid": "7e31b4d6-2268-4a94-8cc1-d826433a1a02",
+      "width": 0,
+      "x": 818,
+      "y": 446,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Continue",
+      "persistentUuid": "2a75227f-7134-476b-a2c0-c774e60c15af",
+      "width": 0,
+      "x": 811,
+      "y": 501,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "EndGame",
+      "persistentUuid": "79ba6ee3-9a50-4a92-831b-7f78988883aa",
+      "width": 0,
+      "x": 815,
+      "y": 556,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TitleText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Separation Game",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 144,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewGame",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Start",
+      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Continue",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level Select\n",
+      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "EndGame",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "End Game",
+      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "NewGame",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NewGame",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Player\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "NewGame",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "EndGame",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 1869182049,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}
