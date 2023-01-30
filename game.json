@@ -433,7 +433,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Hurt",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -470,6 +470,24 @@
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
         "name": "NewSprite3",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CombinedTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CombinedTop",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CombinedTop2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CombinedTop2",
+        "smoothed": false,
         "userAdded": true
       }
     ],
