@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8807369002847404,
+    "zoomFactor": 0.6791409909776802,
     "windowMask": false
   },
   "objectsGroups": [
@@ -343,9 +343,9 @@
       "layer": "",
       "name": "Door",
       "persistentUuid": "e6924694-5294-473e-909e-669864f684d1",
-      "width": 258,
-      "x": 846,
-      "y": 154,
+      "width": 253,
+      "x": 849,
+      "y": 159,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -560,7 +560,7 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
@@ -607,7 +607,7 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
@@ -654,7 +654,7 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
@@ -1330,7 +1330,7 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 3.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
@@ -1377,7 +1377,7 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 3.5,
+                      "x": 1.5,
                       "y": 3.5
                     },
                     {
@@ -2470,6 +2470,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player Debugging",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2678,7 +2679,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [],
@@ -2848,7 +2848,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2889,9 +2888,9 @@
               "parameters": [
                 "Bub1",
                 "=",
-                "Bub2.PointX(\"TopPoint\")-2",
+                "Bub2.PointX(\"TopPoint\")-5",
                 "=",
-                "Bub2.PointY(\"TopPoint\")-Bub1.Height()"
+                "Bub2.PointY(\"TopPoint\")-Bub1.Height()+10"
               ]
             },
             {
@@ -2929,9 +2928,9 @@
               "parameters": [
                 "Bub2",
                 "=",
-                "Bub1.PointX(\"TopPoint\")-2",
+                "Bub1.PointX(\"TopPoint\")-5",
                 "=",
-                "Bub1.PointY(\"TopPoint\")-Bub2.Height()"
+                "Bub1.PointY(\"TopPoint\")-Bub2.Height()+10"
               ]
             },
             {
@@ -3369,6 +3368,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Buttons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
