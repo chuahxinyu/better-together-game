@@ -1,0 +1,224 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Level_322",
+  "name": "Level 2",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.5468749999999999,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Colours",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Red"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub1",
+      "persistentUuid": "6686d938-6850-4ab6-9575-c9ef4ff2148d",
+      "width": 50,
+      "x": 194,
+      "y": 588,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "f1ee2f1d-c194-4e24-a35a-8be1418b83f5",
+      "width": 920,
+      "x": 21,
+      "y": 646,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub2",
+      "persistentUuid": "90fa23d9-4c2e-45bc-87ae-c7844039c1aa",
+      "width": 50,
+      "x": 113,
+      "y": 574,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 21,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "e8a5abc8-564d-4df3-93fc-76e9bd17d76a",
+      "width": 37,
+      "x": 419,
+      "y": 625,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 86,
+      "customSize": true,
+      "height": 36,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "5f2047f0-a44c-440b-89a0-adac4ef2a427",
+      "width": 112,
+      "x": 585,
+      "y": 574,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "dea7b5ee-39a1-4fae-8203-0b2ea0dc5173",
+      "width": 0,
+      "x": 522,
+      "y": 587,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GoalDoorMask",
+      "persistentUuid": "da43c85b-0783-477b-99f5-ed5cf4388259",
+      "width": 0,
+      "x": 758,
+      "y": 551,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Level Logic"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 9031832,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9053176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Utility Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9140440,
+      "ambientLightColorG": 9140440,
+      "ambientLightColorR": 1869182049,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8363552,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9053176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    }
+  ]
+}
