@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8076392985606506,
+    "zoomFactor": 0.6227750346325552,
     "windowMask": false
   },
   "objectsGroups": [
@@ -40,9 +40,37 @@
           "name": "EnemyGrunt"
         }
       ]
+    },
+    {
+      "name": "ButtonsAndDoors",
+      "objects": [
+        {
+          "name": "MultiButton"
+        },
+        {
+          "name": "MultiDoor"
+        }
+      ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Colours",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    }
+  ],
   "instances": [
     {
       "angle": 270,
@@ -67,8 +95,8 @@
       "name": "Bub1",
       "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
       "width": 50,
-      "x": 114,
-      "y": 579,
+      "x": 56,
+      "y": 621,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,8 +110,8 @@
       "name": "Bub2",
       "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
       "width": 50,
-      "x": 188,
-      "y": 581,
+      "x": 122,
+      "y": 620,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -202,8 +230,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "f804a59e-d816-4c64-bf28-09d4a64d8431",
       "width": 50,
-      "x": 530,
-      "y": 523,
+      "x": 477,
+      "y": 446,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -283,50 +311,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "",
-      "name": "Button",
-      "persistentUuid": "ddec7a07-eacf-4d8b-9011-54d6321a69ed",
-      "width": 117,
-      "x": 513,
-      "y": 642,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "DoorButtonLink",
-          "type": "number",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "angle": 90,
-      "customSize": true,
-      "height": 35,
-      "layer": "",
-      "name": "Door",
-      "persistentUuid": "e6924694-5294-473e-909e-669864f684d1",
-      "width": 258,
-      "x": 846,
-      "y": 154,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "ButtonDoorLink",
-          "type": "number",
-          "value": 2
-        }
-      ]
     },
     {
       "angle": 0,
@@ -485,31 +469,43 @@
       "layer": "",
       "name": "MultiDoor",
       "persistentUuid": "00d04ca3-7469-4c6f-9dc3-1239c2c316a3",
-      "width": 257,
-      "x": 257,
-      "y": 146,
+      "width": 249,
+      "x": 261,
+      "y": 150,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
           "name": "ButtonsPressed",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 2
         }
       ]
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 18,
       "layer": "",
       "name": "MultiButton",
       "persistentUuid": "34d4e7d6-a515-4c7c-9fe1-cb2f319743cb",
-      "width": 0,
-      "x": 381,
-      "y": 645,
+      "width": 36,
+      "x": 378,
+      "y": 654,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,12 +519,68 @@
       "name": "MultiButton",
       "persistentUuid": "fc1ebe55-867b-4b31-850b-187bd8b31b64",
       "width": 0,
-      "x": 1085,
-      "y": 644,
+      "x": 1088,
+      "y": 656,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "fcb6657f-1257-4672-acbf-fa8c783b4e32",
+      "width": 54,
+      "x": 545,
+      "y": 657,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "64811ffc-7c5e-4b95-a9bd-882043f88f73",
+      "width": 255,
+      "x": 847,
+      "y": 156,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
     }
   ],
   "objects": [
@@ -609,7 +661,7 @@
         },
         {
           "folded": true,
-          "name": "Ability",
+          "name": "Attack",
           "type": "string",
           "value": "c"
         },
@@ -624,6 +676,18 @@
           "name": "Name",
           "type": "string",
           "value": "Player 1"
+        },
+        {
+          "folded": true,
+          "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsAttacking",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -672,12 +736,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -689,8 +753,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -719,12 +783,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -736,8 +800,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -766,12 +830,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 2.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -783,8 +847,8 @@
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 8.782032012939453,
+                    "y": 7.899999618530273
                   },
                   "customCollisionMask": [
                     [
@@ -886,12 +950,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -933,12 +997,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -980,12 +1044,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1027,12 +1091,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1074,12 +1138,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1121,12 +1185,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1181,12 +1245,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1228,12 +1292,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1275,12 +1339,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8.5,
                       "y": 12.5
                     }
                   ],
@@ -1332,7 +1396,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "CombinedTop2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "WeaponPoint",
+                      "x": 13,
+                      "y": 13.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1379,7 +1449,7 @@
         },
         {
           "folded": true,
-          "name": "Ability",
+          "name": "Attack",
           "type": "string",
           "value": "Down"
         },
@@ -1394,6 +1464,18 @@
           "name": "Name",
           "type": "string",
           "value": "Player 2"
+        },
+        {
+          "folded": true,
+          "name": "IsFacingLeft",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "IsAttacking",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1442,12 +1524,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 3.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1489,12 +1571,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 3.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1609,12 +1691,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1656,12 +1738,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1703,12 +1785,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1750,12 +1832,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1797,12 +1879,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1844,12 +1926,12 @@
                   "points": [
                     {
                       "name": "TopPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 3.5
                     },
                     {
                       "name": "BottomPoint",
-                      "x": 1.5,
+                      "x": 8,
                       "y": 12.5
                     }
                   ],
@@ -1901,7 +1983,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "CombinedTop",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "WeaponPoint",
+                      "x": 13,
+                      "y": 13.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1955,7 +2043,28 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 0,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -2145,9 +2254,21 @@
       "variables": [
         {
           "folded": true,
-          "name": "ButtonDoorLink",
-          "type": "number",
-          "value": 1
+          "name": "ButtonDoorLinkColour",
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "string",
+          "value": "0"
         }
       ],
       "effects": [],
@@ -2321,13 +2442,19 @@
       "variables": [
         {
           "folded": true,
-          "name": "DoorButtonLink",
-          "type": "number",
-          "value": 1
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
         },
         {
           "folded": true,
           "name": "Pressed",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "PermaPressed",
           "type": "boolean",
           "value": false
         }
@@ -2336,7 +2463,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png",
+          "name": "ButtonIdle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2346,7 +2473,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png3",
+                  "image": "Idle3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2360,10 +2487,23 @@
                     "y": 0
                   },
                   "customCollisionMask": []
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ButtonPressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "d5c40038f513acf30eb4133000a5f51f208438f549e4786a6a29ae9e73caaced_Green button.png4",
+                  "image": "ButtonPressed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2393,28 +2533,66 @@
       "variables": [
         {
           "folded": true,
-          "name": "ButtonDoorLink",
-          "type": "number",
-          "value": 1
-        },
-        {
-          "folded": true,
-          "name": "ButtonsNeeded",
-          "type": "number",
-          "value": 2
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": ""
         },
         {
           "folded": true,
           "name": "ButtonsPressed",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
-          "name": "9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+          "name": "MultiDoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "MultiDoor3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MultiDoorOpen",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2583,37 +2761,23 @@
     {
       "assetStoreId": "",
       "bold": true,
-      "italic": false,
+      "italic": true,
       "name": "DebugText",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Effect",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "#ffffff"
-          },
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [],
       "string": "",
-      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "font": "",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
+        "b": 0,
+        "g": 0,
+        "r": 255
       }
     },
     {
@@ -2760,6 +2924,137 @@
       ]
     },
     {
+      "assetStoreId": "71c958902db5880449c448446b74c8a81b7fe8ffc14f1c1134d5019feb45872f",
+      "name": "BronzeBattleAxe",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "AxeIdle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bronze Battle Axe.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3.2320308685302734,
+                        "y": 5.05000114440918
+                      },
+                      {
+                        "x": 8.382030487060547,
+                        "y": 0.20000076293945312
+                      },
+                      {
+                        "x": 10.732032775878906,
+                        "y": 0
+                      },
+                      {
+                        "x": 12.232032775878906,
+                        "y": 3.6499996185302734
+                      },
+                      {
+                        "x": 16,
+                        "y": 5.149999618530273
+                      },
+                      {
+                        "x": 15.882030487060547,
+                        "y": 7.850000381469727
+                      },
+                      {
+                        "x": 10.83203125,
+                        "y": 12.55000114440918
+                      },
+                      {
+                        "x": 8.33203125,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 7.33203125,
+                        "y": 8.600000381469727
+                      },
+                      {
+                        "x": 3.282032012939453,
+                        "y": 7.350000381469727
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AxeAttacking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Attacking6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Attacking7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": true,
       "italic": false,
@@ -2874,200 +3169,200 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Player Debugging",
+      "name": "Debugging Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Players",
-          "conditions": [],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Players",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "Players.PointX(\"TopPoint\")",
-                    "Players.PointY(\"TopPoint\")",
-                    "\"Debug Layer\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "Players.PointX(\"TopPoint\")",
+                        "Players.PointY(\"TopPoint\")",
+                        "\"Debug Layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Players",
+                        "DebugText"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "Players",
-                    "DebugText"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "Players",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "Players.PointX(\"TopPoint\")",
-                    "=",
-                    "Players.PointY(\"TopPoint\")"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Combined",
-                    "=",
-                    "\"Top\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "Players",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "\"Top\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Combined",
-                    "=",
-                    "\"Bottom\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "Players",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "\"Bottom\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Combined",
-                    "=",
-                    "\"False\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "Players",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "\"False\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "Players",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "Players.PointX(\"TopPoint\")",
+                        "=",
+                        "Players.PointY(\"TopPoint\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "Players.VariableString(Combined)"
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "MultiDoor",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiDoor",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "MultiDoor.BoundingBoxLeft()",
+                        "MultiDoor.BoundingBoxBottom()",
+                        "\"Debug Layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "MultiDoor",
+                        "DebugText"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "MultiDoor",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "MultiDoor.BoundingBoxLeft()",
+                        "=",
+                        "MultiDoor.BoundingBoxBottom()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "ToString(MultiDoor.Variable(ButtonsPressed)) + \"/\" + ToString(MultiDoor.Variable(ButtonsNeeded))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -3083,12 +3378,63 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsFacingLeft",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Players",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsFacingLeft",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Players",
+                    "no"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -3253,7 +3599,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3294,9 +3639,9 @@
               "parameters": [
                 "Bub1",
                 "=",
-                "Bub2.PointX(\"TopPoint\")-2",
+                "Bub2.PointX(\"TopPoint\")-Players.Width()/2",
                 "=",
-                "Bub2.PointY(\"TopPoint\")-Bub1.Height()"
+                "Bub2.PointY(\"TopPoint\")-Bub1.Height()+10"
               ]
             },
             {
@@ -3334,9 +3679,9 @@
               "parameters": [
                 "Bub2",
                 "=",
-                "Bub1.PointX(\"TopPoint\")-2",
+                "Bub1.PointX(\"TopPoint\")-Players.Width()/2",
                 "=",
-                "Bub1.PointY(\"TopPoint\")-Bub2.Height()"
+                "Bub1.PointY(\"TopPoint\")-Bub2.Height()+10"
               ]
             },
             {
@@ -3369,6 +3714,7 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3446,6 +3792,55 @@
                         "Players",
                         "PlatformerObject"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Players",
+                            "Combined",
+                            "=",
+                            "\"Bottom\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Players"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "False"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },
@@ -3470,6 +3865,55 @@
                       "parameters": [
                         "Players",
                         "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Players",
+                            "Combined",
+                            "=",
+                            "\"Bottom\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Players"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -3533,6 +3977,158 @@
                     "=",
                     "\"False\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Attack",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"Top\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Players.VariableString(Attack)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "\"AxeAttacking\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationEnded2"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "\"AxeIdle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "Players",
+                    "Combined",
+                    "=",
+                    "\"False\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Players",
+                    "IsAttacking",
+                    "False"
+                  ]
                 }
               ]
             }
@@ -3547,10 +4143,23 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "EnemyGrunt Movements",
+      "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Create AlertRadius that follows each EnemyGrunt",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "EnemyGrunt",
@@ -3604,8 +4213,7 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "EnemyGrunt",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -3633,6 +4241,19 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Go Toward Players within Radius",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -3718,6 +4339,19 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "EnemyGrunt Collisions",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3813,7 +4447,7 @@
               },
               "parameters": [
                 "Button",
-                "Pressed",
+                "IsPressed",
                 "False"
               ]
             }
@@ -3841,7 +4475,7 @@
                     "Button",
                     "DoorButtonLink",
                     "=",
-                    "Door.Variable(ButtonDoorLink)"
+                    "Door.Variable(ButtonDoorLinkColour)"
                   ]
                 }
               ],
@@ -3908,7 +4542,7 @@
                     "Button",
                     "DoorButtonLink",
                     "=",
-                    "Door.Variable(ButtonDoorLink)"
+                    "Door.Variable(ButtonDoorLinkColour)"
                   ]
                 }
               ],
@@ -4033,7 +4667,7 @@
                   "parameters": [
                     "",
                     "TopCollider",
-                    "Players.PointX(\"TopPoint\")",
+                    "Players.PointX(\"TopPoint\")-Players.Width()/2+10",
                     "Players.PointY(\"TopPoint\")",
                     "\"Utility Layer\""
                   ]
@@ -4055,7 +4689,7 @@
                   "parameters": [
                     "",
                     "BottomCollider",
-                    "Players.PointX(\"BottomPoint\")",
+                    "Players.PointX(\"BottomPoint\")-Players.Width()/2+5",
                     "Players.PointY(\"BottomPoint\")",
                     "\"Utility Layer\""
                   ]
@@ -4095,7 +4729,7 @@
                   "parameters": [
                     "TopCollider",
                     "=",
-                    "Players.PointX(\"TopPoint\")",
+                    "Players.PointX(\"TopPoint\")-Players.Width()/2+10",
                     "=",
                     "Players.PointY(\"TopPoint\")"
                   ]
@@ -4125,7 +4759,7 @@
                   "parameters": [
                     "BottomCollider",
                     "=",
-                    "Players.PointX(\"BottomPoint\")",
+                    "Players.PointX(\"BottomPoint\")-Players.Width()/2+5",
                     "=",
                     "Players.PointY(\"BottomPoint\")"
                   ]
@@ -4263,6 +4897,168 @@
                     "Combined",
                     "=",
                     "\"Top\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Weapon Holding",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Players",
+                "Combined",
+                "=",
+                "\"Top\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players.PointX(\"WeaponPoint\")",
+                    "Players.PointY(\"WeaponPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "BronzeBattleAxe",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "BronzeBattleAxe",
+                    "=",
+                    "Players.PointX(\"WeaponPoint\")",
+                    "=",
+                    "Players.PointY(\"WeaponPoint\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "BronzeBattleAxe",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Players",
+                        "IsFacingLeft",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "BronzeBattleAxe",
+                        "no"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4586,8 +5382,234 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Colour Tinting",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "ButtonsAndDoors",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Red\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"255;17;46\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Blue\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"74;144;226\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Button Pressing",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Players",
+                    "MultiButton",
+                    "False",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "PermaPressed",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "Pressed",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Players",
+                        "MultiButton",
+                        "False",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "Pressed",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Button Animation",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "MultiButton",
+                "Pressed",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "MultiButton",
+                "\"ButtonPressed\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -4603,74 +5625,27 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeSprite"
+                "value": "SetAnimationName"
               },
               "parameters": [
                 "MultiButton",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "MultiDoor",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "MultiButton",
-                    "DoorButtonLink",
-                    "=",
-                    "MultiDoor.Variable(ButtonDoorLink)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PauseAnimation"
-                  },
-                  "parameters": [
-                    "MultiDoor"
-                  ]
-                }
+                "\"ButtonIdle\""
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "MultiButton",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Players",
-                "MultiButton",
-                "False",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "MultiButton",
-                "=",
-                "1"
-              ]
-            }
-          ]
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Openning MultiDoors - Check if All MultiButtons of the same colour as MultiDoor are pressed",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -4693,104 +5668,266 @@
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "MultiButton",
-              "conditions": [
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "MultiButton",
-                    "DoorButtonLink",
-                    "=",
-                    "MultiDoor.Variable(ButtonDoorLink)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sprite"
-                  },
-                  "parameters": [
-                    "MultiButton",
-                    "=",
-                    "1"
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Colours",
+                  "valueIteratorVariableName": "Colour",
+                  "keyIteratorVariableName": "",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "MultiDoor",
+                            "DoorButtonLinkColour",
+                            "=",
+                            "VariableString(Colour)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "MultiButton",
+                            "DoorButtonLinkColour",
+                            "=",
+                            "VariableString(Colour)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "MultiButton",
+                            "MultiDoor"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "MultiButton",
+                                "Pressed",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "MultiDoor",
+                                "ButtonsPressed",
+                                "+",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "MultiDoor",
+                                "ButtonsNeeded",
+                                "=",
+                                "MultiDoor.Variable(ButtonsPressed)"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "MultiDoor",
+                                "\"MultiDoorOpen\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "MultiButton",
+                                "PermaPressed",
+                                "True"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "MultiDoor",
-                    "ButtonsPressed",
-                    "+",
-                    "1"
-                  ]
-                }
-              ],
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "MultiDoor",
+              "conditions": [],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "MultiDoor",
+                        "ButtonsNeeded",
+                        "=",
+                        "MultiDoor.Variable(ButtonsPressed)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "MultiButton",
+                        "MultiDoor",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "MultiDoor",
+                        "\"MultiDoorOpen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ]
-        },
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Attacking",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "MultiDoor",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "VarObjet"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "MultiDoor",
-                "ButtonsNeeded",
-                "=",
-                "MultiDoor.Variable(ButtonsPressed)"
+                "BronzeBattleAxe",
+                "Enemies",
+                "",
+                "",
+                "yes"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "PlayAnimation"
+                "value": "AjoutObjConcern"
               },
               "parameters": [
-                "MultiDoor"
+                "",
+                "Players"
               ]
             }
           ],
+          "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "MultiButton",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "MultiButton",
-                    "DoorButtonLink",
-                    "=",
-                    "MultiDoor.Variable(ButtonDoorLink)"
+                    "Players",
+                    "IsAttacking",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "Enemies",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "MultiButton",
-                    "Pressed",
-                    "True"
+                    "Enemies",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    ""
                   ]
                 }
               ]
@@ -4809,7 +5946,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Background Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
