@@ -1,0 +1,1094 @@
+{
+  "b": 233,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Level_321",
+  "name": "Level 1",
+  "r": 167,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 198,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6227750346325021,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Colours",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 3583,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "4f4023ff-cbf4-413f-b6d9-b19ab65928df",
+      "width": 32,
+      "x": 1777,
+      "y": -1056,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub1",
+      "persistentUuid": "55af2288-f3bc-4a9d-9cb6-531a022e6a52",
+      "width": 50,
+      "x": 14,
+      "y": 622,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub2",
+      "persistentUuid": "0177a4c9-4f39-41d7-b04d-9c293df0cd47",
+      "width": 50,
+      "x": 96,
+      "y": 638,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 1251,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "1ee32e4a-b9a4-47b8-a7e4-d79173dc31fb",
+      "width": 47,
+      "x": 570,
+      "y": -874,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "height": 1584,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "bd85cac2-a307-4296-bfdf-6a78dc2bdf17",
+      "width": 32,
+      "x": -32,
+      "y": -864,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "f804a59e-d816-4c64-bf28-09d4a64d8431",
+      "width": 50,
+      "x": 1742,
+      "y": 430,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "d6437426-ca8c-411c-8262-fc41af1cccb4",
+      "width": 50,
+      "x": 1296,
+      "y": 446,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
+      "width": 0,
+      "x": 346,
+      "y": 246,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseText",
+      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
+      "width": 0,
+      "x": 346,
+      "y": 246,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "LoseDesciption",
+      "persistentUuid": "6397507c-b997-45a4-ae53-fa53d5676cdc",
+      "width": 0,
+      "x": 283,
+      "y": 378,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "Utility Layer",
+      "name": "GoalDoorMask",
+      "persistentUuid": "9d3fb664-8bcf-4ba9-8c00-70d4fb1d13d1",
+      "width": 80,
+      "x": 1200,
+      "y": 464,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "WinText",
+      "persistentUuid": "e6192b46-dd4a-4f86-bef5-3478b438469d",
+      "width": 0,
+      "x": 343,
+      "y": 280,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "ReturnToMenu",
+      "persistentUuid": "4ad73722-0dee-4151-a5fb-4316e418d9c7",
+      "width": 0,
+      "x": 43,
+      "y": 620,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "NextLevel",
+      "persistentUuid": "f1f02f92-238f-4894-9715-feaab712211d",
+      "width": 0,
+      "x": 930,
+      "y": 616,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "ReturnToMenu",
+      "persistentUuid": "d5a73402-5cbf-4ee9-810e-f3b0bf2538bd",
+      "width": 0,
+      "x": 48,
+      "y": 621,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "RetryLevel",
+      "persistentUuid": "c864a0c8-411b-4d3a-a7dd-78d6f66cada5",
+      "width": 0,
+      "x": 908,
+      "y": 620,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "00d04ca3-7469-4c6f-9dc3-1239c2c316a3",
+      "width": 80,
+      "x": 1120,
+      "y": 336,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 18,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "34d4e7d6-a515-4c7c-9fe1-cb2f319743cb",
+      "width": 32,
+      "x": 992,
+      "y": 544,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "fc1ebe55-867b-4b31-850b-187bd8b31b64",
+      "width": 32,
+      "x": 896,
+      "y": 544,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "fcb6657f-1257-4672-acbf-fa8c783b4e32",
+      "width": 32,
+      "x": 320,
+      "y": 672,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "64811ffc-7c5e-4b95-a9bd-882043f88f73",
+      "width": 80,
+      "x": 496,
+      "y": 480,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsPressed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1440,
+      "layer": "Background Layer",
+      "name": "FactoryBackground",
+      "persistentUuid": "8e2a56c4-43f8-4388-9043-dcd8a42c2bf7",
+      "width": 4576,
+      "x": 0,
+      "y": -720,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "FlatPlatform",
+      "persistentUuid": "d50b1a24-233e-41ee-b207-947f806ec742",
+      "width": 432,
+      "x": 0,
+      "y": 688,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "FlatPlatform",
+      "persistentUuid": "f29d328c-0ade-43da-a3ca-36f665142df8",
+      "width": 752,
+      "x": 832,
+      "y": 560,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 343,
+      "customSize": true,
+      "height": 33,
+      "layer": "",
+      "name": "FlatPlatform",
+      "persistentUuid": "0756c5b3-ed2f-4053-a256-c930c684e42b",
+      "width": 437,
+      "x": 406,
+      "y": 623,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "09f62dd9-cc82-47ec-9ce5-bc986b48dca3",
+      "width": 816,
+      "x": 416,
+      "y": 704,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "6f331315-abae-4f1d-9306-b0bcdf0bde42",
+      "width": 720,
+      "x": 512,
+      "y": 672,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "da4fc1ae-65ac-4b56-8775-f738020b3359",
+      "width": 672,
+      "x": 560,
+      "y": 656,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "a53adf31-a586-4a2f-a558-aca622956fa0",
+      "width": 368,
+      "x": 464,
+      "y": 688,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "dde66edd-4b97-4100-9cf6-a60793934d8d",
+      "width": 784,
+      "x": 464,
+      "y": 688,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "6f71009d-d3fa-4bfe-a201-c875d2f953a2",
+      "width": 624,
+      "x": 624,
+      "y": 640,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "939a2040-c14e-48ad-8d61-96ed6f0b5fec",
+      "width": 576,
+      "x": 672,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "bc2d3e81-3ef8-45b7-bb8c-07440bb64352",
+      "width": 576,
+      "x": 720,
+      "y": 608,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "FlatPlatform",
+      "persistentUuid": "05258128-4008-4817-a0ef-cb5d8eeab8e3",
+      "width": 576,
+      "x": 0,
+      "y": 448,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "950a07d8-2f20-43df-b1ad-947137418d89",
+      "width": 576,
+      "x": 768,
+      "y": 592,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Fill",
+      "persistentUuid": "dd9ddfa4-7dd0-4090-9329-9f42ce8f3bb6",
+      "width": 576,
+      "x": 816,
+      "y": 576,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "FlatPlatform",
+      "persistentUuid": "9ff8873b-716b-4467-b3bc-b836299997e4",
+      "width": 656,
+      "x": 1120,
+      "y": 304,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FactoryGoalSprite",
+      "persistentUuid": "7f2625b3-bad2-4a37-a8cc-e2f1d9a17031",
+      "width": 0,
+      "x": 1200,
+      "y": 464,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "LoseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You've Lost",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "WinText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Godray",
+          "name": "Effect",
+          "doubleParameters": {
+            "angle": 30,
+            "animationSpeed": 1,
+            "gain": 0.6,
+            "lacunarity": 2.75,
+            "light": 30,
+            "padding": 0,
+            "x": 100,
+            "y": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "parallel": true
+          }
+        }
+      ],
+      "behaviors": [],
+      "string": "You Win!",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 144,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LoseDesciption",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Player X was slain by Enemy Y",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ReturnToMenu",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Return To Menu",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NextLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Next Level",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "RetryLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Retry Level",
+      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 720,
+      "name": "FactoryBackground",
+      "tags": "",
+      "texture": "assets\\Factory\\Background_New_Lrg.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1280,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Sepia",
+          "name": "Effect",
+          "doubleParameters": {
+            "opacity": 0.5
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "FlatPlatform",
+      "tags": "",
+      "texture": "assets\\Factory\\Platform Flat.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Fill",
+      "tags": "",
+      "texture": "New image",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "FactoryGoalSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Factory\\FactoryGoal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Factory\\FactoryGoalOpen.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "FactoryGoal",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Players",
+            "GoalDoorMask",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AjoutObjConcern"
+          },
+          "parameters": [
+            "",
+            "Players"
+          ]
+        },
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "Players",
+            "Combined",
+            "!=",
+            "\"False\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "FactoryGoalSprite",
+            "\"Open\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Level Logic"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 13,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8557184,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 7195584,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Utility Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 16777215,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8231400,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8642208,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8168304,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8666984,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Lose Layer",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8190464,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8688392,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Win Layer",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    }
+  ]
+}
