@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\Gitrepository\\gdev-game-jam\\build",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -477,7 +477,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image2.png\"}",
         "name": "New image",
         "smoothed": true,
         "userAdded": true
@@ -623,6 +623,42 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Factory\\FactoryGoalOpen.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Corner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Inner Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Inner Corner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/FactoryExit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\FactoryExit.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -1930,6 +1966,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -1942,9 +1980,7 @@
           "ladderClimbingSpeed": 0,
           "maxFallingSpeed": 0,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 0,
           "yGrabOffset": 0
@@ -2167,7 +2203,7 @@
           "folded": true,
           "name": "DoorButtonLinkColour",
           "type": "string",
-          "value": ""
+          "value": "Teal"
         },
         {
           "folded": true,
@@ -2397,7 +2433,7 @@
           "folded": true,
           "name": "DoorButtonLinkColour",
           "type": "string",
-          "value": "Red"
+          "value": "Teal"
         },
         {
           "folded": true,
