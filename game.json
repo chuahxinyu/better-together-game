@@ -372,24 +372,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Door_Closed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Door_Closed.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Door_Closing_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Door_Closing_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Bronze Battle Axe.png",
         "kind": "image",
         "metadata": "",
@@ -400,15 +382,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Weapons/3a8271d67ace48bc1e61bf6c1133207f4d3497680ff6e5c04d3216dfc0ea8efc_Bronze Battle Axe.png",
           "name": "Bronze Battle Axe.png"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/City-Background.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\City-Background.jpg",
-        "smoothed": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -430,15 +403,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/MultiDoor3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/MultiDoor3.png\"}",
-        "name": "MultiDoor3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Attacking6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -454,15 +418,6 @@
         "name": "Attacking7",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/MultiDoorOpen.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "MultiDoorOpen",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -499,6 +454,105 @@
         "name": "assets\\Door_Closed.png2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/FactoryDoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\FactoryDoor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Background_New_Lrg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Background_New_Lrg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MultiDoorOpen6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MultiDoorOpen6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MultiDoorOpen7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MultiDoorOpen7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MultiDoorOpen8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MultiDoorOpen8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MultiDoorOpen9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MultiDoorOpen9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "artdesign/Factory Background/Background_New.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "artdesign\\Factory Background\\Background_New.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ButtonPressed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ButtonPressed2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "artdesign/Factory Background/Platform Flat.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"artdesign/Factory Background/Platform Flat.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "artdesign\\Factory Background\\Platform Flat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Flat.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2210,8 +2264,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "MultiDoor3",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Factory\\FactoryDoor.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2224,26 +2278,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 50,
-                        "y": 0
-                      },
-                      {
-                        "x": 50,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2260,7 +2295,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MultiDoorOpen",
+                  "image": "MultiDoorOpen6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2280,16 +2315,128 @@
                         "y": 0
                       },
                       {
-                        "x": 11.393943786621094,
+                        "x": 30,
                         "y": 0
                       },
                       {
-                        "x": 11.393943786621094,
-                        "y": 15.707676887512207
+                        "x": 30,
+                        "y": 90
                       },
                       {
                         "x": 0,
-                        "y": 16
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MultiDoorOpen7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 90
+                      },
+                      {
+                        "x": 0,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MultiDoorOpen8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 90
+                      },
+                      {
+                        "x": 0,
+                        "y": 90
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MultiDoorOpen9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 13.59375
+                      },
+                      {
+                        "x": 15.03662109375,
+                        "y": 16.40625
+                      },
+                      {
+                        "x": 0,
+                        "y": 13.59375
                       }
                     ]
                   ]
@@ -2370,7 +2517,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "ButtonPressed",
+                  "image": "ButtonPressed2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
