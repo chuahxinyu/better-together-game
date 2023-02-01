@@ -553,6 +553,24 @@
         "name": "assets\\Factory\\Platform Flat.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/FactoryGoal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\FactoryGoal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/FactoryGoalOpen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\FactoryGoalOpen.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
