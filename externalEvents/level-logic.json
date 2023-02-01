@@ -9,6 +9,74 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), (Bub1.X()+Bub2.X())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), (Bub1.Y()+Bub2.Y())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "4000",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "Debugging Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -203,6 +271,98 @@
             }
           ],
           "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "UI Text",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "UIText",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "UIText",
+                "=",
+                "UIText.VariableString(Text)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "UIText",
+                    "Colour",
+                    "=",
+                    "\"Red\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "UIText",
+                    "\"208;2;27\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "UIText",
+                    "Colour",
+                    "=",
+                    "\"Yellow\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "UIText",
+                    "\"245;166;35\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
         }
       ],
       "parameters": []
@@ -538,6 +698,19 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Make sure players stays in frame",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [
@@ -555,7 +728,6 @@
           "actions": [],
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -612,6 +784,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -621,6 +794,16 @@
                       "parameters": [
                         "",
                         "Players.VariableString(Right)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BoundingBoxRight"
+                      },
+                      "parameters": [
+                        "Players",
+                        "<",
+                        "CameraBorderRight()-10"
                       ]
                     }
                   ],
@@ -686,6 +869,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -695,6 +879,16 @@
                       "parameters": [
                         "",
                         "Players.VariableString(Left)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BoundingBoxLeft"
+                      },
+                      "parameters": [
+                        "Players",
+                        ">",
+                        "CameraBorderLeft()"
                       ]
                     }
                   ],
@@ -755,6 +949,49 @@
                             "True"
                           ]
                         }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BoundingBoxRight"
+                          },
+                          "parameters": [
+                            "Players",
+                            ">=",
+                            "CameraBorderRight()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BoundingBoxLeft"
+                          },
+                          "parameters": [
+                            "Players",
+                            "<=",
+                            "CameraBorderLeft()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Players"
                       ]
                     }
                   ]
@@ -1166,81 +1403,82 @@
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "EnemyGrunt",
-          "conditions": [
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": true,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "AlertRadius",
-                "EnemyGrunt",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "AlertRadius",
-                "EnemyGrunt.BoundingBoxCenterX() - 200",
-                "EnemyGrunt.BoundingBoxCenterY() - 200",
-                "\"Utility Layer\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "EnemyGrunt.BoundingBoxCenterX() - 200",
+                    "EnemyGrunt.BoundingBoxCenterY() - 200",
+                    "\"Utility Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyGrunt",
+                    "AlertRadius"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "=",
+                    "7"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "AlertRadius",
-                "=",
-                "7"
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "EnemyGrunt",
-                "AlertRadius"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "AlertRadius",
-                "EnemyGrunt",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "AlertRadius",
-                "=",
-                "EnemyGrunt.BoundingBoxCenterX() - 200",
-                "=",
-                "EnemyGrunt.BoundingBoxCenterY() - 200"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "=",
+                    "EnemyGrunt.BoundingBoxCenterX() - 200",
+                    "=",
+                    "EnemyGrunt.BoundingBoxCenterY() - 200"
+                  ]
+                }
               ]
             }
           ]
@@ -1708,6 +1946,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1806,6 +2045,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
           "conditions": [],
@@ -1979,6 +2219,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiDoor",
           "conditions": [],
@@ -2149,6 +2390,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2236,6 +2478,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Win",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2533,11 +2776,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ]
 }
