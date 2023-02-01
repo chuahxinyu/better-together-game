@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37030425111555154,
+    "zoomFactor": 0.9604504002041331,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -82,15 +82,15 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 0,
       "customSize": true,
-      "height": 32,
+      "height": 272,
       "layer": "",
       "name": "MultiDoor",
       "persistentUuid": "5f2047f0-a44c-440b-89a0-adac4ef2a427",
-      "width": 112,
-      "x": 568,
-      "y": 455,
+      "width": 80,
+      "x": 576,
+      "y": 272,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -267,8 +267,8 @@
       "name": "Platform122",
       "persistentUuid": "76c40c1f-abfb-4e71-9b63-7821c94af0f0",
       "width": 48,
-      "x": -48,
-      "y": 368,
+      "x": -784,
+      "y": 816,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,10 +436,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]

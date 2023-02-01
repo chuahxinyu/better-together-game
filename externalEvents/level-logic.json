@@ -8,7 +8,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -62,11 +61,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []
@@ -599,7 +593,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -803,7 +796,7 @@
                       "parameters": [
                         "Players",
                         "<",
-                        "CameraBorderRight()-10"
+                        "CameraBorderRight()-0.5*Players.Width()"
                       ]
                     }
                   ],
@@ -888,7 +881,7 @@
                       "parameters": [
                         "Players",
                         ">",
-                        "CameraBorderLeft()"
+                        "CameraBorderLeft()+0.5*Players.Width()"
                       ]
                     }
                   ],
@@ -969,7 +962,7 @@
                           "parameters": [
                             "Players",
                             ">=",
-                            "CameraBorderRight()"
+                            "CameraBorderRight()-0.5*Players.Width()"
                           ]
                         },
                         {
@@ -979,7 +972,7 @@
                           "parameters": [
                             "Players",
                             "<=",
-                            "CameraBorderLeft()"
+                            "CameraBorderLeft()+0.5*Players.Width()"
                           ]
                         }
                       ]
@@ -2639,7 +2632,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game Loss",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
