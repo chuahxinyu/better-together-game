@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8807369002847343,
+    "zoomFactor": 0.501486586127546,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -404,6 +404,21 @@
           "value": "Death"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "721b394b-a085-4f68-be83-1777f4f47e38",
+      "width": 64,
+      "x": 704,
+      "y": 416,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -501,14 +516,22 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Players"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -940,6 +963,17 @@
       "isLightingLayer": false,
       "name": "Win Layer",
       "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995058,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8170080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI Layer",
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
