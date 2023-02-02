@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.29818570815062134,
+    "zoomFactor": 1.6867930902897503,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2076,8 +2076,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "307b2cc8-0566-4a9f-b5e9-c79d843c57e4",
       "width": 50,
-      "x": 2894,
-      "y": 224,
+      "x": 1758,
+      "y": 832,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -2893,8 +2893,72 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Players"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), (Bub1.X()+Bub2.X())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), (Bub1.Y()+Bub2.Y())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "4000",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "FactoryGoal",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
