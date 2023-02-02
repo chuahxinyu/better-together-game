@@ -234,7 +234,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/LargeBlockNarrowRectangle.png\"}",
         "name": "LargeBlockNarrowRectangle",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -243,7 +243,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -300,7 +300,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -327,7 +327,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -378,7 +378,7 @@
         "alwaysLoaded": false,
         "file": "assets/Attacking6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attacking6.png\"}",
         "name": "Attacking6",
         "smoothed": false,
         "userAdded": true
@@ -387,7 +387,7 @@
         "alwaysLoaded": false,
         "file": "assets/Attacking7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attacking7.png\"}",
         "name": "Attacking7",
         "smoothed": false,
         "userAdded": true
@@ -425,7 +425,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Door_Closed.png2.png\"}",
         "name": "assets\\Door_Closed.png2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -439,20 +439,11 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image2.png\"}",
-        "name": "New image",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/New image22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image22.png\"}",
         "name": "New image2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -461,7 +452,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "New image3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -470,7 +461,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image4.png\"}",
         "name": "New image4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -533,17 +524,8 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "ButtonPressed2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -646,46 +628,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite33.png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite42.png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite62.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite62.png\"}",
-        "name": "NewSprite6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Factory/Platform Inner Corner.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Factory\\Platform Inner Corner.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-        {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
-        "name": "NewSprite7",
         "smoothed": false,
         "userAdded": true
       },
@@ -700,57 +646,75 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
-        "name": "NewSprite9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/SpeechBuble.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "SpeechBuble",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/None.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "None",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Empty.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Empty.png\"}",
-        "name": "Empty",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Empty2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Empty2.png\"}",
         "name": "Empty2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Exclamation6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -815,28 +779,28 @@
       "effects": [],
       "behaviors": [
         {
+          "canBeGrabbed": true,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "canGoDownFromJumpthru": false,
-          "gravity": 1000,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "acceleration": 1000,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
+          "gravity": 1000,
+          "jumpSpeed": 600,
+          "maxFallingSpeed": 700,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 66,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGoDownFromJumpthru": false,
+          "ignoreDefaultControls": true,
+          "jumpSustainTime": 0.2,
+          "acceleration": 1000,
           "deceleration": 1000,
           "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -1456,6 +1420,7 @@
           "yGrabOffset": 0
         },
         {
+          "jumpSpeed": 600,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "canGoDownFromJumpthru": false,
@@ -1465,7 +1430,6 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
@@ -2159,7 +2123,61 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 1.5,
+                    "y": 14.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.352538108825684,
+                        "y": 1.499999761581421
+                      },
+                      {
+                        "x": 10.8525390625,
+                        "y": 0.0625002384185791
+                      },
+                      {
+                        "x": 9.102538108825684,
+                        "y": 6.062500476837158
+                      },
+                      {
+                        "x": 3.1025390625,
+                        "y": 7.437500953674316
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10.165040969848633,
+                        "y": 7.062499523162842
+                      },
+                      {
+                        "x": 15.977537155151367,
+                        "y": 4.937500953674316
+                      },
+                      {
+                        "x": 14.852540969848633,
+                        "y": 10.625
+                      },
+                      {
+                        "x": 8.477538108825684,
+                        "y": 12.562501907348633
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "Attacking6",
                   "points": [],
                   "originPoint": {
@@ -2173,10 +2191,47 @@
                     "x": 1.5,
                     "y": 14.5
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.352538108825684,
+                        "y": 1.499999761581421
+                      },
+                      {
+                        "x": 10.8525390625,
+                        "y": 0.0625002384185791
+                      },
+                      {
+                        "x": 9.102538108825684,
+                        "y": 6.062500476837158
+                      },
+                      {
+                        "x": 3.1025390625,
+                        "y": 7.437500953674316
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10.165040969848633,
+                        "y": 7.062499523162842
+                      },
+                      {
+                        "x": 15.977537155151367,
+                        "y": 4.937500953674316
+                      },
+                      {
+                        "x": 14.852540969848633,
+                        "y": 10.625
+                      },
+                      {
+                        "x": 8.477538108825684,
+                        "y": 12.562501907348633
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Attacking7",
                   "points": [],
                   "originPoint": {
@@ -2190,9 +2245,57 @@
                     "x": 1.5,
                     "y": 14.5
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.352538108825684,
+                        "y": 1.499999761581421
+                      },
+                      {
+                        "x": 10.8525390625,
+                        "y": 0.0625002384185791
+                      },
+                      {
+                        "x": 9.102538108825684,
+                        "y": 6.062500476837158
+                      },
+                      {
+                        "x": 3.1025390625,
+                        "y": 7.437500953674316
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10.165040969848633,
+                        "y": 7.062499523162842
+                      },
+                      {
+                        "x": 15.977537155151367,
+                        "y": 4.937500953674316
+                      },
+                      {
+                        "x": 14.852540969848633,
+                        "y": 10.625
+                      },
+                      {
+                        "x": 8.477538108825684,
+                        "y": 12.562501907348633
+                      }
+                    ]
+                  ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
             }
           ]
         }
@@ -2630,7 +2733,15 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "ButtonIdle",
@@ -2672,7 +2783,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "ButtonPressed2",
                   "points": [],
                   "originPoint": {
@@ -2686,7 +2797,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 5
+                      },
+                      {
+                        "x": 28,
+                        "y": 5
+                      },
+                      {
+                        "x": 28,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2753,10 +2883,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {
@@ -3396,7 +3526,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite9",
+                  "image": "Exclamation",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3413,7 +3543,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite8",
+                  "image": "Exclamation2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3430,7 +3560,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite7",
+                  "image": "Exclamation3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3447,7 +3577,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite6",
+                  "image": "Exclamation4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3464,7 +3594,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite4",
+                  "image": "Exclamation5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3481,7 +3611,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite3",
+                  "image": "Exclamation6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
