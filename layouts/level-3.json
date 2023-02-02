@@ -1,0 +1,215 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Level_323",
+  "name": "Level 3",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.5710872247649869,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "f9a7a82a-32a5-4bcb-a3bd-a221ee121c01",
+      "width": 3616,
+      "x": 0,
+      "y": 720,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "e77fb58f-4fba-4fc1-a7d1-6610b12e44d7",
+      "width": 736,
+      "x": -384,
+      "y": 336,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 720,
+      "layer": "",
+      "name": "LabBackground",
+      "persistentUuid": "3cbe2363-ca4b-49d5-8cf0-92dea7b373ce",
+      "width": 5232,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub1",
+      "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
+      "width": 50,
+      "x": 48,
+      "y": 638,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "Bub2",
+      "persistentUuid": "890db4cf-032c-45a2-9910-e68bb678a0bb",
+      "width": 50,
+      "x": 96,
+      "y": 638,
+      "zOrder": 4,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "7eadc6dd-1cd0-40ec-b7ba-d6203a4a6c3e",
+      "width": 752,
+      "x": 0,
+      "y": 688,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "fa9cf72e-6eb5-4e28-9717-d74d87553f0a",
+      "width": 688,
+      "x": 0,
+      "y": 512,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 720,
+      "name": "LabBackground",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabBackground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 1280,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LabGroundPanel",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabGroundPanel.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Level Logic"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 7682104,
+      "ambientLightColorG": 150995054,
+      "ambientLightColorR": 1869182049,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    }
+  ]
+}
