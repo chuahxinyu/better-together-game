@@ -96,6 +96,12 @@
       "initialVariables": [
         {
           "folded": true,
+          "name": "Colour",
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
           "name": "FontSize",
           "type": "number",
           "value": 50
