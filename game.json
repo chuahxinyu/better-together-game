@@ -625,6 +625,71 @@
         "name": "assets\\Factory\\FactoryGoalOpen.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/42b91dadf63720e6b6974d3edb3027f34f9327f7d89affaa7fe7d177acf2ad55_Button_Blank.png",
+          "name": "Button_Blank.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_Down.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/1a423eaa0f8e81939aa2358135f27f7bdf49f84e55b87a1097243939a784804a_Button_Down.png",
+          "name": "Button_Down.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/fe3c56c577293cbf2b77aa8fc9ae169a76edb93798ebf07c1682ec95ede9aac6_Button_Left.png",
+          "name": "Button_Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/2d3591c84618419e036a7692cecf170c588369040d1aba8052de2129cf6b2362_Button_Right.png",
+          "name": "Button_Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button_Up.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/f4910ea0636e49f89bd04c3dc153ee6ab3d400860ed2f4c3075626ed940e18c5_Button_Up.png",
+          "name": "Button_Up.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2720,6 +2785,176 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "c44864e8d94651f73795cfb506044c8b7b5463802754b40f5fc8a74d7f3d8630",
+      "name": "TouchButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Blank",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button_Blank.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button_Up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button_Down.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button_Left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button_Right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -2780,6 +3015,19 @@
     }
   ],
   "eventsFunctionsExtensions": [],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/ui-overlay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/win-overlay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/death-overlay"
+    }
+  ],
   "externalSourceFiles": []
 }
