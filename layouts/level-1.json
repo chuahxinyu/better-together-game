@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.2855436123824636,
+    "zoomFactor": 0.29818570815062134,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3234,7 +3234,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game Loss",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3364,18 +3363,13 @@
               },
               "parameters": [
                 "",
-                "\"Player\""
+                "\"Level 1\""
               ]
             }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

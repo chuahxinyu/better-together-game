@@ -796,6 +796,100 @@
         "name": "assets\\Factory\\TutorialSheet.png4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Alert.aac",
+        "kind": "audio",
+        "metadata": "{\"localFilePath\":\"assets/Alert.aac\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 3\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.08,\\\"sustain\\\":0.21,\\\"sustainPunch\\\":0,\\\"decay\\\":0,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":500,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":700,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":60,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.76,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":30,\\\"vibratoFrequency\\\":0,\\\"squareDuty\\\":80,\\\"squareDutySweep\\\":-5,\\\"flangerOffset\\\":1,\\\"flangerOffsetSweep\\\":-2,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":500,\\\"highPassCutoffSweep\\\":-2200,\\\"compression\\\":1.2000000000000002,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"3ae7f9ba7591eee4a9f215858cc511dbcb5177ecf8e3bb6b754fefe3ea50b6d7_Alert.aac\"}}",
+        "name": "3ae7f9ba7591eee4a9f215858cc511dbcb5177ecf8e3bb6b754fefe3ea50b6d7_Alert.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/3ae7f9ba7591eee4a9f215858cc511dbcb5177ecf8e3bb6b754fefe3ea50b6d7_Alert.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Teleport 7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "637c969706201491d176e1be912969fa429bd2999cb95826058b83d90241a1a1_Teleport 7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Teleport/637c969706201491d176e1be912969fa429bd2999cb95826058b83d90241a1a1_Teleport 7.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Shield up effect.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Powerup 5.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Power-up/01d787569bed7ee17859eca13499426a536d38b472d1480df36d5980ce635cfa_Powerup 5.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":0,\\\"decay\\\":0.07,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1400,\\\"frequencySweep\\\":-1500,\\\"frequencyDeltaSweep\\\":-1000,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":580,\\\"vibratoFrequency\\\":78,\\\"squareDuty\\\":90,\\\"squareDutySweep\\\":45,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Power Up 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Click_01.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2798,10 +2892,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
         {
