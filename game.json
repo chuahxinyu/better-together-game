@@ -680,7 +680,7 @@
         "smoothed": false,
         "userAdded": true
       },
-        {
+      {
         "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
@@ -749,6 +749,51 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Empty2.png\"}",
         "name": "Empty2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "artdesign/Factory/TutorialSheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "artdesign\\Factory\\TutorialSheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/TutorialSheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\TutorialSheet.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Factory_TutorialSheet.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Factory\\TutorialSheet.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Factory_TutorialSheet.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Factory\\TutorialSheet.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Factory_TutorialSheet.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Factory\\TutorialSheet.png4",
         "smoothed": true,
         "userAdded": true
       }
@@ -3552,6 +3597,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-select"
     }
   ],
   "externalEvents": [
