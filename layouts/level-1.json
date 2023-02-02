@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.325173820508483,
+    "zoomFactor": 0.571087224764933,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2984,6 +2984,11 @@
         "includeConfig": 0
       },
       "target": "Level Logic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -3038,7 +3043,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -3061,6 +3066,17 @@
       "isLightingLayer": false,
       "name": "Win Layer",
       "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995058,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8195536,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI Layer",
+      "visibility": true,
       "cameras": [],
       "effects": []
     }

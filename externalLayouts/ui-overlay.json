@@ -1,0 +1,243 @@
+{
+  "associatedLayout": "Level 1",
+  "name": "UI Overlay",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "972ab96c-39eb-4c3f-9e9a-c6469163b32e",
+      "width": 64,
+      "x": 32,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Left"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "a2e2c109-c03f-477b-944d-c40693fd6201",
+      "width": 64,
+      "x": 112,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Right"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "8ad610bf-2ffb-460e-86a7-ac84b52fad6d",
+      "width": 64,
+      "x": 72,
+      "y": 528,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Up"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "2aa48451-26ef-4e52-b2d6-09c5577b953c",
+      "width": 64,
+      "x": 224,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Attack"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "29b08f7f-eaf2-492e-b708-11d739cb6582",
+      "width": 64,
+      "x": 1104,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Left"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "5bb27fff-15ee-4c08-bacb-e9050127d2ce",
+      "width": 64,
+      "x": 1184,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Right"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "288c4ae1-270e-46d6-90b6-03508da537a0",
+      "width": 64,
+      "x": 1144,
+      "y": 528,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Up"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI Layer",
+      "name": "TouchButton",
+      "persistentUuid": "dcb0c952-b8b7-40e4-9b65-f9b3c4c80909",
+      "width": 64,
+      "x": 992,
+      "y": 608,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PlayerObjectName",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": "Attack"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6503476410171115,
+    "windowMask": false
+  }
+}
