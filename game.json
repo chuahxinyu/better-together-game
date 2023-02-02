@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\Gitrepository\\gdev-game-jam\\build",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -574,12 +574,30 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Fill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Fill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Blank.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Blank",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Corner.png",
+        "smoothed": false,
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -655,10 +673,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Factory/Platform Inner Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\Platform Inner Corner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+        {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
         "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Factory/FactoryExit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Factory\\FactoryExit.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -2257,7 +2293,7 @@
           "folded": true,
           "name": "DoorButtonLinkColour",
           "type": "string",
-          "value": ""
+          "value": "Teal"
         },
         {
           "folded": true,
@@ -2578,7 +2614,7 @@
           "folded": true,
           "name": "DoorButtonLinkColour",
           "type": "string",
-          "value": "Red"
+          "value": "Teal"
         },
         {
           "folded": true,

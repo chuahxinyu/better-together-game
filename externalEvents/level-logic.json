@@ -2724,6 +2724,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -2779,6 +2780,60 @@
                   "parameters": [
                     "ButtonsAndDoors",
                     "\"74;144;226\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Teal\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"80;227;194\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Orange\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"245;166;35\""
                   ]
                 }
               ]
