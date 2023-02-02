@@ -583,28 +583,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blank2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Blank2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Up.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up.png\"}",
         "name": "Up",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Up2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up2.png\"}",
-        "name": "Up2",
         "smoothed": false,
         "userAdded": false
       },
@@ -619,28 +601,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Down2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Down2.png\"}",
-        "name": "Down2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Right.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right.png\"}",
         "name": "Right",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Right2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right2.png\"}",
-        "name": "Right2",
         "smoothed": false,
         "userAdded": false
       },
@@ -655,15 +619,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Left4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Attack32.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -673,11 +628,65 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack4.png",
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite33.png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite42.png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite62.png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite9.png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack4",
-        "smoothed": false,
+        "name": "Exclamation",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -2556,14 +2565,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 32,
+                    "y": 32
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 32.085418701171875,
+                    "y": 32.80000305175781
                   },
                   "customCollisionMask": []
                 }
@@ -2589,6 +2598,13 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -2622,7 +2638,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 12.176040649414062,
+                      "y": 3.600001017252604
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2639,7 +2661,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 12.176040649414062,
+                      "y": 3.600001017252604
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2656,7 +2684,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 12.176040649414062,
+                      "y": 3.600001017252604
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2977,6 +3011,150 @@
                     "name": "centre",
                     "x": 0,
                     "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SpeechBuble",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Exclamation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Exclamation",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.18203353881836,
+                    "y": 15.900001525878906
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.18203353881836,
+                    "y": 15.85000228881836
                   },
                   "customCollisionMask": []
                 }

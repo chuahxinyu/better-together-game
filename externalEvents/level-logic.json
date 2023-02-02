@@ -2104,8 +2104,9 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "EnemyGrunt",
+          "object": "Enemies",
           "conditions": [],
           "actions": [],
           "events": [
@@ -2127,8 +2128,8 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "EnemyGrunt.BoundingBoxCenterX() - 200",
-                    "EnemyGrunt.BoundingBoxCenterY() - 200",
+                    "Enemies.X()",
+                    "Enemies.Y()",
                     "\"Utility Layer\""
                   ]
                 },
@@ -2138,7 +2139,7 @@
                   },
                   "parameters": [
                     "",
-                    "EnemyGrunt",
+                    "Enemies",
                     "AlertRadius"
                   ]
                 },
@@ -2177,180 +2178,214 @@
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "EnemyGrunt.BoundingBoxCenterX() - 200",
+                    "Enemies.X()",
                     "=",
-                    "EnemyGrunt.BoundingBoxCenterY() - 200"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Go Toward Players within Radius",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "AlertRadius",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "AlertRadius",
-                "Players",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "Players",
-                "50",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "EnemyGrunt",
-                    ">",
-                    "Players.X()"
+                    "Enemies.Y()"
                   ]
                 }
               ],
-              "actions": [
+              "events": [
                 {
-                  "type": {
-                    "value": "FlipX"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "EnemyGrunt",
-                    "yes"
+                  "comment": "Go Toward Players within Radius",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "AlertRadius",
+                        "Players",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Players",
+                        "50",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "SpeechBuble",
+                            "Enemies.PointX(\"SpeechPoint\")",
+                            "Enemies.PointY(\"SpeechPoint\")",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemies",
+                            "SpeechBuble"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "SpeechBuble",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "SpeechBuble",
+                            "Enemies",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "SpeechBuble",
+                            "=",
+                            "Enemies.PointX(\"SpeechPoint\")",
+                            "=",
+                            "Enemies.PointY(\"SpeechPoint\")"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "AlertRadius",
+                        "Players",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "SpeechBuble",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "EnemyGrunt",
+                        ">",
+                        "Players.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "EnemyGrunt",
+                        "<",
+                        "Players.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "no"
+                      ]
+                    }
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "EnemyGrunt",
-                    "<",
-                    "Players.X()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "EnemyGrunt",
-                    "no"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "EnemyGrunt Collisions",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "LargeBlockNarrowRectangle",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "LargeBlockNarrowRectangle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "EnemyGrunt",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "EnemyGrunt",
-                ""
               ]
             }
           ]
