@@ -11,14 +11,14 @@
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 16,
-    "gridHeight": 16,
+    "gridWidth": 32,
+    "gridHeight": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.16258691025425936,
+    "zoomFactor": 0.3866990209613503,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -158,51 +158,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lose Layer",
-      "name": "LoseText",
-      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
-      "width": 0,
-      "x": 346,
-      "y": 246,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lose Layer",
-      "name": "LoseText",
-      "persistentUuid": "dfc27268-ff5a-403f-a478-91f9f14d7cef",
-      "width": 0,
-      "x": 346,
-      "y": 246,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lose Layer",
-      "name": "LoseDesciption",
-      "persistentUuid": "6397507c-b997-45a4-ae53-fa53d5676cdc",
-      "width": 0,
-      "x": 283,
-      "y": 378,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 96,
       "layer": "Utility Layer",
@@ -212,81 +167,6 @@
       "x": 3776,
       "y": 464,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "WinText",
-      "persistentUuid": "e6192b46-dd4a-4f86-bef5-3478b438469d",
-      "width": 0,
-      "x": 343,
-      "y": 280,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "ReturnToMenu",
-      "persistentUuid": "4ad73722-0dee-4151-a5fb-4316e418d9c7",
-      "width": 0,
-      "x": 43,
-      "y": 620,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "NextLevel",
-      "persistentUuid": "f1f02f92-238f-4894-9715-feaab712211d",
-      "width": 0,
-      "x": 930,
-      "y": 616,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lose Layer",
-      "name": "ReturnToMenu",
-      "persistentUuid": "d5a73402-5cbf-4ee9-810e-f3b0bf2538bd",
-      "width": 0,
-      "x": 48,
-      "y": 621,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lose Layer",
-      "name": "RetryLevel",
-      "persistentUuid": "c864a0c8-411b-4d3a-a7dd-78d6f66cada5",
-      "width": 0,
-      "x": 908,
-      "y": 620,
-      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2479,7 +2359,7 @@
       "color": {
         "b": 0,
         "g": 0,
-        "r": 0
+        "r": 255
       }
     },
     {
@@ -2542,7 +2422,7 @@
       "color": {
         "b": 0,
         "g": 0,
-        "r": 0
+        "r": 255
       }
     },
     {
