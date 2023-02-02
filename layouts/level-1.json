@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3395704954888085,
+    "zoomFactor": 0.571087224764933,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1059,7 +1059,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },

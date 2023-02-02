@@ -2085,7 +2085,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2104,7 +2103,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemies",
           "conditions": [],
@@ -2128,8 +2126,8 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies.X()",
-                    "Enemies.Y()",
+                    "Enemies.PointX(\"Center\")",
+                    "Enemies.PointY(\"Center\")",
                     "\"Utility Layer\""
                   ]
                 },
@@ -2152,6 +2150,68 @@
                     "=",
                     "7"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "Enemies.PointX(\"SpeechPoint\")",
+                    "Enemies.PointY(\"SpeechPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemies",
+                    "SpeechBubble"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "=",
+                    "Enemies.PointX(\"SpeechPoint\")",
+                    "=",
+                    "Enemies.PointY(\"SpeechPoint\")"
+                  ]
                 }
               ]
             },
@@ -2165,7 +2225,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "EnemyGrunt",
+                    "Enemies",
                     ""
                   ]
                 }
@@ -2173,217 +2233,178 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "SetCenter"
                   },
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "Enemies.X()",
+                    "Enemies.PointX(\"Center\")",
                     "=",
-                    "Enemies.Y()"
+                    "Enemies.PointY(\"Center\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "Enemies",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "Enemies",
+                    ""
                   ]
                 }
               ],
-              "events": [
+              "actions": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
+                  "type": {
+                    "value": "AddForceVers"
                   },
-                  "comment": "Go Toward Players within Radius",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "AlertRadius",
-                        "Players",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceVers"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Players",
-                        "50",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "SpeechBuble",
-                            "Enemies.PointX(\"SpeechPoint\")",
-                            "Enemies.PointY(\"SpeechPoint\")",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "Enemies",
-                            "SpeechBuble"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeScale"
-                          },
-                          "parameters": [
-                            "SpeechBuble",
-                            "=",
-                            "3"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "SpeechBuble",
-                            "Enemies",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "MettreXY"
-                          },
-                          "parameters": [
-                            "SpeechBuble",
-                            "=",
-                            "Enemies.PointX(\"SpeechPoint\")",
-                            "=",
-                            "Enemies.PointY(\"SpeechPoint\")"
-                          ]
-                        }
-                      ]
-                    }
+                  "parameters": [
+                    "Enemies",
+                    "Players",
+                    "50",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "AlertRadius",
-                        "Players",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "SpeechBuble",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "\"Exclamation\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "EnemyGrunt",
-                        ">",
-                        "Players.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "yes"
-                      ]
-                    }
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "Enemies",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosX"
-                      },
-                      "parameters": [
-                        "EnemyGrunt",
-                        "<",
-                        "Players.X()"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "no"
-                      ]
-                    }
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "\"Empty\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    ">",
+                    "Players.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "<",
+                    "Players.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "no"
                   ]
                 }
               ]
@@ -3128,7 +3149,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3183,6 +3203,17 @@
                     "Enemies",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "Enemies",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -3201,6 +3232,15 @@
                   },
                   "parameters": [
                     "AlertRadius",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
                     ""
                   ]
                 }

@@ -682,12 +682,39 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Exclamation.png",
+        "file": "assets/SpeechBuble.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Exclamation",
+        "name": "SpeechBuble",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/None.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "None",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Empty.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Empty.png\"}",
+        "name": "Empty",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Empty2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Empty2.png\"}",
+        "name": "Empty2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2266,7 +2293,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Factory\\FactoryDoor.png",
                   "points": [],
                   "originPoint": {
@@ -2280,7 +2307,44 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 30,
+                        "y": 13.500001907348633
+                      },
+                      {
+                        "x": 0,
+                        "y": 13.125
+                      }
+                    ],
+                    [
+                      {
+                        "x": 10.80761432647705,
+                        "y": 11.625001907348633
+                      },
+                      {
+                        "x": 18.870121002197266,
+                        "y": 10.687501907348633
+                      },
+                      {
+                        "x": 19.245113372802734,
+                        "y": 90
+                      },
+                      {
+                        "x": 10.6201171875,
+                        "y": 90
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2322,10 +2386,28 @@
                       },
                       {
                         "x": 30,
-                        "y": 90
+                        "y": 13.500001907348633
                       },
                       {
                         "x": 0,
+                        "y": 13.312503814697266
+                      }
+                    ],
+                    [
+                      {
+                        "x": 11.37012004852295,
+                        "y": 5.250001907348633
+                      },
+                      {
+                        "x": 19.0576171875,
+                        "y": 6.187501907348633
+                      },
+                      {
+                        "x": 19.43262481689453,
+                        "y": 90
+                      },
+                      {
+                        "x": 10.6201171875,
                         "y": 90
                       }
                     ]
@@ -2358,11 +2440,29 @@
                       },
                       {
                         "x": 30,
-                        "y": 90
+                        "y": 13.312503814697266
                       },
                       {
                         "x": 0,
-                        "y": 90
+                        "y": 13.125
+                      }
+                    ],
+                    [
+                      {
+                        "x": 11.182622909545898,
+                        "y": 6.937501430511475
+                      },
+                      {
+                        "x": 19.245113372802734,
+                        "y": 6.750000953674316
+                      },
+                      {
+                        "x": 18.870121002197266,
+                        "y": 51.375003814697266
+                      },
+                      {
+                        "x": 10.6201171875,
+                        "y": 51.1875
                       }
                     ]
                   ]
@@ -2394,11 +2494,29 @@
                       },
                       {
                         "x": 30,
-                        "y": 90
+                        "y": 12.749998092651367
                       },
                       {
                         "x": 0,
-                        "y": 90
+                        "y": 12.749998092651367
+                      }
+                    ],
+                    [
+                      {
+                        "x": 11.932625770568848,
+                        "y": 5.812500953674316
+                      },
+                      {
+                        "x": 19.0576171875,
+                        "y": 5.625
+                      },
+                      {
+                        "x": 18.49512481689453,
+                        "y": 34.125
+                      },
+                      {
+                        "x": 10.995125770568848,
+                        "y": 33.937503814697266
                       }
                     ]
                   ]
@@ -2565,8 +2683,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
-                    "y": 32
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2636,7 +2754,7 @@
               "timeBetweenFrames": 0.1,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
                   "points": [
                     {
@@ -2656,10 +2774,67 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.7760416865348816,
+                        "y": 4.8000006675720215
+                      },
+                      {
+                        "x": 30.976043701171875,
+                        "y": 4.533332824707031
+                      },
+                      {
+                        "x": 31.109375,
+                        "y": 17.19999885559082
+                      },
+                      {
+                        "x": 26.709375381469727,
+                        "y": 21.133333206176758
+                      },
+                      {
+                        "x": 5.37604284286499,
+                        "y": 21.19999885559082
+                      },
+                      {
+                        "x": 0.9760411381721497,
+                        "y": 17.19999885559082
+                      }
+                    ],
+                    [
+                      {
+                        "x": 7.1760430335998535,
+                        "y": 20
+                      },
+                      {
+                        "x": 9.232030868530273,
+                        "y": 18.024999618530273
+                      },
+                      {
+                        "x": 23.232032775878906,
+                        "y": 18.075000762939453
+                      },
+                      {
+                        "x": 28.5760440826416,
+                        "y": 27.4666690826416
+                      },
+                      {
+                        "x": 26.509374618530273,
+                        "y": 30.133337020874023
+                      },
+                      {
+                        "x": 14.30937671661377,
+                        "y": 32
+                      },
+                      {
+                        "x": 6.976041316986084,
+                        "y": 26.133337020874023
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
                   "points": [
                     {
@@ -2679,10 +2854,67 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.7760416865348816,
+                        "y": 4.8000006675720215
+                      },
+                      {
+                        "x": 30.976043701171875,
+                        "y": 4.533332824707031
+                      },
+                      {
+                        "x": 31.109375,
+                        "y": 17.19999885559082
+                      },
+                      {
+                        "x": 26.709375381469727,
+                        "y": 21.133333206176758
+                      },
+                      {
+                        "x": 5.37604284286499,
+                        "y": 21.19999885559082
+                      },
+                      {
+                        "x": 0.9760411381721497,
+                        "y": 17.19999885559082
+                      }
+                    ],
+                    [
+                      {
+                        "x": 7.1760430335998535,
+                        "y": 20
+                      },
+                      {
+                        "x": 9.232030868530273,
+                        "y": 18.024999618530273
+                      },
+                      {
+                        "x": 23.232032775878906,
+                        "y": 18.075000762939453
+                      },
+                      {
+                        "x": 28.5760440826416,
+                        "y": 27.4666690826416
+                      },
+                      {
+                        "x": 26.509374618530273,
+                        "y": 30.133337020874023
+                      },
+                      {
+                        "x": 14.30937671661377,
+                        "y": 32
+                      },
+                      {
+                        "x": 6.976041316986084,
+                        "y": 26.133337020874023
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
                   "points": [
                     {
@@ -2702,7 +2934,64 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.7760416865348816,
+                        "y": 4.8000006675720215
+                      },
+                      {
+                        "x": 30.976043701171875,
+                        "y": 4.533332824707031
+                      },
+                      {
+                        "x": 31.109375,
+                        "y": 17.19999885559082
+                      },
+                      {
+                        "x": 26.709375381469727,
+                        "y": 21.133333206176758
+                      },
+                      {
+                        "x": 5.37604284286499,
+                        "y": 21.19999885559082
+                      },
+                      {
+                        "x": 0.9760411381721497,
+                        "y": 17.19999885559082
+                      }
+                    ],
+                    [
+                      {
+                        "x": 7.1760430335998535,
+                        "y": 20
+                      },
+                      {
+                        "x": 9.232030868530273,
+                        "y": 18.024999618530273
+                      },
+                      {
+                        "x": 23.232032775878906,
+                        "y": 18.075000762939453
+                      },
+                      {
+                        "x": 28.5760440826416,
+                        "y": 27.4666690826416
+                      },
+                      {
+                        "x": 26.509374618530273,
+                        "y": 30.133337020874023
+                      },
+                      {
+                        "x": 14.30937671661377,
+                        "y": 32
+                      },
+                      {
+                        "x": 6.976041316986084,
+                        "y": 26.133337020874023
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3022,7 +3311,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "SpeechBuble",
+      "name": "SpeechBubble",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3031,7 +3320,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Exclamation",
+          "name": "Empty",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3041,21 +3330,34 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Exclamation",
+                  "image": "Empty2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 9.18203353881836,
-                    "y": 15.900001525878906
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 9.18203353881836,
-                    "y": 15.85000228881836
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Exclamation",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": false,
                   "image": "NewSprite9",
