@@ -870,11 +870,11 @@
           "canGrabWithoutMoving": true,
           "gravity": 1000,
           "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
           "maxFallingSpeed": 700,
           "slopeMaxAngle": 66,
           "canGoDownFromJumpthru": false,
           "ignoreDefaultControls": true,
-          "jumpSustainTime": 0.2,
           "acceleration": 1000,
           "deceleration": 1000,
           "ladderClimbingSpeed": 150,
@@ -3328,6 +3328,12 @@
           "name": "Colour",
           "type": "string",
           "value": ""
+        },
+        {
+          "folded": true,
+          "name": "FontSize",
+          "type": "number",
+          "value": 100
         }
       ],
       "effects": [],
@@ -3335,7 +3341,7 @@
       "string": "UIText",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 200,
+      "characterSize": 100,
       "color": {
         "b": 0,
         "g": 0,
