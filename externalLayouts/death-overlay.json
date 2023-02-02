@@ -1,6 +1,125 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Level 1",
   "name": "Death Overlay",
-  "instances": [],
-  "editionSettings": {}
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "UIText",
+      "persistentUuid": "e6039857-afe5-4e9e-936d-0dbab04f27f7",
+      "width": 0,
+      "x": 42,
+      "y": 556,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Menu"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "UIText",
+      "persistentUuid": "0153d962-c74b-479c-bfc7-0a097d7728e3",
+      "width": 0,
+      "x": 498,
+      "y": 204,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "FontSize",
+          "type": "number",
+          "value": 200
+        },
+        {
+          "folded": true,
+          "name": "Colour",
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Death"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "UIText",
+      "persistentUuid": "ccaf05a0-28f4-496e-a874-ec955ffef2c9",
+      "width": 0,
+      "x": 931,
+      "y": 547,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Next"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lose Layer",
+      "name": "UIText",
+      "persistentUuid": "915d2f9d-7c38-455f-a5bc-c9a56f8b80cc",
+      "width": 0,
+      "x": 497,
+      "y": 306,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "FontSize",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "You have Died"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4403684501423742,
+    "windowMask": false
+  }
 }

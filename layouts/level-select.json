@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Main_32Menu",
-  "name": "Main Menu",
+  "mangledName": "Level_32Select",
+  "name": "Level Select",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7406085022311109,
+    "zoomFactor": 0.5710872247649916,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,14 +26,14 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "height": 153,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "TitleText",
-      "persistentUuid": "d69a0bb5-c025-4411-ae03-c675d34d1fdd",
-      "width": 1251,
-      "x": 53,
-      "y": 42,
+      "name": "LevelSelectTitle",
+      "persistentUuid": "210f1394-1672-4a15-a2c7-c741b270eb24",
+      "width": 0,
+      "x": 384,
+      "y": 136,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,11 +44,33 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewGame",
-      "persistentUuid": "7e31b4d6-2268-4a94-8cc1-d826433a1a02",
+      "name": "LevelText",
+      "persistentUuid": "e5a87fb1-fdbf-4aec-a8ab-ee639a0c775d",
       "width": 0,
-      "x": 818,
-      "y": 446,
+      "x": 253,
+      "y": 378,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "LevelString",
+          "type": "string",
+          "value": "Level 1"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LevelText",
+      "persistentUuid": "2f0b4b79-6ad4-4356-bab0-9cfab89748d1",
+      "width": 0,
+      "x": 594,
+      "y": 378,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -59,12 +81,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "LevelSelect",
-      "persistentUuid": "2a75227f-7134-476b-a2c0-c774e60c15af",
+      "name": "LevelText",
+      "persistentUuid": "98c9cc26-cd66-41cd-9029-09b20e045d84",
       "width": 0,
-      "x": 811,
-      "y": 501,
-      "zOrder": 3,
+      "x": 899,
+      "y": 373,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -74,12 +96,12 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "EndGame",
-      "persistentUuid": "79ba6ee3-9a50-4a92-831b-7f78988883aa",
+      "name": "ReturnMenu",
+      "persistentUuid": "1d03e771-cba4-4136-8749-d2f689240857",
       "width": 0,
-      "x": 815,
-      "y": 556,
-      "zOrder": 4,
+      "x": 22,
+      "y": 656,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -88,9 +110,9 @@
   "objects": [
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
-      "name": "TitleText",
+      "name": "LevelSelectTitle",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -98,32 +120,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Separation Game",
-      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "string": "Level Select",
+      "font": "",
       "textAlignment": "left",
-      "characterSize": 144,
-      "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewGame",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Start",
-      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 80,
       "color": {
         "b": 226,
         "g": 144,
@@ -134,29 +134,36 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "LevelSelect",
+      "name": "LevelText",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "LevelString",
+          "type": "string",
+          "value": "Level 2"
+        }
+      ],
       "effects": [],
       "behaviors": [],
-      "string": "Level Select\n",
-      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "string": "Level\n",
+      "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 30,
       "color": {
-        "b": 226,
-        "g": 144,
-        "r": 74
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "EndGame",
+      "name": "ReturnMenu",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -164,27 +171,43 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "End Game",
-      "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+      "string": "Return To Menu",
+      "font": "",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 30,
       "color": {
-        "b": 226,
-        "g": 144,
-        "r": 74
+        "b": 0,
+        "g": 0,
+        "r": 0
       }
     }
   ],
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "LevelText",
+            "=",
+            "LevelText.VariableString(LevelString)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "value": "MouseButtonPressed"
           },
           "parameters": [
-            "NewGame",
+            "",
             "Left"
           ]
         },
@@ -193,7 +216,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "NewGame",
+            "LevelText",
             "",
             "",
             ""
@@ -207,7 +230,7 @@
           },
           "parameters": [
             "",
-            "\"Level 1\"",
+            "LevelText.VariableString(LevelString)",
             ""
           ]
         }
@@ -221,7 +244,7 @@
             "value": "MouseButtonPressed"
           },
           "parameters": [
-            "NewGame",
+            "",
             "Left"
           ]
         },
@@ -230,42 +253,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "EndGame",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Quit"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "NewGame",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "LevelSelect",
+            "ReturnMenu",
             "",
             "",
             ""
@@ -279,7 +267,7 @@
           },
           "parameters": [
             "",
-            "\"Level Select\"",
+            "\"Main Menu\"",
             ""
           ]
         }
@@ -288,9 +276,9 @@
   ],
   "layers": [
     {
-      "ambientLightColorB": 0,
-      "ambientLightColorG": 0,
-      "ambientLightColorR": 1869182049,
+      "ambientLightColorB": 6772864,
+      "ambientLightColorG": 6772864,
+      "ambientLightColorR": 1597066561,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",

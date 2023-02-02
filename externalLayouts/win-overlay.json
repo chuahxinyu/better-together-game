@@ -1,6 +1,97 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Level 1",
   "name": "Win Overlay",
-  "instances": [],
-  "editionSettings": {}
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "UIText",
+      "persistentUuid": "6c1d7581-23a4-4557-94d9-ee7879e0c010",
+      "width": 0,
+      "x": 35,
+      "y": 575,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Menu"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "UIText",
+      "persistentUuid": "f01d0af7-5d6a-410f-b151-42bfa7442e9b",
+      "width": 0,
+      "x": 491,
+      "y": 254,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "FontSize",
+          "type": "number",
+          "value": 200
+        },
+        {
+          "folded": true,
+          "name": "Colour",
+          "type": "string",
+          "value": "Yellow"
+        },
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Win"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "UIText",
+      "persistentUuid": "dc9c12e0-1591-4871-9d4b-639a63c44669",
+      "width": 0,
+      "x": 924,
+      "y": 566,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Text",
+          "type": "string",
+          "value": "Next"
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.3866990209613933,
+    "windowMask": false
+  }
 }
