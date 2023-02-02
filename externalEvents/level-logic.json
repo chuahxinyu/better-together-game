@@ -272,7 +272,18 @@
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "TouchButton",
               "conditions": [],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "=",
+                    "100"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -371,7 +382,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Render Correct Button Type",
+                  "comment": "Rendering",
                   "comment2": ""
                 },
                 {
@@ -379,13 +390,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjetTxt"
+                        "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Up\""
+                        "IsPressed",
+                        "False"
                       ]
                     }
                   ],
@@ -396,115 +406,7 @@
                       },
                       "parameters": [
                         "TouchButton",
-                        "\"Up\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Down\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "\"Down\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Left\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "\"Left\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Right\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "\"Right\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Attack\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "\"Attack\""
+                        "TouchButton.VariableString(Type)"
                       ]
                     }
                   ]

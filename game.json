@@ -230,24 +230,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Combined Idle.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Combined Idle",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Combined Idle2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Combined Idle2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/LargeBlockNarrowRectangle.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/LargeBlockNarrowRectangle.png\"}",
@@ -394,15 +376,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/ButtonPressed.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ButtonPressed",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Attacking6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -453,15 +426,6 @@
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Door_Closed.png2.png\"}",
         "name": "assets\\Door_Closed.png2",
         "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "an orange city.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "an orange city.png",
-        "smoothed": false,
         "userAdded": false
       },
       {
@@ -565,30 +529,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "artdesign/Factory Background/Background_New.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "artdesign\\Factory Background\\Background_New.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/ButtonPressed2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "ButtonPressed2",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "artdesign/Factory Background/Platform Flat.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"artdesign/Factory Background/Platform Flat.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "artdesign\\Factory Background\\Platform Flat.png",
-        "smoothed": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -628,68 +574,111 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Button_Blank.png",
+        "file": "assets/Blank.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Button_Blank.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Blank",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/42b91dadf63720e6b6974d3edb3027f34f9327f7d89affaa7fe7d177acf2ad55_Button_Blank.png",
-          "name": "Button_Blank.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Button_Down.png",
+        "file": "assets/Blank2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Button_Down.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Blank2",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/1a423eaa0f8e81939aa2358135f27f7bdf49f84e55b87a1097243939a784804a_Button_Down.png",
-          "name": "Button_Down.png"
-        }
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Button_Left.png",
+        "file": "assets/Up.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Button_Left.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up.png\"}",
+        "name": "Up",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/fe3c56c577293cbf2b77aa8fc9ae169a76edb93798ebf07c1682ec95ede9aac6_Button_Left.png",
-          "name": "Button_Left.png"
-        }
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Button_Right.png",
+        "file": "assets/Up2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Button_Right.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up2.png\"}",
+        "name": "Up2",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/2d3591c84618419e036a7692cecf170c588369040d1aba8052de2129cf6b2362_Button_Right.png",
-          "name": "Button_Right.png"
-        }
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Button_Up.png",
+        "file": "assets/Down.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Button_Up.png",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Down.png\"}",
+        "name": "Down",
         "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/f4910ea0636e49f89bd04c3dc153ee6ab3d400860ed2f4c3075626ed940e18c5_Button_Up.png",
-          "name": "Button_Up.png"
-        }
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Down2.png\"}",
+        "name": "Down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right.png\"}",
+        "name": "Right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Right2.png\"}",
+        "name": "Right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2804,6 +2793,12 @@
           "name": "PlayerObjectName",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "IsPressed",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -2815,11 +2810,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Button_Blank.png",
+                  "image": "Blank",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2844,11 +2840,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Button_Up.png",
+                  "image": "Up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2873,11 +2870,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Button_Down.png",
+                  "image": "Down",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2902,11 +2900,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Button_Left.png",
+                  "image": "Left3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2931,11 +2930,42 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Button_Right.png",
+                  "image": "Right",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Attack3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
