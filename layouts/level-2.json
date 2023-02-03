@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.358281981955336,
+    "zoomFactor": 0.9197304541837256,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1100,7 +1100,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },

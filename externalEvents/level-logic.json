@@ -77,6 +77,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2122,6 +2123,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [
@@ -2278,30 +2280,29 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Create AlertRadius that follows each EnemyGrunt",
-          "comment2": ""
-        },
-        {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Enemies",
+          "object": "EnemyGrunt",
           "conditions": [],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Create AlertRadius and SpeechBubble that follows each EnemyGrunt",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2320,8 +2321,8 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies.PointX(\"Center\")",
-                    "Enemies.PointY(\"Center\")",
+                    "EnemyGrunt.PointX(\"Center\")",
+                    "EnemyGrunt.PointY(\"Center\")",
                     "\"Utility Layer\""
                   ]
                 },
@@ -2331,7 +2332,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemies",
+                    "EnemyGrunt",
                     "AlertRadius"
                   ]
                 },
@@ -2352,8 +2353,8 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies.PointX(\"SpeechPoint\")",
-                    "Enemies.PointY(\"SpeechPoint\")",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
+                    "EnemyGrunt.PointY(\"SpeechPoint\")",
                     ""
                   ]
                 },
@@ -2363,7 +2364,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemies",
+                    "EnemyGrunt",
                     "SpeechBubble"
                   ]
                 },
@@ -2389,7 +2390,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2402,9 +2403,9 @@
                   "parameters": [
                     "SpeechBubble",
                     "=",
-                    "Enemies.PointX(\"SpeechPoint\")",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
                     "=",
-                    "Enemies.PointY(\"SpeechPoint\")"
+                    "EnemyGrunt.PointY(\"SpeechPoint\")"
                   ]
                 }
               ]
@@ -2419,7 +2420,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2432,9 +2433,9 @@
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "Enemies.PointX(\"Center\")",
+                    "EnemyGrunt.PointX(\"Center\")",
                     "=",
-                    "Enemies.PointY(\"Center\")"
+                    "EnemyGrunt.PointY(\"Center\")"
                   ]
                 }
               ]
@@ -2461,7 +2462,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -2472,7 +2473,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2483,7 +2484,7 @@
                     "value": "AddForceVers"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "Players",
                     "50",
                     ""
@@ -2523,7 +2524,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -2534,7 +2535,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2559,7 +2560,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     ">",
                     "Players.X()"
                   ]
@@ -2571,7 +2572,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "yes"
                   ]
                 }
@@ -2585,7 +2586,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "<",
                     "Players.X()"
                   ]
@@ -2597,7 +2598,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "no"
                   ]
                 }
@@ -2899,6 +2900,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2917,7 +2919,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -3034,11 +3035,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3141,13 +3137,6 @@
                     "Pressed",
                     "True"
                   ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ]
             }
@@ -3403,7 +3392,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3417,7 +3405,7 @@
               },
               "parameters": [
                 "BronzeBattleAxe",
-                "Enemies",
+                "EnemyGrunt",
                 "",
                 "",
                 "yes"
@@ -3455,7 +3443,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -3466,7 +3454,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -3477,7 +3465,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
