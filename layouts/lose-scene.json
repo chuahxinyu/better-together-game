@@ -110,6 +110,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
     },
