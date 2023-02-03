@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6078573277950243,
+    "zoomFactor": 0.4687220756145033,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,6 +30,20 @@
         {
           "type": "string",
           "value": "Teal"
+        },
+        {
+          "type": "string",
+          "value": "Red"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Blue"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Orange"
         }
       ]
     }
@@ -42,7 +56,7 @@
       "layer": "",
       "name": "LargeBlockNarrowRectangle",
       "persistentUuid": "f9a7a82a-32a5-4bcb-a3bd-a221ee121c01",
-      "width": 3616,
+      "width": 4352,
       "x": 0,
       "y": 720,
       "zOrder": 1,
@@ -68,13 +82,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 720,
+      "height": 1472,
       "layer": "Background Layer",
       "name": "LabBackground",
       "persistentUuid": "3cbe2363-ca4b-49d5-8cf0-92dea7b373ce",
       "width": 5232,
       "x": 0,
-      "y": 8,
+      "y": -592,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,8 +102,8 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 64,
-      "y": 622,
+      "x": 62,
+      "y": 638,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,7 +192,7 @@
       "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
       "x": 142,
-      "y": 622,
+      "y": 638,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -361,13 +375,865 @@
       "layer": "",
       "name": "LabGroundPanel",
       "persistentUuid": "a82874ab-2fae-4464-b33e-eddbb3bd5e43",
-      "width": 864,
+      "width": 3248,
       "x": 1104,
       "y": 688,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GoalDoorMask",
+      "persistentUuid": "6bca16b1-daec-407c-b84f-a182b6ddcc7c",
+      "width": 0,
+      "x": 4224,
+      "y": 592,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "7946999d-c081-47cf-82e2-bd4aa1265e43",
+      "width": 160,
+      "x": 1184,
+      "y": 448,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "e2a9c3ae-3f3a-4814-aca4-c63ff6885422",
+      "width": 160,
+      "x": 1488,
+      "y": 384,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "4054048e-083b-442c-85ca-80673bd4a057",
+      "width": 160,
+      "x": 1728,
+      "y": 304,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "0f61fec9-e297-430a-b828-3e9433f3290e",
+      "width": 160,
+      "x": 1968,
+      "y": 384,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "3dad2a7e-bacd-41ef-8fed-c1f380d2344e",
+      "width": 50,
+      "x": 2462,
+      "y": 626,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "3b698f66-8272-4409-9349-72cf9c125b20",
+      "width": 50,
+      "x": 1980,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "0f1e208a-ce10-4144-9b0b-ebb248d20393",
+      "width": 50,
+      "x": 2364,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "e9687806-0f94-4a7f-b9e8-4e34f2f6f976",
+      "width": 50,
+      "x": 2252,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "82e9e103-0a34-4739-9491-9e0598c37a49",
+      "width": 50,
+      "x": 1580,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "b9ca4d68-5ca8-49e0-af0a-52ac5f58a9f9",
+      "width": 50,
+      "x": 1694,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "d800a3a5-1e0e-4c0c-9582-b9aa598eeea7",
+      "width": 50,
+      "x": 2108,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "fc96b130-978e-4889-ad69-71b51ec396d8",
+      "width": 50,
+      "x": 1822,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "e57eb0bd-e15b-426f-9416-fee45120803f",
+      "width": 160,
+      "x": 2240,
+      "y": 304,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "",
+      "name": "LaboratoryDoor",
+      "persistentUuid": "657484f7-e3b5-46f4-a714-213a73600658",
+      "width": 80,
+      "x": 4224,
+      "y": 592,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Scientist",
+      "persistentUuid": "eedf4cbb-c9a2-4c16-91b9-7320a0d7d8cc",
+      "width": 64,
+      "x": 4144,
+      "y": 624,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "e9a71f5b-4a64-4a8d-b207-e2066e657e5f",
+      "width": 288,
+      "x": 2544,
+      "y": 528,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "1a188a11-6fe8-4731-8f5a-195409aaa390",
+      "width": 288,
+      "x": 2704,
+      "y": 368,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "049e30e0-b78b-46fc-8a21-0e81d51b4517",
+      "width": 0,
+      "x": 2672,
+      "y": 368,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "2d51ec20-fcd3-486c-b3d7-1ef64adcb083",
+      "width": 80,
+      "x": 2880,
+      "y": 144,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "3cdd40e2-f446-4e64-9175-b1b0d5345f1f",
+      "width": 32,
+      "x": 2816,
+      "y": 352,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Red"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 320,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "8969d2ad-813b-482a-a765-a1c9390408a9",
+      "width": 288,
+      "x": 2704,
+      "y": 400,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "61601d62-1ec2-4b02-a55e-51cf8fdb1489",
+      "width": 288,
+      "x": 2864,
+      "y": 528,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "3878ca4b-a3b4-42ac-aecc-412e2aa56010",
+      "width": 0,
+      "x": 2992,
+      "y": 368,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "c5aa6b34-16c5-449c-abaa-ef06ec2d9d7a",
+      "width": 0,
+      "x": 2672,
+      "y": 688,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "156207b1-f8fd-4a4c-9d48-e638aa1f4a89",
+      "width": 0,
+      "x": 2992,
+      "y": 688,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "31c13c1c-ec16-4a05-a973-8a4c5391dc88",
+      "width": 0,
+      "x": 2880,
+      "y": 112,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "043cfde6-005c-4cdd-b16e-6d470003f223",
+      "width": 16,
+      "x": 2912,
+      "y": 112,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "c22e7a47-ec1f-4f99-a081-e8567e3a4dc6",
+      "width": 0,
+      "x": 2928,
+      "y": 112,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "99f30035-ca50-4f10-aef9-d055d890d470",
+      "width": 0,
+      "x": 2736,
+      "y": -64,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "5a44b919-bce2-4b6f-9583-dd9fb97afb16",
+      "width": 0,
+      "x": 2784,
+      "y": -64,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 320,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "6018870f-2236-4de1-81b3-1b5156e5ecf3",
+      "width": 16,
+      "x": 2912,
+      "y": -208,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabFloatPanel",
+      "persistentUuid": "3841c310-23f3-430c-8413-50038cc40a9d",
+      "width": 160,
+      "x": 2464,
+      "y": 224,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "3d421052-df42-43f4-bd41-bec95f2531ed",
+      "width": 512,
+      "x": 3760,
+      "y": 144,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "dabf5132-b991-4242-9acd-5c6a3d8a0599",
+      "width": 80,
+      "x": 4000,
+      "y": 448,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "f851bb1f-f4eb-450f-9540-9df6edf52510",
+      "width": 0,
+      "x": 4000,
+      "y": 416,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "6de262ea-8c30-4dd4-86e7-9ada0cff97c1",
+      "width": 0,
+      "x": 4032,
+      "y": 416,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "a8c519c5-1927-474a-b657-8013c90a6f85",
+      "width": 240,
+      "x": 4248,
+      "y": 552,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "20601094-e1fe-4381-99af-9c600d24d57f",
+      "width": 352,
+      "x": 4032,
+      "y": -96,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 848,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "76ad9678-b696-4c7b-9f35-a025c7c96db3",
+      "width": 352,
+      "x": 4384,
+      "y": -96,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "de4b6ae0-f82c-401e-8557-14945778273f",
+      "width": 0,
+      "x": 4352,
+      "y": 416,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "8f73313b-7462-4ed3-a2b3-1f1033c09bc4",
+      "width": 0,
+      "x": 4352,
+      "y": 688,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "8cb10365-f6db-4fca-9659-6637af7a69ba",
+      "width": 32,
+      "x": 3936,
+      "y": 672,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "957f4d49-a406-44cc-909c-313378c5475e",
+      "width": 0,
+      "x": 1856,
+      "y": -64,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "0df54242-65c4-4cb4-b2d3-a73fc4aab6ab",
+      "width": 0,
+      "x": 1904,
+      "y": -64,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 320,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "dc9d9671-b209-4d78-9826-bfec4a9b6162",
+      "width": 16,
+      "x": 2032,
+      "y": -208,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "57d9c939-e211-4fd7-b1ac-b4eda24b046e",
+      "width": 0,
+      "x": 2000,
+      "y": 112,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "280ccaca-7a72-470f-bac9-37f56c3ab95d",
+      "width": 0,
+      "x": 2048,
+      "y": 112,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "ad8590d6-c335-4ddc-878d-ae138e08f093",
+      "width": 16,
+      "x": 2032,
+      "y": 112,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "9633071c-771d-4f01-86d8-e402e14d71a5",
+      "width": 80,
+      "x": 2000,
+      "y": 144,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Orange"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "e7baabf3-ed82-49c4-ab63-0f33041f03bb",
+      "width": 32,
+      "x": 1808,
+      "y": 288,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Orange"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "fefa2cf3-93f0-458e-a7e4-93b0c5e66873",
+      "width": 32,
+      "x": 1904,
+      "y": 672,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Orange"
+        }
+      ]
     }
   ],
   "objects": [
@@ -474,6 +1340,248 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "LaboratoryDoor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Laboratory\\FactoryDoor1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Laboratory\\FactoryDoor1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Laboratory\\FactoryDoor2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Laboratory\\FactoryDoor3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Laboratory\\FactoryDoor4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Scientist",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Idle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -482,6 +1590,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -531,7 +1640,7 @@
                 "",
                 "0",
                 "0",
-                "4000",
+                "5000",
                 "720",
                 "",
                 ""
@@ -563,6 +1672,17 @@
       "effects": []
     },
     {
+      "ambientLightColorB": 167801445,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10358632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Utility Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 7682104,
       "ambientLightColorG": 150995054,
       "ambientLightColorR": 1869182049,
@@ -582,6 +1702,28 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9138048,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10358632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Lose Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9138048,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10358632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Win Layer",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {
