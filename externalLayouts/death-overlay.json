@@ -7,106 +7,75 @@
       "customSize": false,
       "height": 0,
       "layer": "Lose Layer",
-      "name": "UIText",
-      "persistentUuid": "e6039857-afe5-4e9e-936d-0dbab04f27f7",
+      "name": "LoseText",
+      "persistentUuid": "ef1c4e18-2c3e-4c92-8a9c-334a59079b1f",
       "width": 0,
-      "x": 42,
-      "y": 556,
-      "zOrder": 13,
+      "x": 174,
+      "y": 180,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Menu"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Lose Layer",
-      "name": "UIText",
-      "persistentUuid": "0153d962-c74b-479c-bfc7-0a097d7728e3",
+      "name": "LoseDesciption",
+      "persistentUuid": "7c6c0905-91fb-4e19-80cd-67e2af46a49c",
       "width": 0,
-      "x": 498,
-      "y": 204,
-      "zOrder": 13,
+      "x": 292,
+      "y": 384,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "FontSize",
-          "type": "number",
-          "value": 200
-        },
-        {
-          "folded": true,
-          "name": "Colour",
-          "type": "string",
-          "value": "Red"
-        },
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Death"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Lose Layer",
-      "name": "UIText",
-      "persistentUuid": "ccaf05a0-28f4-496e-a874-ec955ffef2c9",
+      "name": "ReturnToMenu",
+      "persistentUuid": "4a65efcc-2fb7-417c-a5c6-19131200529f",
       "width": 0,
-      "x": 931,
-      "y": 547,
-      "zOrder": 13,
+      "x": 64,
+      "y": 619,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Next"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Lose Layer",
-      "name": "UIText",
-      "persistentUuid": "915d2f9d-7c38-455f-a5bc-c9a56f8b80cc",
+      "name": "RetryLevel",
+      "persistentUuid": "3581fe65-1da5-4358-aa7c-cd789d44f7ad",
       "width": 0,
-      "x": 497,
-      "y": 306,
-      "zOrder": 13,
+      "x": 887,
+      "y": 621,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "FontSize",
-          "type": "number",
-          "value": 50
-        },
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "You have Died"
-        }
-      ]
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 873,
+      "layer": "Lose Layer",
+      "name": "OverlayBackground",
+      "persistentUuid": "ffe876b4-4a30-44cb-833a-82192d7d4b10",
+      "width": 1494,
+      "x": -57,
+      "y": -78,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -119,7 +88,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4403684501423742,
+    "zoomFactor": 0.37030425111555665,
     "windowMask": false
   }
 }

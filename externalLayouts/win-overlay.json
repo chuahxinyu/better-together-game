@@ -7,78 +7,60 @@
       "customSize": false,
       "height": 0,
       "layer": "Win Layer",
-      "name": "UIText",
-      "persistentUuid": "6c1d7581-23a4-4557-94d9-ee7879e0c010",
+      "name": "WinText",
+      "persistentUuid": "f3556a93-d56e-4832-b522-d8ad3ca87135",
       "width": 0,
-      "x": 35,
-      "y": 575,
-      "zOrder": 13,
+      "x": 277,
+      "y": 161,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Menu"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Win Layer",
-      "name": "UIText",
-      "persistentUuid": "f01d0af7-5d6a-410f-b151-42bfa7442e9b",
+      "name": "ReturnToMenu",
+      "persistentUuid": "fc7b78e2-a620-47a9-a6b6-cdceb8c1899b",
       "width": 0,
-      "x": 491,
-      "y": 254,
-      "zOrder": 13,
+      "x": 63,
+      "y": 615,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "FontSize",
-          "type": "number",
-          "value": 200
-        },
-        {
-          "folded": true,
-          "name": "Colour",
-          "type": "string",
-          "value": "Yellow"
-        },
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Win"
-        }
-      ]
+      "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "Win Layer",
-      "name": "UIText",
-      "persistentUuid": "dc9c12e0-1591-4871-9d4b-639a63c44669",
+      "name": "NextLevel",
+      "persistentUuid": "2eb5db3e-6d61-41bb-b63a-de2ef5e794d2",
       "width": 0,
-      "x": 924,
-      "y": 566,
-      "zOrder": 13,
+      "x": 952,
+      "y": 620,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Text",
-          "type": "string",
-          "value": "Next"
-        }
-      ]
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 873,
+      "layer": "Win Layer",
+      "name": "OverlayBackground",
+      "persistentUuid": "c29574f5-7db0-4a73-a72c-70614ed8e9dc",
+      "width": 1494,
+      "x": -109,
+      "y": -74,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -91,7 +73,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3866990209613933,
+    "zoomFactor": 0.5014865861275545,
     "windowMask": false
   }
 }

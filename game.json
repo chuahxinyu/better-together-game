@@ -840,6 +840,13 @@
         "userAdded": false
       },
       {
+        "file": "ARCADECLASSIC.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "ARCADECLASSIC.TTF",
+        "userAdded": false
+      },
+      {
         "alwaysLoaded": false,
         "file": "assets/Laboratory/LabFill.png",
         "kind": "image",
@@ -855,6 +862,15 @@
         "metadata": "{\"localFilePath\":\"assets/Laboratory/LabOuterCorner.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "assets\\Laboratory\\LabOuterCorner.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -929,10 +945,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSpeed": 600,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "gravity": 1000,
-          "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "maxFallingSpeed": 700,
           "slopeMaxAngle": 66,
@@ -3402,7 +3418,7 @@
       "effects": [],
       "behaviors": [],
       "string": "UIText",
-      "font": "",
+      "font": "ARCADECLASSIC.TTF",
       "textAlignment": "center",
       "characterSize": 100,
       "color": {
@@ -3778,6 +3794,246 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "LoseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Game   Over",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "center",
+      "characterSize": 200,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "WinText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Level\nComplete!",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "center",
+      "characterSize": 150,
+      "color": {
+        "b": 35,
+        "g": 166,
+        "r": 245
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "LoseDesciption",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Player   X   was   slain   by   Enemy   Y",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ReturnToMenu",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 1,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Return   To   Menu",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NextLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Next   Level",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "RetryLevel",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 1,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 1,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Retry   Level",
+      "font": "ARCADECLASSIC.TTF",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "OverlayBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -3812,7 +4068,50 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "LevelsData",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Level 1",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 2\""
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Level 2",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 3\""
+            },
+            {
+              "folded": true,
+              "name": "Unlocked",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
