@@ -1156,55 +1156,109 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt2.png\"}",
         "name": "Hurt2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/Hurt3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt3.png\"}",
         "name": "Hurt3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/Hurt4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt4.png\"}",
         "name": "Hurt4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/Hurt5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt5.png\"}",
         "name": "Hurt5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/Hurt6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt6.png\"}",
         "name": "Hurt6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/Hurt7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt7.png\"}",
         "name": "Hurt7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt13",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
