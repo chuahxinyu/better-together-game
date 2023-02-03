@@ -777,11 +777,74 @@
         "userAdded": true
       },
       {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabBackground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabGroundPanel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabGroundPanel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabFloatPanel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabFloatPanel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/Lab Level Sprite Scaled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\Lab Level Sprite Scaled.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabInnerCorner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabInnerCorner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "ARCADECLASSIC.TTF",
         "kind": "font",
         "metadata": "",
         "name": "ARCADECLASSIC.TTF",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabFill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabFill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabOuterCorner.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Laboratory/LabOuterCorner.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Laboratory\\LabOuterCorner.png",
+        "smoothed": false,
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -4160,6 +4223,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-select"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-3"
     }
   ],
   "externalEvents": [
