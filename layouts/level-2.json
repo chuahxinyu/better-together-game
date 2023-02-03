@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6791409909776709,
+    "zoomFactor": 1.358281981955336,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -124,8 +124,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "dea7b5ee-39a1-4fae-8203-0b2ea0dc5173",
       "width": 64,
-      "x": 192,
-      "y": 480,
+      "x": 736,
+      "y": 528,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,9 +139,9 @@
       "name": "GoalDoorMask",
       "persistentUuid": "da43c85b-0783-477b-99f5-ed5cf4388259",
       "width": 0,
-      "x": 962,
-      "y": 752,
-      "zOrder": 7,
+      "x": 816,
+      "y": 528,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -164,28 +164,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "Platform1",
-      "persistentUuid": "24bb3894-aa24-4bb0-8036-e6a545d7e2a7",
-      "width": 464,
-      "x": 0,
-      "y": 624,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
+      "height": 80,
       "layer": "",
       "name": "Platform122",
       "persistentUuid": "af5e2db4-112d-447e-b28c-567d67369f23",
-      "width": 464,
+      "width": 480,
       "x": 0,
-      "y": 656,
+      "y": 640,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,36 +192,6 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Platform12",
-      "persistentUuid": "479cb67f-ff77-4612-8214-8e358a94f232",
-      "width": 0,
-      "x": 864,
-      "y": 624,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "Platform1",
-      "persistentUuid": "79228e71-626a-40e0-8075-87bd4c1abfee",
-      "width": 288,
-      "x": 576,
-      "y": 624,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "height": 64,
@@ -252,15 +207,15 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 270,
       "customSize": true,
-      "height": 32,
+      "height": 16,
       "layer": "",
       "name": "Platform1",
       "persistentUuid": "acedc353-d0ed-4881-b243-78702563a9b3",
       "width": 16,
-      "x": 608,
-      "y": 464,
+      "x": 576,
+      "y": 480,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -268,12 +223,12 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 16,
       "layer": "",
       "name": "Platform12",
       "persistentUuid": "7c4198cc-6f80-4af9-a54f-c9406f6b6fc4",
-      "width": 0,
+      "width": 16,
       "x": 576,
       "y": 464,
       "zOrder": 12,
@@ -283,12 +238,12 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 16,
       "layer": "",
       "name": "Platform12",
       "persistentUuid": "4298da3d-2cc9-491e-b225-edc3f43eaf4c",
-      "width": 0,
+      "width": 16,
       "x": 576,
       "y": 624,
       "zOrder": 12,
@@ -298,27 +253,12 @@
     },
     {
       "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Platform12",
-      "persistentUuid": "7ff40654-9e05-4a6f-aafe-c61cadb0e5a7",
-      "width": 0,
-      "x": 464,
-      "y": 624,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
       "customSize": true,
-      "height": 32,
+      "height": 16,
       "layer": "",
       "name": "Platform1",
       "persistentUuid": "0683e7bb-5f60-44c2-bea8-16bd7519341f",
-      "width": 64,
+      "width": 80,
       "x": 448,
       "y": 672,
       "zOrder": 9,
@@ -329,12 +269,12 @@
     {
       "angle": -90,
       "customSize": true,
-      "height": 32,
+      "height": 16,
       "layer": "",
       "name": "Platform1",
       "persistentUuid": "372fede7-ba41-4540-be7b-5bcdf5569bfb",
-      "width": 64,
-      "x": 560,
+      "width": 80,
+      "x": 544,
       "y": 672,
       "zOrder": 9,
       "numberProperties": [],
@@ -344,11 +284,11 @@
     {
       "angle": 90,
       "customSize": true,
-      "height": 32,
+      "height": 16,
       "layer": "",
       "name": "Platform1",
       "persistentUuid": "ab6e3818-a6a7-462d-82e5-f098ff1d8281",
-      "width": 64,
+      "width": 80,
       "x": 848,
       "y": 672,
       "zOrder": 9,
@@ -359,29 +299,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "height": 80,
       "layer": "",
       "name": "Platform122",
       "persistentUuid": "d61e95c7-6784-45e1-a281-9e65dddd1602",
-      "width": 256,
-      "x": 608,
-      "y": 656,
+      "width": 288,
+      "x": 592,
+      "y": 640,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Platform12",
-      "persistentUuid": "1e5ba191-5e3f-43c0-b8c4-6bfbf9ac23c0",
-      "width": 0,
-      "x": 624,
-      "y": 464,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -407,6 +332,216 @@
           "value": "Blue"
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level2FactoryDoor",
+      "persistentUuid": "b4c65a1b-f4fe-4126-a2a3-97705935f8fe",
+      "width": 0,
+      "x": 48,
+      "y": 528,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 45,
+      "layer": "",
+      "name": "Level2Trash",
+      "persistentUuid": "5530ff3a-373f-4bb5-8ec5-2d0476939b72",
+      "width": 32,
+      "x": 688,
+      "y": 579,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Level2Window1",
+      "persistentUuid": "4851dd2d-e34d-41c0-914f-6261762d61d6",
+      "width": 54,
+      "x": 609,
+      "y": 656,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "8183513b-9689-4090-b46b-b13cbd323a00",
+      "width": 288,
+      "x": 592,
+      "y": 624,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Platform1",
+      "persistentUuid": "38b7e77f-0408-4914-8f1a-36611997ceb8",
+      "width": 16,
+      "x": 640,
+      "y": 480,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "Platform122",
+      "persistentUuid": "4d84fba0-bb6d-4b0f-b8b7-af2e13eb9492",
+      "width": 48,
+      "x": 592,
+      "y": 480,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "78e44aa5-0779-4c0a-ada5-edc88594f1e3",
+      "width": 48,
+      "x": 592,
+      "y": 464,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Level2Window3",
+      "persistentUuid": "935f7192-34dd-400f-95b6-69724d36d601",
+      "width": 51,
+      "x": 685,
+      "y": 656,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "a1d700a0-9e7e-4361-a72e-df19f0cead07",
+      "width": 480,
+      "x": 0,
+      "y": 624,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level2PlatformRightCorner",
+      "persistentUuid": "0f39650e-da66-49ed-99d9-7bb122d39a1a",
+      "width": 0,
+      "x": 480,
+      "y": 624,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level2PlatformRightCorner",
+      "persistentUuid": "cb4b17e7-29a5-48f2-8184-c369c0d749ee",
+      "width": 0,
+      "x": 880,
+      "y": 624,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Level2PlatformRightCorner",
+      "persistentUuid": "827dd6cc-6afe-42ad-97fd-e4efb326da0e",
+      "width": 0,
+      "x": 640,
+      "y": 464,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "Level2Window2",
+      "persistentUuid": "77e9e72e-6b6d-4b29-b252-a8d4a1bb6fd2",
+      "width": 64,
+      "x": 400,
+      "y": 656,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 48,
+      "layer": "",
+      "name": "Level2ClothesLine",
+      "persistentUuid": "a360fc39-e250-4a04-b9a9-d0c322c732a1",
+      "width": 83,
+      "x": 493,
+      "y": 656,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -430,7 +565,7 @@
       "name": "Platform1",
       "rightMargin": 0,
       "tags": "",
-      "texture": "New image2",
+      "texture": "New image22",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -455,7 +590,7 @@
       "name": "Platform12",
       "rightMargin": 0,
       "tags": "",
-      "texture": "New image3",
+      "texture": "New image32",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -494,6 +629,358 @@
           "canBeGrabbed": true,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2FactoryDoor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2Window1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2Window2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2Window3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2Trash",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2PlatformRightCorner",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Level2ClothesLine",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
