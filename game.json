@@ -823,15 +823,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Laboratory/Lab Level Sprite Scaled.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Laboratory\\Lab Level Sprite Scaled.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Laboratory/LabInnerCorner.png",
         "kind": "image",
         "metadata": "",
@@ -871,6 +862,87 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/FactoryDoor1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\FactoryDoor1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/FactoryDoor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\FactoryDoor2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/FactoryDoor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\FactoryDoor3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/FactoryDoor4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\FactoryDoor4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle7.png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle22.png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle7.png\"}",
+        "name": "Idle7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": false,
         "userAdded": true
       }
     ],
