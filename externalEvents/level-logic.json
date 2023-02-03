@@ -77,7 +77,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -208,20 +207,7 @@
               "parameters": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2905,7 +2891,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2924,6 +2909,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -3058,7 +3044,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
           "conditions": [],
@@ -3069,13 +3054,78 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "Players",
+                        "True",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "Pressed",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Players",
                     "MultiButton",
-                    "False",
+                    "Players",
+                    "True",
                     "",
                     ""
                   ]
@@ -3100,53 +3150,6 @@
                     "MultiButton",
                     "Pressed",
                     "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Players",
-                        "MultiButton",
-                        "False",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "MultiButton",
-                        "PermaPressed",
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "MultiButton",
-                    "Pressed",
-                    "True"
                   ]
                 }
               ]
@@ -3232,7 +3235,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiDoor",
           "conditions": [],
@@ -3265,6 +3267,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3511,6 +3514,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
