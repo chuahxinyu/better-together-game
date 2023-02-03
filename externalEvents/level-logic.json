@@ -188,11 +188,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []
@@ -407,6 +402,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "UI Buttons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3052,7 +3048,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
           "conditions": [],
@@ -3505,6 +3500,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Win",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3676,6 +3672,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Loss",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

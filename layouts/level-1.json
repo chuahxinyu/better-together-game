@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.2401126000510105,
+    "zoomFactor": 0.5236892941319716,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2821,6 +2821,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "FactoryGoal",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

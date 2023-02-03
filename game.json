@@ -805,19 +805,55 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Laboratory/LabPanel.png",
+        "file": "assets/Laboratory/LabGroundPanel.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Laboratory\\LabPanel.png",
+        "name": "assets\\Laboratory\\LabGroundPanel.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Laboratory/LabGroundPanel.png",
+        "file": "assets/Laboratory/LabFloatPanel.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Laboratory\\LabGroundPanel.png",
+        "name": "assets\\Laboratory\\LabFloatPanel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/Lab Level Sprite Scaled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\Lab Level Sprite Scaled.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabInnerCorner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabInnerCorner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabFill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Laboratory\\LabFill.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laboratory/LabOuterCorner.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Laboratory/LabOuterCorner.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Laboratory\\LabOuterCorner.png",
         "smoothed": false,
         "userAdded": true
       }

@@ -18,11 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5710872247649869,
+    "zoomFactor": 0.6078573277950243,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Colours",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Teal"
+        }
+      ]
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -58,12 +69,12 @@
       "angle": 0,
       "customSize": true,
       "height": 720,
-      "layer": "",
+      "layer": "Background Layer",
       "name": "LabBackground",
       "persistentUuid": "3cbe2363-ca4b-49d5-8cf0-92dea7b373ce",
       "width": 5232,
       "x": 0,
-      "y": 0,
+      "y": 8,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -77,9 +88,83 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 48,
-      "y": 638,
+      "x": 64,
+      "y": 622,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 272,
+      "layer": "",
+      "name": "MultiDoor",
+      "persistentUuid": "1b8bf7b0-22c6-4fcb-8b22-30e8b6811815",
+      "width": 80,
+      "x": 576,
+      "y": 528,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "ButtonsNeeded",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 16,
+      "layer": "",
+      "name": "MultiButton",
+      "persistentUuid": "0fb4bde9-efa4-43d6-a4b4-1aefee343bad",
+      "width": 32,
+      "x": 528,
+      "y": 672,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "DoorButtonLinkColour",
+          "type": "string",
+          "value": "Teal"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "53ba9697-24b4-4d9c-a0cb-11c3c1ba8499",
+      "width": 864,
+      "x": 0,
+      "y": 688,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "9dca4971-ecd3-4999-af9e-0c0fad933d08",
+      "width": 672,
+      "x": 0,
+      "y": 496,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -90,11 +175,11 @@
       "height": 50,
       "layer": "",
       "name": "Bub2",
-      "persistentUuid": "890db4cf-032c-45a2-9910-e68bb678a0bb",
+      "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
-      "x": 96,
-      "y": 638,
-      "zOrder": 4,
+      "x": 142,
+      "y": 622,
+      "zOrder": 10,
       "numberProperties": [
         {
           "name": "animation",
@@ -107,14 +192,89 @@
     {
       "angle": 0,
       "customSize": true,
+      "height": 496,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "e99b7347-b2fe-4bbc-b163-3b196638a5a5",
+      "width": 672,
+      "x": 0,
+      "y": 0,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "7b26400a-08d4-452e-8ff7-dd18874d81ec",
+      "width": 0,
+      "x": 672,
+      "y": 496,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
       "height": 32,
       "layer": "",
       "name": "LabGroundPanel",
-      "persistentUuid": "7eadc6dd-1cd0-40ec-b7ba-d6203a4a6c3e",
-      "width": 752,
-      "x": 0,
+      "persistentUuid": "3cd1376e-d5fe-4bd8-8d78-4038529c02d1",
+      "width": 496,
+      "x": 440,
+      "y": 232,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "3fcec7c6-635b-4df5-9e86-2ea78b7b83d9",
+      "width": 0,
+      "x": 864,
       "y": 688,
-      "zOrder": 5,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "65c2e55b-0785-418f-8e82-754b3dc3f00a",
+      "width": 96,
+      "x": 832,
+      "y": 624,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "LabFill",
+      "persistentUuid": "d1ed1ef9-f7a3-492e-8718-b1636ac23bdd",
+      "width": 176,
+      "x": 896,
+      "y": 592,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -125,11 +285,86 @@
       "height": 32,
       "layer": "",
       "name": "LabGroundPanel",
-      "persistentUuid": "fa9cf72e-6eb5-4e28-9717-d74d87553f0a",
-      "width": 688,
-      "x": 0,
-      "y": 512,
-      "zOrder": 5,
+      "persistentUuid": "8fe078eb-915d-4405-b2a7-573d7f8f77b2",
+      "width": 176,
+      "x": 896,
+      "y": 560,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "95f60839-70e7-4e7a-af48-ef1e5f1b3ac8",
+      "width": 96,
+      "x": 1040,
+      "y": 624,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabInnerCorner",
+      "persistentUuid": "1467a5cf-4505-4400-9c8f-fc7cd370377d",
+      "width": 0,
+      "x": 1072,
+      "y": 688,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "48a6fced-12a0-41e1-864f-8adae0f005bd",
+      "width": 0,
+      "x": 864,
+      "y": 560,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LabOuterCorner",
+      "persistentUuid": "d38d1135-edec-4f4d-93a9-9f966e703185",
+      "width": 0,
+      "x": 1072,
+      "y": 560,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "LabGroundPanel",
+      "persistentUuid": "a82874ab-2fae-4464-b33e-eddbb3bd5e43",
+      "width": 864,
+      "x": 1104,
+      "y": 688,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -160,7 +395,79 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LabFloatPanel",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabFloatPanel.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LabInnerCorner",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabInnerCorner.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LabFill",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabFill.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LabOuterCorner",
+      "tags": "",
+      "texture": "assets\\Laboratory\\LabOuterCorner.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": false,
           "name": "Platform",
           "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
@@ -171,6 +478,71 @@
   ],
   "events": [
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Players"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), (Bub1.X()+Bub2.X())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), (Bub1.Y()+Bub2.Y())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "4000",
+                "720",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
@@ -179,6 +551,17 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 9938256,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8036152,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Background Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 7682104,
       "ambientLightColorG": 150995054,
@@ -199,6 +582,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9942264,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9094216,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI Layer",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
