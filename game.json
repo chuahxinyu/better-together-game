@@ -1010,6 +1010,96 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Bub/CombinedTop-1Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\CombinedTop-1Blue.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/CombinedTop-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\CombinedTop-1.png.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bub/Attack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bub\\Attack8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite23.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1916,12 +2006,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CombinedTop2",
+                  "image": "assets\\Bub\\CombinedTop-1Blue.png",
                   "points": [
                     {
                       "name": "WeaponPoint",
-                      "x": 13,
-                      "y": 13.5
+                      "x": 8,
+                      "y": 8
                     }
                   ],
                   "originPoint": {
@@ -2503,12 +2593,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "CombinedTop",
+                  "image": "assets\\Bub\\CombinedTop-1.png.png",
                   "points": [
                     {
                       "name": "WeaponPoint",
-                      "x": 13,
-                      "y": 13.5
+                      "x": 8,
+                      "y": 8
                     }
                   ],
                   "originPoint": {
@@ -2639,64 +2729,21 @@
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Bronze Battle Axe.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3.2320308685302734,
-                        "y": 5.05000114440918
-                      },
-                      {
-                        "x": 8.382030487060547,
-                        "y": 0.20000076293945312
-                      },
-                      {
-                        "x": 10.732032775878906,
-                        "y": 0
-                      },
-                      {
-                        "x": 12.232032775878906,
-                        "y": 3.6499996185302734
-                      },
-                      {
-                        "x": 16,
-                        "y": 5.149999618530273
-                      },
-                      {
-                        "x": 15.882030487060547,
-                        "y": 7.850000381469727
-                      },
-                      {
-                        "x": 10.83203125,
-                        "y": 12.55000114440918
-                      },
-                      {
-                        "x": 8.33203125,
-                        "y": 12.5
-                      },
-                      {
-                        "x": 7.33203125,
-                        "y": 8.600000381469727
-                      },
-                      {
-                        "x": 3.282032012939453,
-                        "y": 7.350000381469727
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2708,183 +2755,145 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "AxeAttacking",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5.352538108825684,
-                        "y": 1.499999761581421
-                      },
-                      {
-                        "x": 10.8525390625,
-                        "y": 0.0625002384185791
-                      },
-                      {
-                        "x": 9.102538108825684,
-                        "y": 6.062500476837158
-                      },
-                      {
-                        "x": 3.1025390625,
-                        "y": 7.437500953674316
-                      }
-                    ],
-                    [
-                      {
-                        "x": 10.165040969848633,
-                        "y": 7.062499523162842
-                      },
-                      {
-                        "x": 15.977537155151367,
-                        "y": 4.937500953674316
-                      },
-                      {
-                        "x": 14.852540969848633,
-                        "y": 10.625
-                      },
-                      {
-                        "x": 8.477538108825684,
-                        "y": 12.562501907348633
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Attacking6",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5.352538108825684,
-                        "y": 1.499999761581421
-                      },
-                      {
-                        "x": 10.8525390625,
-                        "y": 0.0625002384185791
-                      },
-                      {
-                        "x": 9.102538108825684,
-                        "y": 6.062500476837158
-                      },
-                      {
-                        "x": 3.1025390625,
-                        "y": 7.437500953674316
-                      }
-                    ],
-                    [
-                      {
-                        "x": 10.165040969848633,
-                        "y": 7.062499523162842
-                      },
-                      {
-                        "x": 15.977537155151367,
-                        "y": 4.937500953674316
-                      },
-                      {
-                        "x": 14.852540969848633,
-                        "y": 10.625
-                      },
-                      {
-                        "x": 8.477538108825684,
-                        "y": 12.562501907348633
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "Attacking7",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 1.5,
-                    "y": 14.5
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5.352538108825684,
-                        "y": 1.499999761581421
-                      },
-                      {
-                        "x": 10.8525390625,
-                        "y": 0.0625002384185791
-                      },
-                      {
-                        "x": 9.102538108825684,
-                        "y": 6.062500476837158
-                      },
-                      {
-                        "x": 3.1025390625,
-                        "y": 7.437500953674316
-                      }
-                    ],
-                    [
-                      {
-                        "x": 10.165040969848633,
-                        "y": 7.062499523162842
-                      },
-                      {
-                        "x": 15.977537155151367,
-                        "y": 4.937500953674316
-                      },
-                      {
-                        "x": 14.852540969848633,
-                        "y": 10.625
-                      },
-                      {
-                        "x": 8.477538108825684,
-                        "y": 12.562501907348633
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Bub\\Attack8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": []
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": []
             }
           ]
         }
