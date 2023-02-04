@@ -1394,6 +1394,51 @@
         "name": "Attack5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite222.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite222.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\NewSprite222.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite222.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_NewSprite222.png2.png\"}",
+        "name": "assets\\NewSprite222.png2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image32.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/New image32.png\",\"extension\":\".png\"}",
+        "name": "assets\\New image32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/City/Level2InnerCornerRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\City\\Level2InnerCornerRight.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/City/Level2OuterCornerRight.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/City/Level2OuterCornerRight.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\City\\Level2OuterCornerRight.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

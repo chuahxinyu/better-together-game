@@ -3041,6 +3041,60 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Purple\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"144;19;254\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Yellow\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"248;231;28\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3402,6 +3456,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
