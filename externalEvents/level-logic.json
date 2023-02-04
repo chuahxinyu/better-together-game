@@ -77,7 +77,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -85,6 +84,17 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "EnemyGrunt",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -178,8 +188,50 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "MultiButton",
+                "Pressed",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MultiButton",
+                "Players",
+                "True",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2081,6 +2133,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [
@@ -2243,24 +2296,24 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Create AlertRadius that follows each EnemyGrunt",
-          "comment2": ""
-        },
-        {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Enemies",
+          "object": "EnemyGrunt",
           "conditions": [],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Create AlertRadius and SpeechBubble that follows each EnemyGrunt",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2279,8 +2332,8 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies.PointX(\"Center\")",
-                    "Enemies.PointY(\"Center\")",
+                    "EnemyGrunt.PointX(\"Center\")",
+                    "EnemyGrunt.PointY(\"Center\")",
                     "\"Utility Layer\""
                   ]
                 },
@@ -2290,7 +2343,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemies",
+                    "EnemyGrunt",
                     "AlertRadius"
                   ]
                 },
@@ -2311,8 +2364,8 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies.PointX(\"SpeechPoint\")",
-                    "Enemies.PointY(\"SpeechPoint\")",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
+                    "EnemyGrunt.PointY(\"SpeechPoint\")",
                     ""
                   ]
                 },
@@ -2322,7 +2375,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemies",
+                    "EnemyGrunt",
                     "SpeechBubble"
                   ]
                 },
@@ -2348,7 +2401,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2361,9 +2414,9 @@
                   "parameters": [
                     "SpeechBubble",
                     "=",
-                    "Enemies.PointX(\"SpeechPoint\")",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
                     "=",
-                    "Enemies.PointY(\"SpeechPoint\")"
+                    "EnemyGrunt.PointY(\"SpeechPoint\")"
                   ]
                 }
               ]
@@ -2378,7 +2431,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2391,9 +2444,9 @@
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "Enemies.PointX(\"Center\")",
+                    "EnemyGrunt.PointX(\"Center\")",
                     "=",
-                    "Enemies.PointY(\"Center\")"
+                    "EnemyGrunt.PointY(\"Center\")"
                   ]
                 }
               ]
@@ -2420,7 +2473,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -2431,7 +2484,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2442,7 +2495,7 @@
                     "value": "AddForceVers"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "Players",
                     "50",
                     ""
@@ -2482,7 +2535,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -2493,7 +2546,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2518,7 +2571,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     ">",
                     "Players.X()"
                   ]
@@ -2530,7 +2583,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "yes"
                   ]
                 }
@@ -2544,7 +2597,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "<",
                     "Players.X()"
                   ]
@@ -2556,7 +2609,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     "no"
                   ]
                 }
@@ -2858,7 +2911,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2877,7 +2929,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -2994,11 +3045,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3022,77 +3068,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "MultiButton",
-                        "PermaPressed",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "MultiButton",
-                        "Players",
-                        "True",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "MultiButton",
-                    "Pressed",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "inverted": true,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "MultiButton",
                     "Players",
+                    "MultiButton",
                     "True",
                     "",
                     ""
@@ -3118,6 +3099,53 @@
                     "MultiButton",
                     "Pressed",
                     "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Players",
+                        "MultiButton",
+                        "True",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MultiButton",
+                        "PermaPressed",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MultiButton",
+                    "Pressed",
+                    "True"
                   ]
                 }
               ]
@@ -3374,7 +3402,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3388,7 +3415,7 @@
               },
               "parameters": [
                 "BronzeBattleAxe",
-                "Enemies",
+                "EnemyGrunt",
                 "",
                 "",
                 "yes"
@@ -3426,7 +3453,7 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -3437,7 +3464,7 @@
                   "parameters": [
                     "",
                     "SpeechBubble",
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -3448,7 +3475,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Enemies",
+                    "EnemyGrunt",
                     ""
                   ]
                 },
@@ -3482,7 +3509,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
