@@ -1883,6 +1883,51 @@
         "name": "LockedLevel2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartButton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LevelSelectButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LevelSelectButton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hurt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MenuScreen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MenuScreen",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Idle42.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2519,6 +2564,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Idle42.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3125,6 +3199,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3721,6 +3824,36 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "MenuScreen",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -5632,16 +5765,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5664,16 +5797,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5696,16 +5829,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5728,16 +5861,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5760,16 +5893,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5792,16 +5925,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5824,16 +5957,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
