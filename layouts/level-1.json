@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": true,
-    "zoomFactor": 0.4403684501423193,
+    "zoomFactor": 0.2981857081506185,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -129,12 +129,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "d6437426-ca8c-411c-8262-fc41af1cccb4",
-      "width": 50,
-      "x": 944,
+      "width": 130,
+      "x": 864,
       "y": 366,
       "zOrder": 5,
       "numberProperties": [],
@@ -1801,11 +1801,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "93c0d12b-5ce8-47cc-be99-e8b0234050a8",
-      "width": 50,
+      "width": 130,
       "x": 1392,
       "y": 142,
       "zOrder": 5,
@@ -1816,11 +1816,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "bbcd1fba-2ff1-4144-ac18-10a2f1fc2ddc",
-      "width": 50,
+      "width": 130,
       "x": 1664,
       "y": 286,
       "zOrder": 5,
@@ -1831,11 +1831,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "7b44d872-3e66-41bf-bf08-31b7830bf2b5",
-      "width": 50,
+      "width": 130,
       "x": 2128,
       "y": 32,
       "zOrder": 5,
@@ -2281,11 +2281,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "f8f15ed6-3b11-4290-ad63-0c6038628175",
-      "width": 50,
+      "width": 130,
       "x": 3390,
       "y": 270,
       "zOrder": 5,
@@ -2555,6 +2555,31 @@
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "ea65ea7fc29892eca209efe8b0e1b6c13469698f14d9bdb56e00e23f2466cb6c_Bit Bit Loop.aac",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,

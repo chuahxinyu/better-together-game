@@ -461,7 +461,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3dad2a7e-bacd-41ef-8fed-c1f380d2344e",
@@ -476,7 +476,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3b698f66-8272-4409-9349-72cf9c125b20",
@@ -491,7 +491,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "0f1e208a-ce10-4144-9b0b-ebb248d20393",
@@ -506,7 +506,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "e9687806-0f94-4a7f-b9e8-4e34f2f6f976",
@@ -521,7 +521,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "82e9e103-0a34-4739-9491-9e0598c37a49",
@@ -541,7 +541,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "b9ca4d68-5ca8-49e0-af0a-52ac5f58a9f9",
@@ -556,7 +556,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "d800a3a5-1e0e-4c0c-9582-b9aa598eeea7",
@@ -571,7 +571,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "fc96b130-978e-4889-ad69-71b51ec396d8",
@@ -1305,13 +1305,13 @@
     {
       "angle": 0,
       "customSize": false,
-      "height": 0,
+      "height": 85,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "005d1f0a-f670-4f14-b3ab-e14403d450b7",
-      "width": 0,
-      "x": 3184,
-      "y": 464,
+      "width": 132,
+      "x": 3140,
+      "y": 457,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
