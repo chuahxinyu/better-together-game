@@ -77,7 +77,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -85,6 +84,17 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "EnemyGrunt",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -186,7 +196,7 @@
               "parameters": [
                 "MultiButton",
                 "Pressed",
-                "True"
+                "False"
               ]
             },
             {
@@ -2280,6 +2290,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2900,7 +2911,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

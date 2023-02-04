@@ -728,7 +728,7 @@
       {
         "file": "assets/Shield up effect.aac",
         "kind": "audio",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Shield up effect.aac\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":30,\\\"decay\\\":0.32,\\\"tremoloDepth\\\":16,\\\"tremoloFrequency\\\":94,\\\"frequency\\\":9999.999999999698,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":9999.999999999698,\\\"repeatFrequency\\\":0.34937081603839193,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":15.437945656735462,\\\"vibratoFrequency\\\":68.63120561634202,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac\"}}",
         "name": "313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
         "preloadAsMusic": false,
         "preloadAsSound": false,
@@ -1021,7 +1021,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite24.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite24.png\"}",
         "name": "NewSprite24",
         "smoothed": false,
         "userAdded": false
@@ -1030,7 +1030,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite25.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite25.png\"}",
         "name": "NewSprite25",
         "smoothed": false,
         "userAdded": false
@@ -1039,7 +1039,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite26.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite26.png\"}",
         "name": "NewSprite26",
         "smoothed": false,
         "userAdded": false
@@ -1048,7 +1048,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite27.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite27.png\"}",
         "name": "NewSprite27",
         "smoothed": false,
         "userAdded": false
@@ -1057,7 +1057,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite28.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite28.png\"}",
         "name": "NewSprite28",
         "smoothed": false,
         "userAdded": false
@@ -1066,7 +1066,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite29.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\"}",
         "name": "NewSprite29",
         "smoothed": false,
         "userAdded": false
@@ -1075,7 +1075,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite210.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite210.png\"}",
         "name": "NewSprite210",
         "smoothed": false,
         "userAdded": false
@@ -1084,7 +1084,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite211.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite211.png\"}",
         "name": "NewSprite211",
         "smoothed": false,
         "userAdded": false
@@ -1093,7 +1093,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite212.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite212.png\"}",
         "name": "NewSprite212",
         "smoothed": false,
         "userAdded": false
@@ -1102,7 +1102,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite213.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite213.png\"}",
         "name": "NewSprite213",
         "smoothed": false,
         "userAdded": false
@@ -1111,7 +1111,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite214.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite214.png\"}",
         "name": "NewSprite214",
         "smoothed": false,
         "userAdded": false
@@ -1120,7 +1120,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite215.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite215.png\"}",
         "name": "NewSprite215",
         "smoothed": false,
         "userAdded": false
@@ -1129,7 +1129,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite216.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite216.png\"}",
         "name": "NewSprite216",
         "smoothed": false,
         "userAdded": false
@@ -1138,7 +1138,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite217.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite217.png\"}",
         "name": "NewSprite217",
         "smoothed": false,
         "userAdded": false
@@ -1257,6 +1257,51 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Hurt13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack5",
         "smoothed": false,
         "userAdded": false
       }
@@ -4553,7 +4598,12 @@
       "referenceTo": "/externalEvents/level-logic"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
