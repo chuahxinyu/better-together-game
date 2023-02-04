@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "Lose Scene",
+  "associatedLayout": "Level 1",
   "lastChangeTimeStamp": 0,
   "name": "UI Buttons",
   "events": [
@@ -8,6 +8,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Overlay Buttons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -350,6 +351,22 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "Key",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Key",
+            "Key.VariableString(Type)"
+          ]
+        }
+      ]
     }
   ]
 }

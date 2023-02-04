@@ -2416,17 +2416,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 8231400,
-      "ambientLightColorG": 6062976,
-      "ambientLightColorR": 8642208,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Debug Layer",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 8168304,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 8666984,
@@ -2455,6 +2444,50 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "UI Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13765416,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 11548888,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player1 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 11110520,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 11548888,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player2 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 10272040,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9816912,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8231400,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 8642208,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
       "visibility": true,
       "cameras": [],
       "effects": []

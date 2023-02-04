@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6791409909776229,
+    "zoomFactor": 0.6503476410170521,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4736,17 +4736,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 8363552,
-      "ambientLightColorG": 6062976,
-      "ambientLightColorR": 9053176,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Debug Layer",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 13,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 8303968,
@@ -4776,6 +4765,28 @@
       "isLightingLayer": false,
       "name": "UI Layer",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8201264,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8363552,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9053176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
+      "visibility": false,
       "cameras": [],
       "effects": []
     }
