@@ -2892,6 +2892,15 @@
                     "SpeechBubble",
                     "\"Empty\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "\"Idle\""
+                  ]
                 }
               ]
             },
@@ -3942,7 +3951,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4388,6 +4396,16 @@
               "parameters": [
                 "NextLevel",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "WinText",
+                "=",
+                "\"You Found The Scientist and Won the Game!\""
               ]
             }
           ]

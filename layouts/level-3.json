@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.9374441512289954,
+    "zoomFactor": 0.6078573277949993,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -102,8 +102,8 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 1378,
-      "y": 636,
+      "x": 224,
+      "y": 638,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -139,7 +139,7 @@
       "name": "MultiButton",
       "persistentUuid": "0fb4bde9-efa4-43d6-a4b4-1aefee343bad",
       "width": 32,
-      "x": 1440,
+      "x": 528,
       "y": 672,
       "zOrder": 7,
       "numberProperties": [],
@@ -191,8 +191,8 @@
       "name": "Bub2",
       "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
-      "x": 1454,
-      "y": 636,
+      "x": 300,
+      "y": 638,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -461,13 +461,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3dad2a7e-bacd-41ef-8fed-c1f380d2344e",
-      "width": 50,
-      "x": 2430,
-      "y": 930,
+      "width": 132,
+      "x": 2320,
+      "y": 608,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -476,13 +476,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3b698f66-8272-4409-9349-72cf9c125b20",
-      "width": 50,
-      "x": 1948,
-      "y": 928,
+      "width": 132,
+      "x": 2080,
+      "y": 576,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,13 +491,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "0f1e208a-ce10-4144-9b0b-ebb248d20393",
-      "width": 50,
-      "x": 2332,
-      "y": 928,
+      "width": 132,
+      "x": 2464,
+      "y": 608,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -506,13 +506,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "e9687806-0f94-4a7f-b9e8-4e34f2f6f976",
-      "width": 50,
-      "x": 2220,
-      "y": 928,
+      "width": 132,
+      "x": 2240,
+      "y": 560,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -521,13 +521,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "82e9e103-0a34-4739-9491-9e0598c37a49",
-      "width": 50,
-      "x": 1548,
-      "y": 928,
+      "width": 132,
+      "x": 1520,
+      "y": 576,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -541,13 +541,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "b9ca4d68-5ca8-49e0-af0a-52ac5f58a9f9",
-      "width": 50,
-      "x": 1662,
-      "y": 928,
+      "width": 132,
+      "x": 1696,
+      "y": 576,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,13 +556,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "d800a3a5-1e0e-4c0c-9582-b9aa598eeea7",
-      "width": 50,
-      "x": 2076,
-      "y": 928,
+      "width": 132,
+      "x": 1968,
+      "y": 608,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -571,13 +571,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 85,
+      "height": 80,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "fc96b130-978e-4889-ad69-71b51ec396d8",
-      "width": 50,
-      "x": 1790,
-      "y": 928,
+      "width": 132,
+      "x": 1856,
+      "y": 544,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -635,9 +635,9 @@
       "layer": "",
       "name": "LabGroundPanel",
       "persistentUuid": "e9a71f5b-4a64-4a8d-b207-e2066e657e5f",
-      "width": 192,
-      "x": 2592,
-      "y": 480,
+      "width": 288,
+      "x": 2544,
+      "y": 528,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -726,7 +726,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 176,
+      "height": 352,
       "layer": "",
       "name": "LabFill",
       "persistentUuid": "8969d2ad-813b-482a-a765-a1c9390408a9",
@@ -745,9 +745,9 @@
       "layer": "",
       "name": "LabGroundPanel",
       "persistentUuid": "61601d62-1ec2-4b02-a55e-51cf8fdb1489",
-      "width": 208,
-      "x": 2904,
-      "y": 488,
+      "width": 288,
+      "x": 2864,
+      "y": 528,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -1221,8 +1221,8 @@
       "name": "MultiButton",
       "persistentUuid": "fefa2cf3-93f0-458e-a7e4-93b0c5e66873",
       "width": 32,
-      "x": 1872,
-      "y": 976,
+      "x": 1840,
+      "y": 672,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -1304,14 +1304,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 85,
-      "layer": "",
-      "name": "EnemyGrunt",
-      "persistentUuid": "005d1f0a-f670-4f14-b3ab-e14403d450b7",
-      "width": 132,
-      "x": 3140,
-      "y": 457,
+      "customSize": true,
+      "height": 144,
+      "layer": "Utility Layer",
+      "name": "BossMusicTrigger",
+      "persistentUuid": "614cd3ff-1e19-4162-99b3-450e20183df5",
+      "width": 976,
+      "x": 3024,
+      "y": 544,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -1664,9 +1664,115 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BossMusicTrigger",
+      "tags": "",
+      "texture": "New image",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Triggered",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "809517836f0ddb990d32fa6ce5f812454f0b73c3c9e02220fc75d3972d7edc02_Funkeriffic.aac",
+            "1",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BossMusicTrigger",
+            "Players",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "BossMusicTrigger",
+            "Triggered",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
+            "2",
+            "yes",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "BossMusicTrigger",
+            "Triggered",
+            "True"
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -1738,6 +1844,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "BossEnemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2076,6 +2183,7 @@
       "target": "Level Logic"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2193,7 +2301,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
