@@ -2435,7 +2435,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2681,6 +2680,15 @@
                     "Players",
                     "50",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "\"Chase\""
                   ]
                 }
               ],
