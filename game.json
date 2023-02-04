@@ -670,7 +670,7 @@
       {
         "file": "assets/Shield up effect.aac",
         "kind": "audio",
-        "metadata": "{\"localFilePath\":\"assets/Shield up effect.aac\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":30,\\\"decay\\\":0.32,\\\"tremoloDepth\\\":16,\\\"tremoloFrequency\\\":94,\\\"frequency\\\":9999.999999999698,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":9999.999999999698,\\\"repeatFrequency\\\":0.34937081603839193,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whitenoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":15.437945656735462,\\\"vibratoFrequency\\\":68.63120561634202,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac\"}}",
+        "metadata": "{\"localFilePath\":\"assets/Shield up effect.aac\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Hit/hurt 8\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":0,\\\"decay\\\":0.03,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":-1000,\\\"frequencyDeltaSweep\\\":-600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"tangent\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":16500,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac\"}}",
         "name": "313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
         "preloadAsMusic": false,
         "preloadAsSound": false,
@@ -1583,6 +1583,25 @@
         "name": "assets\\City\\Level2OuterCornerRight.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite242.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite242.png\"}",
+        "name": "NewSprite24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Alert.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Alert.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4771,11 +4790,11 @@
           "Health": 100,
           "CurrentHealth": 0,
           "MaxHealth": 100,
-          "DamageCooldown": 0,
+          "DamageCooldown": 2,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 5,
           "HealthRegenDelay": 2,
-          "AllowOverHealing": true,
+          "AllowOverHealing": false,
           "HitAtLeastOnce": false,
           "IsJustHealed": false,
           "CurrentShieldPoints": 0,
@@ -6545,6 +6564,38 @@
                         "x": 39.76753234863281,
                         "y": 19.984060287475586
                       }
+                    ],
+                    [
+                      {
+                        "x": 73.22909545898438,
+                        "y": 15.500535011291504
+                      },
+                      {
+                        "x": 86.1778564453125,
+                        "y": 23.692615509033203
+                      },
+                      {
+                        "x": 83.40312194824219,
+                        "y": 30.959781646728516
+                      }
+                    ],
+                    [
+                      {
+                        "x": 11.920629501342773,
+                        "y": 14.047103881835938
+                      },
+                      {
+                        "x": 14.431106567382812,
+                        "y": 16.68971061706543
+                      },
+                      {
+                        "x": 4.124944686889648,
+                        "y": 29.638479232788086
+                      },
+                      {
+                        "x": 0.8216872811317444,
+                        "y": 22.23918342590332
+                      }
                     ]
                   ]
                 },
@@ -7024,6 +7075,9 @@
         },
         {
           "name": "BossRobot"
+        },
+        {
+          "name": "StaticEnemy"
         }
       ]
     },

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.2455500692650159,
+    "zoomFactor": 0.33957049548881224,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -304,21 +304,6 @@
           "value": "Blue"
         }
       ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Level2FactoryDoor",
-      "persistentUuid": "b4c65a1b-f4fe-4126-a2a3-97705935f8fe",
-      "width": 0,
-      "x": 48,
-      "y": 528,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     },
     {
       "angle": 0,
@@ -622,21 +607,6 @@
       "width": 48,
       "x": 16,
       "y": 656,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "Level2Window2",
-      "persistentUuid": "e175bc56-4333-40b1-8fc4-dfefee518367",
-      "width": 48,
-      "x": 560,
-      "y": 768,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -3954,6 +3924,36 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "name": "StaticEnemy",
+      "persistentUuid": "0a8c765f-703d-4795-bd59-dcca1bc343df",
+      "width": 2736,
+      "x": 432,
+      "y": 768,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "21fadcbb-a700-48be-b3b6-6965e404b244",
+      "width": 50,
+      "x": 94,
+      "y": 544,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4540,6 +4540,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "StaticEnemy",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -4738,6 +4780,10 @@
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Platform",
