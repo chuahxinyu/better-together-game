@@ -862,15 +862,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image32.png\"}",
-        "name": "New image32",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Laboratory/FactoryDoor2.png",
         "kind": "image",
         "metadata": "",
@@ -893,15 +884,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Laboratory\\FactoryDoor4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite222.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite22",
         "smoothed": false,
         "userAdded": true
       },
@@ -981,7 +963,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack2.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack2.png",
         "smoothed": false,
         "userAdded": true
@@ -990,7 +972,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack3.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack3.png",
         "smoothed": false,
         "userAdded": true
@@ -999,7 +981,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack4.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack4.png",
         "smoothed": false,
         "userAdded": true
@@ -1008,7 +990,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack5.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack5.png",
         "smoothed": false,
         "userAdded": true
@@ -1017,7 +999,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack6.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack6.png",
         "smoothed": false,
         "userAdded": true
@@ -1026,7 +1008,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack7.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack7.png",
         "smoothed": false,
         "userAdded": true
@@ -1035,7 +1017,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/Attack8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/Attack8.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\Attack8.png",
         "smoothed": false,
         "userAdded": true
@@ -1069,37 +1051,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Hurt3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt3.png\"}",
-        "name": "Hurt3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Hurt4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt4.png\"}",
         "name": "Hurt4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt5.png\"}",
-        "name": "Hurt5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt6.png\"}",
-        "name": "Hurt6",
         "smoothed": false,
         "userAdded": true
       },
@@ -1118,51 +1073,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt8.png\"}",
         "name": "Hurt8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hurt9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hurt10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hurt11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hurt12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hurt13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Hurt13",
         "smoothed": false,
         "userAdded": false
       },
@@ -1187,51 +1097,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
           "name": "Health Bar Box.png"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack10",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1307,82 +1172,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack222.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack232.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Attack25.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack25.png\"}",
         "name": "Attack25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack27",
         "smoothed": false,
         "userAdded": false
       },
@@ -1428,15 +1221,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack322.png\"}",
         "name": "Attack32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack33",
         "smoothed": false,
         "userAdded": false
       },
@@ -1541,15 +1325,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite222.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/NewSprite222.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\NewSprite222.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/assets_NewSprite222.png2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_NewSprite222.png2.png\"}",
@@ -1601,6 +1376,60 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AxeAttacking6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AxeAttacking6",
+        "smoothed": false,
         "userAdded": true
       }
     ],
@@ -2937,7 +2766,7 @@
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack1.png",
                   "points": [],
                   "originPoint": {
@@ -2951,7 +2780,26 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 33,
+                        "y": 0
+                      },
+                      {
+                        "x": 33,
+                        "y": 48
+                      },
+                      {
+                        "x": 0,
+                        "y": 48
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2963,11 +2811,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Bub\\Attack1.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2980,10 +2829,29 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.764060974121094,
+                        "y": 7.400001525878906
+                      },
+                      {
+                        "x": 16.464065551757812,
+                        "y": 5.600002288818359
+                      },
+                      {
+                        "x": 17.1640625,
+                        "y": 26.799999237060547
+                      },
+                      {
+                        "x": 13.364067077636719,
+                        "y": 26.900001525878906
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack2.png",
                   "points": [],
                   "originPoint": {
@@ -2997,10 +2865,29 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13.1640625,
+                        "y": 6.900001525878906
+                      },
+                      {
+                        "x": 16.964065551757812,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 16.964065551757812,
+                        "y": 25.200000762939453
+                      },
+                      {
+                        "x": 13.564064025878906,
+                        "y": 25.900001525878906
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack3.png",
                   "points": [],
                   "originPoint": {
@@ -3014,10 +2901,37 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 18.400001525878906
+                      },
+                      {
+                        "x": 27.464065551757812,
+                        "y": 9.700000762939453
+                      },
+                      {
+                        "x": 16.964065551757812,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 14.764060974121094,
+                        "y": 40.80000305175781
+                      },
+                      {
+                        "x": 26.464065551757812,
+                        "y": 38.400001525878906
+                      },
+                      {
+                        "x": 33,
+                        "y": 28.60000228881836
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack4.png",
                   "points": [],
                   "originPoint": {
@@ -3031,10 +2945,29 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12.1640625,
+                        "y": 42.20000457763672
+                      },
+                      {
+                        "x": 15.464065551757812,
+                        "y": 41.5
+                      },
+                      {
+                        "x": 16.964065551757812,
+                        "y": 25.200000762939453
+                      },
+                      {
+                        "x": 13.564064025878906,
+                        "y": 25.900001525878906
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack5.png",
                   "points": [],
                   "originPoint": {
@@ -3048,10 +2981,25 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.26406478881836,
+                        "y": 22.200000762939453
+                      },
+                      {
+                        "x": 11.464065551757812,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 14.264060974121094,
+                        "y": 21.900001525878906
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack6.png",
                   "points": [],
                   "originPoint": {
@@ -3065,10 +3013,25 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.964065551757812,
+                        "y": 25.200000762939453
+                      },
+                      {
+                        "x": 9.76406478881836,
+                        "y": 21.10000228881836
+                      },
+                      {
+                        "x": 4.864063262939453,
+                        "y": 25.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack7.png",
                   "points": [],
                   "originPoint": {
@@ -3082,10 +3045,29 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7.264064788818359,
+                        "y": 21.900001525878906
+                      },
+                      {
+                        "x": 6.364063262939453,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 12.264060974121094,
+                        "y": 25.400001525878906
+                      },
+                      {
+                        "x": 13.1640625,
+                        "y": 22.799999237060547
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Bub\\Attack8.png",
                   "points": [],
                   "originPoint": {
@@ -3099,7 +3081,194 @@
                     "x": 9.605138400367029,
                     "y": 20.021410001529286
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.76406478881836,
+                        "y": 22.700000762939453
+                      },
+                      {
+                        "x": 8.364063262939453,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 17.764060974121094,
+                        "y": 23.900001525878906
+                      },
+                      {
+                        "x": 15.6640625,
+                        "y": 21
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.26406478881836,
+                        "y": 21
+                      },
+                      {
+                        "x": 13.964065551757812,
+                        "y": 26.5
+                      },
+                      {
+                        "x": 8.1640625,
+                        "y": 26.400001525878906
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.564064025878906,
+                        "y": 20.10000228881836
+                      },
+                      {
+                        "x": 11.764060974121094,
+                        "y": 24.299999237060547
+                      },
+                      {
+                        "x": 7.364063262939453,
+                        "y": 25.60000228881836
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.464061737060547,
+                        "y": 21.799999237060547
+                      },
+                      {
+                        "x": 10.064064025878906,
+                        "y": 21.700000762939453
+                      },
+                      {
+                        "x": 10.564064025878906,
+                        "y": 26.799999237060547
+                      },
+                      {
+                        "x": 7.264064788818359,
+                        "y": 26.299999237060547
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.6640625,
+                        "y": 21
+                      },
+                      {
+                        "x": 10.464065551757812,
+                        "y": 21.700000762939453
+                      },
+                      {
+                        "x": 9.76406478881836,
+                        "y": 26.400001525878906
+                      },
+                      {
+                        "x": 6.764064788818359,
+                        "y": 26.200000762939453
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AxeAttacking6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9.605138400367029,
+                    "y": 19.903960850282918
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 9.605138400367029,
+                    "y": 20.021410001529286
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8.26406478881836,
+                        "y": 22.10000228881836
+                      },
+                      {
+                        "x": 10.264060974121094,
+                        "y": 26
+                      },
+                      {
+                        "x": 6.264064788818359,
+                        "y": 26.400001525878906
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -4909,7 +5078,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.0625,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,

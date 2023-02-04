@@ -335,6 +335,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "MultiDoor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -416,6 +417,102 @@
                         "DebugText",
                         "=",
                         "ToString(MultiDoor.Variable(ButtonsPressed)) + \"/\" + ToString(MultiDoor.Variable(ButtonsNeeded))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
+          "name": "BossRobot",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BossRobot",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot.BoundingBoxLeft()",
+                        "BossRobot.BoundingBoxBottom()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "BossRobot",
+                        "DebugText"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "BossRobot.BoundingBoxLeft()",
+                        "=",
+                        "BossRobot.BoundingBoxBottom()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "ToString(BossRobot.Variable(Health))"
                       ]
                     }
                   ]
@@ -2693,7 +2790,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Combining",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2980,7 +3076,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2999,6 +3094,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -3182,6 +3278,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
           "conditions": [],
@@ -3526,117 +3623,10 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "BronzeBattleAxe",
-                "BossRobot",
-                "",
-                "",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Players"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Players",
-                    "IsAttacking",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    "-",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "=",
-                    "(BossRobot.Health::Health()/100)*78"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    "30",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
