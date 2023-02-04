@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37743618557416847,
+    "zoomFactor": 0.9374441512289954,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -102,7 +102,7 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 466,
+      "x": 1378,
       "y": 636,
       "zOrder": 3,
       "numberProperties": [],
@@ -139,7 +139,7 @@
       "name": "MultiButton",
       "persistentUuid": "0fb4bde9-efa4-43d6-a4b4-1aefee343bad",
       "width": 32,
-      "x": 528,
+      "x": 1440,
       "y": 672,
       "zOrder": 7,
       "numberProperties": [],
@@ -191,7 +191,7 @@
       "name": "Bub2",
       "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
-      "x": 542,
+      "x": 1454,
       "y": 636,
       "zOrder": 10,
       "numberProperties": [
@@ -465,9 +465,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3dad2a7e-bacd-41ef-8fed-c1f380d2344e",
-      "width": 132,
-      "x": 2434,
-      "y": 971,
+      "width": 50,
+      "x": 2430,
+      "y": 930,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,9 +480,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "3b698f66-8272-4409-9349-72cf9c125b20",
-      "width": 132,
-      "x": 1952,
-      "y": 969,
+      "width": 50,
+      "x": 1948,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -495,9 +495,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "0f1e208a-ce10-4144-9b0b-ebb248d20393",
-      "width": 132,
-      "x": 2336,
-      "y": 969,
+      "width": 50,
+      "x": 2332,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -510,9 +510,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "e9687806-0f94-4a7f-b9e8-4e34f2f6f976",
-      "width": 132,
-      "x": 2224,
-      "y": 969,
+      "width": 50,
+      "x": 2220,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -525,9 +525,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "82e9e103-0a34-4739-9491-9e0598c37a49",
-      "width": 132,
-      "x": 1552,
-      "y": 969,
+      "width": 50,
+      "x": 1548,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -545,9 +545,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "b9ca4d68-5ca8-49e0-af0a-52ac5f58a9f9",
-      "width": 132,
-      "x": 1666,
-      "y": 969,
+      "width": 50,
+      "x": 1662,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -560,9 +560,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "d800a3a5-1e0e-4c0c-9582-b9aa598eeea7",
-      "width": 132,
-      "x": 2080,
-      "y": 969,
+      "width": 50,
+      "x": 2076,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -575,9 +575,9 @@
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "fc96b130-978e-4889-ad69-71b51ec396d8",
-      "width": 132,
-      "x": 1794,
-      "y": 969,
+      "width": 50,
+      "x": 1790,
+      "y": 928,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -1221,8 +1221,8 @@
       "name": "MultiButton",
       "persistentUuid": "fefa2cf3-93f0-458e-a7e4-93b0c5e66873",
       "width": 32,
-      "x": 1920,
-      "y": 1024,
+      "x": 1872,
+      "y": 976,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -1668,31 +1668,6 @@
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "eb1a26156713122dd5e35472a754b9be0eed78a86601a544bb2c94bd1091275c_Chronos.aac",
-            "yes",
-            "20",
-            ""
-          ]
-        }
-      ]
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1763,7 +1738,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BossEnemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1842,7 +1816,7 @@
                     "AlertRadius",
                     "BossRobot.PointX(\"Center\")",
                     "BossRobot.PointY(\"Center\")",
-                    "\"Utility Layer\""
+                    ""
                   ]
                 },
                 {
@@ -1857,34 +1831,12 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeScale"
+                    "value": "Opacity"
                   },
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HealthBar",
-                    "BossRobot.PointX(\"Center\")",
-                    "BossRobot.PointY(\"Center\")",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "BossRobot",
-                    "HealthBar"
+                    "50"
                   ]
                 },
                 {
@@ -1894,37 +1846,7 @@
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "7"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "HealthBar",
-                    "BossRobot",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "=",
-                    "BossRobot.PointX(\"Center\")",
-                    "=",
-                    "BossRobot.PointX(\"Center\")"
+                    "8"
                   ]
                 }
               ]
@@ -1954,7 +1876,7 @@
                     "=",
                     "BossRobot.PointX(\"Center\")",
                     "=",
-                    "BossRobot.PointX(\"Center\")"
+                    "BossRobot.PointY(\"Center\")"
                   ]
                 }
               ]
@@ -2046,17 +1968,6 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "!=",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimationEnded2"
                   },
                   "parameters": [
@@ -2083,6 +1994,71 @@
                     "State",
                     "=",
                     "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "BossRobot",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "BossRobot",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HealthBarBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BossRobot",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    ""
                   ]
                 }
               ]
@@ -2138,6 +2114,12 @@
                 "IsAttacking",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -2163,35 +2145,26 @@
             },
             {
               "type": {
-                "value": "Health::Health::Hit"
+                "value": "ModVarObjet"
               },
               "parameters": [
                 "BossRobot",
                 "Health",
-                "10",
-                "",
-                "",
-                ""
+                "-",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "HealthBar",
+                "=",
+                "(BossRobot.Variable(Health)/100)*78"
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "AlertRadius",
-                "BossRobot",
-                ""
-              ]
-            }
-          ],
-          "actions": []
         }
       ]
     },

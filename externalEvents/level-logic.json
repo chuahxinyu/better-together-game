@@ -115,7 +115,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -136,77 +135,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "AlertRadius",
-                "EnemyGrunt",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "AlertRadius",
-                "Players",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
-                "no",
-                "50",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Button Press",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "MultiButton",
-                "Pressed",
-                "False"
-              ]
-            },
             {
               "type": {
                 "value": "CollisionNP"
@@ -522,6 +450,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "MultiDoor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -603,6 +532,102 @@
                         "DebugText",
                         "=",
                         "ToString(MultiDoor.Variable(ButtonsPressed)) + \"/\" + ToString(MultiDoor.Variable(ButtonsNeeded))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
+          "name": "BossRobot",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BossRobot",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot.BoundingBoxLeft()",
+                        "BossRobot.BoundingBoxBottom()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "BossRobot",
+                        "DebugText"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "BossRobot.BoundingBoxLeft()",
+                        "=",
+                        "BossRobot.BoundingBoxBottom()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "ToString(BossRobot.Variable(Health))"
                       ]
                     }
                   ]
@@ -2507,7 +2532,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyGrunt",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2617,6 +2641,41 @@
                   },
                   "parameters": [
                     "",
+                    "AlertRadius",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
                     "SpeechBubble",
                     "EnemyGrunt",
                     ""
@@ -2669,6 +2728,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Player in AlertRadius - play sound and speech bubble exclamation",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2693,17 +2765,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "SpeechBubble",
-                    "EnemyGrunt",
-                    ""
-                  ]
                 }
               ],
               "actions": [
@@ -2723,17 +2784,62 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "SpeechBubble",
-                    "\"Exclamation\""
+                    "EnemyGrunt",
+                    "\"Chase\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Alert.aac",
+                        "no",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "EnemyGrunt",
-                    "\"Chase\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "SpeechBubble",
+                        "EnemyGrunt",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "SpeechBubble",
+                        "\"Exclamation\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2785,15 +2891,6 @@
                   "parameters": [
                     "SpeechBubble",
                     "\"Empty\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "EnemyGrunt",
-                    "\"Idle\""
                   ]
                 }
               ]
@@ -2860,353 +2957,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "BossEnemy",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "BossRobot",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot.PointX(\"Center\")",
-                    "BossRobot.PointY(\"Center\")",
-                    "\"Utility Layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "BossRobot",
-                    "AlertRadius"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "HealthBar",
-                    "BossRobot"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "DebugText",
-                    "BossRobot",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "BossRobot.PointX(\"Center\")",
-                    "=",
-                    "BossRobot.PointY(\"Center\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "DebugText",
-                    "=",
-                    "ToString(BossRobot.Variable(Health))"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "=",
-                    "BossRobot.PointX(\"Center\")",
-                    "=",
-                    "BossRobot.PointY(\"Center\")"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "Players",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationEnded2"
-                  },
-                  "parameters": [
-                    "BossRobot"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "Players",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationEnded2"
-                  },
-                  "parameters": [
-                    "BossRobot"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Idle\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationEnded2"
-                  },
-                  "parameters": [
-                    "BossRobot"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "EnemyGrunt",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    "<=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HealthBarBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
       "name": "Combining",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3493,7 +3243,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MultiButtons & Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3512,6 +3261,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -3695,6 +3445,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiButton",
           "conditions": [],
@@ -4039,117 +3790,10 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attacking",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "BronzeBattleAxe",
-                "BossRobot",
-                "",
-                "",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Players"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Players",
-                    "IsAttacking",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    "-",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeWidth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "=",
-                    "(BossRobot.Health::Health()/100)*78"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "Health",
-                    "30",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
