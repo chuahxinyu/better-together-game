@@ -11589,7 +11589,7 @@
               "folded": true,
               "name": "TouchControls",
               "type": "boolean",
-              "value": false
+              "value": true
             },
             {
               "name": "Up",

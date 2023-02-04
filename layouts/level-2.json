@@ -4769,6 +4769,28 @@
       "effects": []
     },
     {
+      "ambientLightColorB": 13763584,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player2 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13720048,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player1 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
       "ambientLightColorB": 8201264,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 9952312,
