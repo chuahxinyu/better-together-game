@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.33957049548881224,
+    "zoomFactor": 0.29818570815062884,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -4547,7 +4547,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "fell   from   a   high   place."
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4691,7 +4698,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Background Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },

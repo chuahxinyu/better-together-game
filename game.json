@@ -248,45 +248,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Hurt.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -500,7 +461,7 @@
         "alwaysLoaded": false,
         "file": "assets/Blank.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Blank.png\"}",
         "name": "Blank",
         "smoothed": false,
         "userAdded": true
@@ -520,15 +481,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up.png\"}",
         "name": "Up",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Down.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Down.png\"}",
-        "name": "Down",
         "smoothed": false,
         "userAdded": false
       },
@@ -554,7 +506,7 @@
         "alwaysLoaded": false,
         "file": "assets/Attack32.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack32.png\"}",
         "name": "Attack3",
         "smoothed": false,
         "userAdded": false
@@ -678,20 +630,6 @@
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/313139735e7db9a445f119f9eacfd9b87b589758d74d586b59acb1fd11fb6f3b_Shield up effect.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Power Up 3.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
           "name": "gdevelop-asset-store"
         }
       },
@@ -1630,15 +1568,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/small_droid/edited31.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/small_droid/edited31.png\",\"extension\":\".png\"}",
-        "name": "assets\\small_droid\\edited31.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
         "file": "assets/Explosion 1.aac",
         "kind": "audio",
         "metadata": "",
@@ -1733,20 +1662,6 @@
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/a6c7bd629a056dcc062c396288953fa63788ce83eac3c5891f1cf88999e2349c_Meditating Beat.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Chronos.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "eb1a26156713122dd5e35472a754b9be0eed78a86601a544bb2c94bd1091275c_Chronos.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/eb1a26156713122dd5e35472a754b9be0eed78a86601a544bb2c94bd1091275c_Chronos.aac",
           "name": "gdevelop-asset-store"
         }
       },
@@ -1859,6 +1774,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "hover-sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hover-sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMenuButton2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuButton2.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4297,9 +4240,9 @@
       "variables": [
         {
           "folded": true,
-          "name": "Name",
+          "name": "Description",
           "type": "string",
-          "value": "Enemy Grunt"
+          "value": "was   killed   by   an   Enemy   Robot."
         }
       ],
       "effects": [],
@@ -6003,7 +5946,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Down",
+                  "image": "Down2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8861,6 +8804,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "MenuButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "MainMenuButton2.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [
@@ -8897,6 +8882,35 @@
         },
         {
           "name": "MultiDoor"
+        }
+      ]
+    },
+    {
+      "name": "UI",
+      "objects": [
+        {
+          "name": "RetryLevel"
+        },
+        {
+          "name": "ReturnToMenu"
+        },
+        {
+          "name": "WinText"
+        },
+        {
+          "name": "NextLevel"
+        },
+        {
+          "name": "LoseDesciption"
+        },
+        {
+          "name": "LoseText"
+        },
+        {
+          "name": "UIText"
+        },
+        {
+          "name": "DebugText"
         }
       ]
     }
@@ -8995,6 +9009,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/death-overlay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/pause-overlay"
     }
   ],
   "externalSourceFiles": []

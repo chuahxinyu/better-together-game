@@ -40,8 +40,8 @@
       "name": "ReturnToMenu",
       "persistentUuid": "4a65efcc-2fb7-417c-a5c6-19131200529f",
       "width": 0,
-      "x": 64,
-      "y": 619,
+      "x": 77,
+      "y": 621,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -70,9 +70,24 @@
       "name": "OverlayBackground",
       "persistentUuid": "ffe876b4-4a30-44cb-833a-82192d7d4b10",
       "width": 1494,
-      "x": -57,
-      "y": -78,
+      "x": -77,
+      "y": -103,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 66,
+      "layer": "Lose Layer",
+      "name": "MenuButton",
+      "persistentUuid": "e3abb0d1-ad7e-4cfd-814a-5f42c55f2eec",
+      "width": 299,
+      "x": 500,
+      "y": 504,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -88,7 +103,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37030425111555665,
+    "zoomFactor": 0.42169827257248294,
     "windowMask": false
   }
 }
