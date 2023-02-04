@@ -73,7 +73,7 @@
       "angle": 337,
       "customSize": true,
       "height": 140,
-      "layer": "",
+      "layer": "Assets Layer",
       "name": "Bub1",
       "persistentUuid": "aeb09b94-fb55-4df9-85cb-6b311aa22d1e",
       "width": 140,
@@ -88,7 +88,7 @@
       "angle": 32,
       "customSize": true,
       "height": 128,
-      "layer": "",
+      "layer": "Assets Layer",
       "name": "Bub2",
       "persistentUuid": "4a8664aa-345e-4444-b225-9f32ca8d7849",
       "width": 128,
@@ -103,7 +103,7 @@
       "angle": 30,
       "customSize": true,
       "height": 264,
-      "layer": "",
+      "layer": "Assets Layer",
       "name": "BronzeBattleAxe",
       "persistentUuid": "09490124-7eef-416c-bdfb-23eef532e205",
       "width": 182,
@@ -289,6 +289,7 @@
   ],
   "events": [
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -326,6 +327,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -361,6 +363,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -396,6 +399,110 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Cursor Parallax",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Bub1",
+            "=",
+            "lerp(Bub1.X(),500-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.025*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Bub1",
+            "=",
+            "lerp(Bub1.Y(),300+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Bub2",
+            "=",
+            "lerp(Bub2.X(),1000+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Bub2",
+            "=",
+            "lerp(Bub2.Y(),100+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*50,0.02*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "BronzeBattleAxe",
+            "=",
+            "lerp(BronzeBattleAxe.X(),100+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.05*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "BronzeBattleAxe",
+            "=",
+            "lerp(BronzeBattleAxe.Y(),500-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*20,0.005*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Bubs and Sword on Screen",
+      "comment2": ""
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -451,6 +558,19 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Buttons",
+      "comment2": ""
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -477,6 +597,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -558,6 +679,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -637,11 +759,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -651,7 +768,7 @@
       "ambientLightColorR": 10325776,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "Layer",
+      "name": "Assets Layer",
       "visibility": true,
       "cameras": [],
       "effects": []
