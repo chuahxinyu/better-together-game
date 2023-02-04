@@ -424,7 +424,7 @@
           "parameters": [
             "Bub1",
             "=",
-            "lerp(Bub1.X(),500-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.025*60*TimeDelta())"
+            "lerp(Bub1.X(),500-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*50,0.025*60*TimeDelta())"
           ]
         },
         {
@@ -486,7 +486,7 @@
           "parameters": [
             "BronzeBattleAxe",
             "=",
-            "lerp(BronzeBattleAxe.Y(),500-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*20,0.005*60*TimeDelta())"
+            "lerp(BronzeBattleAxe.Y(),500-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*60,0.005*60*TimeDelta())"
           ]
         }
       ]
