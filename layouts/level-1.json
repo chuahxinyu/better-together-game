@@ -2739,7 +2739,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -2772,7 +2772,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
