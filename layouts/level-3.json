@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.3844420328930531,
+    "zoomFactor": 0.6347694708727096,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1258,8 +1258,8 @@
       "name": "BossRobot",
       "persistentUuid": "f801dd15-65c6-4567-a616-c81ab8338b9f",
       "width": 462,
-      "x": 578,
-      "y": 529,
+      "x": 3618,
+      "y": 532,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -1271,6 +1271,36 @@
           "value": "\"Idle\""
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "name": "HealthBarBox",
+      "persistentUuid": "c1875b8e-c216-406b-9004-7e2dc0cefd38",
+      "width": 96,
+      "x": 3798,
+      "y": 708,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HealthBar",
+      "persistentUuid": "f70d9299-f22d-4850-aa67-d33cc851b951",
+      "width": 0,
+      "x": 3807,
+      "y": 711,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1644,8 +1674,8 @@
           "MaxHealth": 100,
           "DamageCooldown": 0,
           "IsHealthJustDamaged": false,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
+          "HealthRegenRate": 5,
+          "HealthRegenDelay": 2,
           "AllowOverHealing": true,
           "HitAtLeastOnce": false,
           "IsJustHealed": false,
@@ -3883,6 +3913,23 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "138ee716846635e3e0e5ab7b63752d1a36754f1ac874c70e1b5fa372d5a05474",
+      "bottomMargin": 6,
+      "height": 15,
+      "leftMargin": 11,
+      "name": "HealthBarBox",
+      "rightMargin": 9,
+      "tags": "",
+      "texture": "Health Bar Box.png",
+      "tiled": true,
+      "topMargin": 6,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -4010,274 +4057,274 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "BossRobot",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "BossRobot.PointX(\"Center\")",
+                "BossRobot.PointY(\"Center\")",
+                "\"Utility Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "BossRobot",
+                "AlertRadius"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "AlertRadius",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "HealthBar",
+                "BossRobot"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "BossRobot",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "AlertRadius",
+                "=",
+                "BossRobot.PointX(\"Center\")",
+                "=",
+                "BossRobot.PointX(\"Center\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "AlertRadius",
+                "Players",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "BossRobot",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "BossRobot"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "BossRobot",
+                "\"Attack\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "BossRobot",
+                "State",
+                "=",
+                "\"Attack\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "AlertRadius",
+                "Players",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "AlertRadius",
+                "BossRobot",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "BossRobot",
+                "State",
+                "!=",
+                "\"Hurt\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "BossRobot"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "BossRobot",
+                "\"Idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "BossRobot",
+                "State",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot.PointX(\"Center\")",
-                    "BossRobot.PointY(\"Center\")",
-                    "\"Utility Layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "BossRobot",
-                    "AlertRadius"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HealthBar",
-                    "BossRobot.PointX(\"Center\")",
-                    "BossRobot.PointY(\"Center\")",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::LinkObjects"
-                  },
-                  "parameters": [
-                    "",
-                    "BossRobot",
-                    "HealthBar"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "=",
-                    "7"
-                  ]
-                }
+              "type": {
+                "value": "ChangeWidth"
+              },
+              "parameters": [
+                "HealthBar",
+                "=",
+                "(BossRobot.Health::Health()/BossRobot.Health::MaxHealth())*78"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "BossRobot",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BossRobot",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "HealthBar",
-                    "BossRobot",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "=",
-                    "BossRobot.PointX(\"Center\")",
-                    "=",
-                    "BossRobot.PointX(\"Center\")"
-                  ]
-                }
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HealthBar",
+                ""
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "=",
-                    "BossRobot.PointX(\"Center\")",
-                    "=",
-                    "BossRobot.PointX(\"Center\")"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "Players",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationEnded2"
-                  },
-                  "parameters": [
-                    "BossRobot"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Attack\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Attack\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "AlertRadius",
-                    "Players",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "AlertRadius",
-                    "BossRobot",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "!=",
-                    "\"Hurt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationEnded2"
-                  },
-                  "parameters": [
-                    "BossRobot"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "BossRobot",
-                    "State",
-                    "=",
-                    "\"Idle\""
-                  ]
-                }
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HealthBarBox",
+                ""
               ]
             }
           ]
@@ -4361,7 +4408,7 @@
               "parameters": [
                 "BossRobot",
                 "Health",
-                "10",
+                "50",
                 "",
                 "",
                 ""
