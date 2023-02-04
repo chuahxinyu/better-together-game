@@ -305,24 +305,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/CombinedTop.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CombinedTop",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/CombinedTop2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CombinedTop2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite52.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -354,41 +336,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bronze Battle Axe.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bronze Battle Axe.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Weapons/3a8271d67ace48bc1e61bf6c1133207f4d3497680ff6e5c04d3216dfc0ea8efc_Bronze Battle Axe.png",
-          "name": "Bronze Battle Axe.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Idle3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle3.png\"}",
         "name": "Idle3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attacking6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attacking6.png\"}",
-        "name": "Attacking6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attacking7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attacking7.png\"}",
-        "name": "Attacking7",
         "smoothed": false,
         "userAdded": true
       },
@@ -677,15 +628,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Exclamation6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AxeAttacking.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AxeAttacking",
         "smoothed": false,
         "userAdded": false
       },
@@ -1109,132 +1051,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite24.png\"}",
-        "name": "NewSprite24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite25.png\"}",
-        "name": "NewSprite25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite26.png\"}",
-        "name": "NewSprite26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite27.png\"}",
-        "name": "NewSprite27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite28.png\"}",
-        "name": "NewSprite28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\"}",
-        "name": "NewSprite29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite210.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite210.png\"}",
-        "name": "NewSprite210",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite211.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite211.png\"}",
-        "name": "NewSprite211",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite212.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite212.png\"}",
-        "name": "NewSprite212",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite213.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite213.png\"}",
-        "name": "NewSprite213",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite214.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite214.png\"}",
-        "name": "NewSprite214",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite215.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite215.png\"}",
-        "name": "NewSprite215",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite216.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite216.png\"}",
-        "name": "NewSprite216",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite217.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite217.png\"}",
-        "name": "NewSprite217",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite218.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1300,7 +1116,7 @@
         "alwaysLoaded": false,
         "file": "assets/Hurt8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Hurt8.png\"}",
         "name": "Hurt8",
         "smoothed": false,
         "userAdded": false
@@ -1361,37 +1177,365 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack5.png",
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
+          "name": "Health Bar Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack",
+        "name": "Attack6",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack23.png",
+        "file": "assets/Attack7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack2",
+        "name": "Attack7",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack42.png",
+        "file": "assets/Attack8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack4",
+        "name": "Attack8",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Attack5.png",
+        "file": "assets/Attack9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack5",
+        "name": "Attack9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack11.png\"}",
+        "name": "Attack11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack12.png\"}",
+        "name": "Attack12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack13.png\"}",
+        "name": "Attack13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack14.png\"}",
+        "name": "Attack14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack15.png\"}",
+        "name": "Attack15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack16.png\"}",
+        "name": "Attack16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack17.png\"}",
+        "name": "Attack17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack18.png\"}",
+        "name": "Attack18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack222.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack232.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack25.png\"}",
+        "name": "Attack25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack28.png\"}",
+        "name": "Attack28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack29.png\"}",
+        "name": "Attack29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack30.png\"}",
+        "name": "Attack30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack31.png\"}",
+        "name": "Attack31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack322.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack322.png\"}",
+        "name": "Attack32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Attack33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack34.png\"}",
+        "name": "Attack34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack35.png\"}",
+        "name": "Attack35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack36.png\"}",
+        "name": "Attack36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack37.png\"}",
+        "name": "Attack37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack38.png\"}",
+        "name": "Attack38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack39.png\"}",
+        "name": "Attack39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack40.png\"}",
+        "name": "Attack40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack41.png\"}",
+        "name": "Attack41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack422.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack422.png\"}",
+        "name": "Attack42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack43.png\"}",
+        "name": "Attack43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Attack44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack44.png\"}",
+        "name": "Attack44",
         "smoothed": false,
         "userAdded": false
       },
@@ -4533,6 +4677,2325 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "HealthBar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "138ee716846635e3e0e5ab7b63752d1a36754f1ac874c70e1b5fa372d5a05474",
+      "bottomMargin": 6,
+      "height": 15,
+      "leftMargin": 11,
+      "name": "HealthBarBox",
+      "rightMargin": 9,
+      "tags": "",
+      "texture": "Health Bar Box.png",
+      "tiled": true,
+      "topMargin": 6,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "BossRobot",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "State",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "Health",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 5,
+          "HealthRegenDelay": 2,
+          "AllowOverHealing": true,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite218",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 27.400001525878906
+                      },
+                      {
+                        "x": 44,
+                        "y": 18.799999237060547
+                      },
+                      {
+                        "x": 54.099998474121094,
+                        "y": 27.800003051757812
+                      },
+                      {
+                        "x": 54,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.70000076293945,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.70000457763672,
+                        "y": 11
+                      },
+                      {
+                        "x": 44.20000457763672,
+                        "y": 8.5
+                      },
+                      {
+                        "x": 47.20000457763672,
+                        "y": 10.799999237060547
+                      },
+                      {
+                        "x": 47.20000457763672,
+                        "y": 21.60000228881836
+                      },
+                      {
+                        "x": 40.80000305175781,
+                        "y": 21.700000762939453
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack11",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack12",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack13",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack14",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack15",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack16",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack17",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack18",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack25",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack28",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack29",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack30",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack31",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack32",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack34",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ],
+                    [
+                      {
+                        "x": 62.262271881103516,
+                        "y": 21.182138442993164
+                      },
+                      {
+                        "x": 69.00091552734375,
+                        "y": 26.863744735717773
+                      },
+                      {
+                        "x": 68.60453033447266,
+                        "y": 31
+                      },
+                      {
+                        "x": 51.163326263427734,
+                        "y": 31
+                      },
+                      {
+                        "x": 56.44853973388672,
+                        "y": 21.182138442993164
+                      }
+                    ],
+                    [
+                      {
+                        "x": 18.527143478393555,
+                        "y": 25.542442321777344
+                      },
+                      {
+                        "x": 22.623184204101562,
+                        "y": 21.05000877380371
+                      },
+                      {
+                        "x": 30.418869018554688,
+                        "y": 21.182138442993164
+                      },
+                      {
+                        "x": 37.15751647949219,
+                        "y": 31
+                      },
+                      {
+                        "x": 20.905492782592773,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack35",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ],
+                    [
+                      {
+                        "x": 61.73374938964844,
+                        "y": 25.278179168701172
+                      },
+                      {
+                        "x": 68.86878967285156,
+                        "y": 31
+                      },
+                      {
+                        "x": 51.69184875488281,
+                        "y": 31
+                      },
+                      {
+                        "x": 54.9951057434082,
+                        "y": 26.335222244262695
+                      }
+                    ],
+                    [
+                      {
+                        "x": 28.833309173583984,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 35.83621597290039,
+                        "y": 27.788652420043945
+                      },
+                      {
+                        "x": 36.23260498046875,
+                        "y": 31
+                      },
+                      {
+                        "x": 21.698272705078125,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack36",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ],
+                    [
+                      {
+                        "x": 55.25936508178711,
+                        "y": 21.314271926879883
+                      },
+                      {
+                        "x": 62.13014602661133,
+                        "y": 20.38935661315918
+                      },
+                      {
+                        "x": 69.13304138183594,
+                        "y": 26.995872497558594
+                      },
+                      {
+                        "x": 68.86878967285156,
+                        "y": 31
+                      },
+                      {
+                        "x": 51.823978424072266,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 17.734363555908203,
+                        "y": 25.013917922973633
+                      },
+                      {
+                        "x": 22.887447357177734,
+                        "y": 21.182138442993164
+                      },
+                      {
+                        "x": 30.418869018554688,
+                        "y": 21.314271926879883
+                      },
+                      {
+                        "x": 38.6109504699707,
+                        "y": 31
+                      },
+                      {
+                        "x": 20.905492782592773,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack37",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack38",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ],
+                    [
+                      {
+                        "x": 4.257072925567627,
+                        "y": 17.48248863220215
+                      },
+                      {
+                        "x": 85.64933776855469,
+                        "y": 17.87887954711914
+                      },
+                      {
+                        "x": 78.77855682373047,
+                        "y": 31
+                      },
+                      {
+                        "x": 9.938674926757812,
+                        "y": 30.695520401000977
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack39",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ],
+                    [
+                      {
+                        "x": 9.674418449401855,
+                        "y": 17.48248863220215
+                      },
+                      {
+                        "x": 78.91069030761719,
+                        "y": 13.914970397949219
+                      },
+                      {
+                        "x": 71.64352416992188,
+                        "y": 31
+                      },
+                      {
+                        "x": 21.169748306274414,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack40",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack41",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack42",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack43",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Attack44",
+                  "points": [
+                    {
+                      "name": "SpeechPoint",
+                      "x": 0,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34.11852264404297,
+                        "y": 24.22113800048828
+                      },
+                      {
+                        "x": 44.028289794921875,
+                        "y": 14.311365127563477
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 24.485395431518555
+                      },
+                      {
+                        "x": 54.07019805908203,
+                        "y": 31
+                      },
+                      {
+                        "x": 34.7791748046875,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 40.175071716308594,
+                        "y": 6.636942386627197
+                      },
+                      {
+                        "x": 44.148643493652344,
+                        "y": 4.599214553833008
+                      },
+                      {
+                        "x": 47.51089859008789,
+                        "y": 7.04448938369751
+                      },
+                      {
+                        "x": 47.20523452758789,
+                        "y": 19.474628448486328
+                      },
+                      {
+                        "x": 39.76753234863281,
+                        "y": 19.984060287475586
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hurt2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40.725032806396484,
+                        "y": 19.06805419921875
+                      },
+                      {
+                        "x": 47.331546783447266,
+                        "y": 18.80379295349121
+                      },
+                      {
+                        "x": 54.202327728271484,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.193607330322266,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.12142562866211,
+                        "y": 7.969107151031494
+                      },
+                      {
+                        "x": 44.075042724609375,
+                        "y": 5.1300578117370605
+                      },
+                      {
+                        "x": 46.93516159057617,
+                        "y": 7.836978912353516
+                      },
+                      {
+                        "x": 48.256465911865234,
+                        "y": 20.785747528076172
+                      },
+                      {
+                        "x": 40.85717010498047,
+                        "y": 21.182138442993164
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hurt4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40.725032806396484,
+                        "y": 19.06805419921875
+                      },
+                      {
+                        "x": 47.331546783447266,
+                        "y": 18.80379295349121
+                      },
+                      {
+                        "x": 54.202327728271484,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.193607330322266,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.12142562866211,
+                        "y": 7.969107151031494
+                      },
+                      {
+                        "x": 44.075042724609375,
+                        "y": 5.1300578117370605
+                      },
+                      {
+                        "x": 46.93516159057617,
+                        "y": 7.836978912353516
+                      },
+                      {
+                        "x": 48.256465911865234,
+                        "y": 20.785747528076172
+                      },
+                      {
+                        "x": 40.85717010498047,
+                        "y": 21.182138442993164
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hurt8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40.725032806396484,
+                        "y": 19.06805419921875
+                      },
+                      {
+                        "x": 47.331546783447266,
+                        "y": 18.80379295349121
+                      },
+                      {
+                        "x": 54.202327728271484,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.193607330322266,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.12142562866211,
+                        "y": 7.969107151031494
+                      },
+                      {
+                        "x": 44.075042724609375,
+                        "y": 5.1300578117370605
+                      },
+                      {
+                        "x": 46.93516159057617,
+                        "y": 7.836978912353516
+                      },
+                      {
+                        "x": 48.256465911865234,
+                        "y": 20.785747528076172
+                      },
+                      {
+                        "x": 40.85717010498047,
+                        "y": 21.182138442993164
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hurt7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 40.725032806396484,
+                        "y": 19.06805419921875
+                      },
+                      {
+                        "x": 47.331546783447266,
+                        "y": 18.80379295349121
+                      },
+                      {
+                        "x": 54.202327728271484,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.193607330322266,
+                        "y": 31
+                      }
+                    ],
+                    [
+                      {
+                        "x": 41.12142562866211,
+                        "y": 7.969107151031494
+                      },
+                      {
+                        "x": 44.075042724609375,
+                        "y": 5.1300578117370605
+                      },
+                      {
+                        "x": 46.93516159057617,
+                        "y": 7.836978912353516
+                      },
+                      {
+                        "x": 48.256465911865234,
+                        "y": 20.785747528076172
+                      },
+                      {
+                        "x": 40.85717010498047,
+                        "y": 21.182138442993164
+                      }
+                    ]
+                  ]
                 }
               ]
             }

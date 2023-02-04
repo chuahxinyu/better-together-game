@@ -102,8 +102,8 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 400,
-      "y": 638,
+      "x": 466,
+      "y": 636,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -191,8 +191,8 @@
       "name": "Bub2",
       "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
-      "x": 446,
-      "y": 640,
+      "x": 542,
+      "y": 636,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -466,8 +466,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "3dad2a7e-bacd-41ef-8fed-c1f380d2344e",
       "width": 50,
-      "x": 2462,
-      "y": 626,
+      "x": 2478,
+      "y": 978,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -481,8 +481,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "3b698f66-8272-4409-9349-72cf9c125b20",
       "width": 50,
-      "x": 1980,
-      "y": 624,
+      "x": 1996,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -496,8 +496,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "0f1e208a-ce10-4144-9b0b-ebb248d20393",
       "width": 50,
-      "x": 2364,
-      "y": 624,
+      "x": 2380,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -511,8 +511,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "e9687806-0f94-4a7f-b9e8-4e34f2f6f976",
       "width": 50,
-      "x": 2252,
-      "y": 624,
+      "x": 2268,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -526,8 +526,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "82e9e103-0a34-4739-9491-9e0598c37a49",
       "width": 50,
-      "x": 1580,
-      "y": 624,
+      "x": 1596,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [
         {
@@ -546,8 +546,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "b9ca4d68-5ca8-49e0-af0a-52ac5f58a9f9",
       "width": 50,
-      "x": 1694,
-      "y": 624,
+      "x": 1710,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -561,8 +561,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "d800a3a5-1e0e-4c0c-9582-b9aa598eeea7",
       "width": 50,
-      "x": 2108,
-      "y": 624,
+      "x": 2124,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -576,8 +576,8 @@
       "name": "EnemyGrunt",
       "persistentUuid": "fc96b130-978e-4889-ad69-71b51ec396d8",
       "width": 50,
-      "x": 1822,
-      "y": 624,
+      "x": 1838,
+      "y": 976,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -635,9 +635,9 @@
       "layer": "",
       "name": "LabGroundPanel",
       "persistentUuid": "e9a71f5b-4a64-4a8d-b207-e2066e657e5f",
-      "width": 288,
-      "x": 2544,
-      "y": 528,
+      "width": 192,
+      "x": 2592,
+      "y": 480,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -726,7 +726,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 320,
+      "height": 176,
       "layer": "",
       "name": "LabFill",
       "persistentUuid": "8969d2ad-813b-482a-a765-a1c9390408a9",
@@ -745,9 +745,9 @@
       "layer": "",
       "name": "LabGroundPanel",
       "persistentUuid": "61601d62-1ec2-4b02-a55e-51cf8fdb1489",
-      "width": 288,
-      "x": 2864,
-      "y": 528,
+      "width": 208,
+      "x": 2904,
+      "y": 488,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -1221,8 +1221,8 @@
       "name": "MultiButton",
       "persistentUuid": "fefa2cf3-93f0-458e-a7e4-93b0c5e66873",
       "width": 32,
-      "x": 1904,
-      "y": 672,
+      "x": 1920,
+      "y": 1024,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -1243,8 +1243,8 @@
       "name": "Boss",
       "persistentUuid": "94d7643a-4b70-435f-92a3-6e2995adac88",
       "width": 0,
-      "x": 3808,
-      "y": 656,
+      "x": 3776,
+      "y": 652,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -1258,7 +1258,7 @@
       "name": "BossRobot",
       "persistentUuid": "f801dd15-65c6-4567-a616-c81ab8338b9f",
       "width": 462,
-      "x": 578,
+      "x": 3590,
       "y": 529,
       "zOrder": 42,
       "numberProperties": [],
@@ -1271,6 +1271,51 @@
           "value": "\"Idle\""
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 15,
+      "layer": "",
+      "name": "HealthBarBox",
+      "persistentUuid": "c1875b8e-c216-406b-9004-7e2dc0cefd38",
+      "width": 96,
+      "x": 3768,
+      "y": 705,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "HealthBar",
+      "persistentUuid": "f70d9299-f22d-4850-aa67-d33cc851b951",
+      "width": 0,
+      "x": 3777,
+      "y": 708,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "EnemyGrunt",
+      "persistentUuid": "005d1f0a-f670-4f14-b3ab-e14403d450b7",
+      "width": 0,
+      "x": 3184,
+      "y": 464,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1619,137 +1664,75 @@
           ]
         }
       ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Level Logic"
     },
     {
-      "assetStoreId": "",
-      "name": "BossRobot",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "folded": true,
-          "name": "State",
-          "type": "string",
-          "value": ""
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 100,
-          "CurrentHealth": 0,
-          "MaxHealth": 100,
-          "DamageCooldown": 0,
-          "IsHealthJustDamaged": false,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "AllowOverHealing": true,
-          "HitAtLeastOnce": false,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 0,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ChanceToDodge": 0,
-          "DamageToBeApplied": 0,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0,
-          "IsJustDodged": false,
-          "ShieldDamageTaken": 0,
-          "HealToBeApplied": 0
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite218",
-                  "points": [
-                    {
-                      "name": "SpeechPoint",
-                      "x": 0,
-                      "y": 0
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 34,
-                        "y": 27.400001525878906
-                      },
-                      {
-                        "x": 44,
-                        "y": 18.799999237060547
-                      },
-                      {
-                        "x": 54.099998474121094,
-                        "y": 27.800003051757812
-                      },
-                      {
-                        "x": 54,
-                        "y": 31
-                      },
-                      {
-                        "x": 33.70000076293945,
-                        "y": 31
-                      }
-                    ],
-                    [
-                      {
-                        "x": 40.70000457763672,
-                        "y": 11
-                      },
-                      {
-                        "x": 44.20000457763672,
-                        "y": 8.5
-                      },
-                      {
-                        "x": 47.20000457763672,
-                        "y": 10.799999237060547
-                      },
-                      {
-                        "x": 47.20000457763672,
-                        "y": 21.60000228881836
-                      },
-                      {
-                        "x": 40.80000305175781,
-                        "y": 21.700000762939453
-                      }
-                    ]
-                  ]
-                }
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Players"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), (Bub1.X()+Bub2.X())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), (Bub1.Y()+Bub2.Y())/2, (0.05*60*TimeDelta()))",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "5000",
+                "720",
+                "",
+                ""
               ]
             }
           ]
@@ -4438,6 +4421,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 12630520,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10317840,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     },
     {
