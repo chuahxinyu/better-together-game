@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.2455500692650159,
+    "zoomFactor": 0.38669902096135783,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -121,11 +121,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "dea7b5ee-39a1-4fae-8203-0b2ea0dc5173",
-      "width": 50,
+      "width": 132,
       "x": 734,
       "y": 334,
       "zOrder": 6,
@@ -196,11 +196,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "721b394b-a085-4f68-be83-1777f4f47e38",
-      "width": 50,
+      "width": 132,
       "x": 816,
       "y": 544,
       "zOrder": 6,
@@ -1057,11 +1057,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "f7acf783-3cf0-4f9a-88bc-1190f620095e",
-      "width": 50,
+      "width": 132,
       "x": 1582,
       "y": 318,
       "zOrder": 6,
@@ -1303,11 +1303,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "f5df4a96-932b-4848-a390-a1e9f95c4e94",
-      "width": 50,
+      "width": 132,
       "x": 2256,
       "y": 256,
       "zOrder": 6,
@@ -1318,11 +1318,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "8c1d9508-625f-4b13-926d-3d3087d69bce",
-      "width": 50,
+      "width": 132,
       "x": 2782,
       "y": 432,
       "zOrder": 6,
@@ -1333,11 +1333,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "ea324f7f-5c14-40cc-a47a-2fccd0ad3f18",
-      "width": 50,
+      "width": 132,
       "x": 2192,
       "y": 494,
       "zOrder": 6,
@@ -1348,13 +1348,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "9a566b7f-6906-4000-88b8-75a9b3ff716f",
-      "width": 50,
-      "x": 3246,
-      "y": 430,
+      "width": 123,
+      "x": 3232,
+      "y": 382,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1363,13 +1363,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "890851ff-5800-45da-8a02-e604e550caa6",
-      "width": 50,
-      "x": 3598,
-      "y": 398,
+      "width": 123,
+      "x": 3584,
+      "y": 350,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1378,11 +1378,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 82,
       "layer": "",
       "name": "EnemyGrunt",
       "persistentUuid": "0d012527-db10-49b5-8e43-04876262591e",
-      "width": 50,
+      "width": 132,
       "x": 1822,
       "y": 320,
       "zOrder": 6,
@@ -4544,6 +4544,31 @@
   ],
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "a6c7bd629a056dcc062c396288953fa63788ce83eac3c5891f1cf88999e2349c_Meditating Beat.aac",
+            "yes",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -4614,34 +4639,6 @@
         "includeConfig": 0
       },
       "target": "Level Logic"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Players",
-            "Level2LabDoor",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "Level2LabDoor",
-            "\"Open\""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
@@ -4652,7 +4649,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Background Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -4738,6 +4735,10 @@
     {
       "name": "Anchor",
       "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Platform",
