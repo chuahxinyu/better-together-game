@@ -1847,6 +1847,42 @@
         "name": "Group 10 (1).png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LockedLevel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LockedLevel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LevelButtonBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LevelButtonBackground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LockedLevel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LockedLevel2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9077,15 +9113,15 @@
           "children": [
             {
               "folded": true,
-              "name": "NextLevel",
-              "type": "string",
-              "value": "\"Level 2\""
+              "name": "IsUnlocked",
+              "type": "boolean",
+              "value": true
             },
             {
               "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 2\""
             }
           ]
         },
@@ -9095,13 +9131,24 @@
           "children": [
             {
               "folded": true,
-              "name": "NextLevel",
-              "type": "string",
-              "value": "\"Level 3\""
+              "name": "IsUnlocked",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
-              "name": "Unlocked",
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 3\""
+            }
+          ]
+        },
+        {
+          "name": "Level3",
+          "type": "structure",
+          "children": [
+            {
+              "name": "IsUnlocked",
               "type": "boolean",
               "value": false
             }
@@ -9113,23 +9160,19 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/lose-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-menu"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-2"
+      "referenceTo": "/layouts/level-select"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-select"
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -9140,6 +9183,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-logic"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui-buttons"
     }
   ],
   "eventsFunctionsExtensions": [
