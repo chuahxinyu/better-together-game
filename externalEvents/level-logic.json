@@ -123,7 +123,7 @@
           "parameters": [
             "OverlayBackground",
             "=",
-            "200"
+            "100"
           ]
         }
       ]
@@ -4289,27 +4289,48 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "MenuButton",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "NextButton",
+                    "=",
+                    "255"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "RetryButton",
+                    "=",
+                    "255"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "NewGame",
-                    "Left"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "ReturnToMenu",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "SourisSurObjet"
@@ -4325,12 +4346,65 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "",
-                    "\"Main Menu\"",
-                    ""
+                    "MenuButton",
+                    "=",
+                    "200"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "hover-sound.mp3",
+                        "",
+                        "20",
+                        "0.1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "NewGame",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Main Menu\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4340,19 +4414,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "NewGame",
-                    "Left"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "RetryLevel",
+                    "NextButton",
                     "",
                     "",
                     ""
@@ -4362,11 +4427,64 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "",
-                    "CurrentSceneName()"
+                    "NextButton",
+                    "=",
+                    "200"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "hover-sound.mp3",
+                        "",
+                        "20",
+                        "0.1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "NewGame",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level \" + \nToString(ToNumber(StrAt(CurrentSceneName(), StrLength(CurrentSceneName())-1))+1)"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4376,19 +4494,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "NewGame",
-                    "Left"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NextLevel",
+                    "RetryButton",
                     "",
                     "",
                     ""
@@ -4398,11 +4507,64 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "Opacity"
                   },
                   "parameters": [
-                    "",
-                    "\"Level \" + \nToString(ToNumber(StrAt(CurrentSceneName(), StrLength(CurrentSceneName())-1))+1)"
+                    "RetryButton",
+                    "=",
+                    "200"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "hover-sound.mp3",
+                        "",
+                        "20",
+                        "0.1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "NewGame",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4444,37 +4606,58 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "conditions": [
                 {
                   "type": {
-                    "value": "TextObject::ChangeColor"
+                    "value": "MouseButtonPressed"
                   },
                   "parameters": [
-                    "ReturnToMenu",
-                    "\"74;144;226\""
+                    "NewGame",
+                    "Left"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextObject::ChangeColor"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "RetryLevel",
-                    "\"74;144;226\""
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "NewGame",
+                    "Left"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextObject::ChangeColor"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
                     "NextLevel",
-                    "\"74;144;226\""
+                    "",
+                    "",
+                    ""
                   ]
                 }
-              ]
+              ],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",

@@ -721,7 +721,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite34.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite34.png\"}",
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": true
@@ -1802,6 +1802,51 @@
         "name": "Down2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMenuButton2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuButton2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMenuButton2.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuButton2.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMenuButton2.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuButton2.png4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 9 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 9 (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 10 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 10 (1).png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5359,6 +5404,28 @@
                         "x": 3.416118621826172,
                         "y": 18.20232391357422
                       }
+                    ],
+                    [
+                      {
+                        "x": 27.991802215576172,
+                        "y": 13.323138236999512
+                      },
+                      {
+                        "x": 38.77363586425781,
+                        "y": 14.662059783935547
+                      },
+                      {
+                        "x": 48,
+                        "y": 23.188867568969727
+                      },
+                      {
+                        "x": 32.783729553222656,
+                        "y": 27.0646915435791
+                      },
+                      {
+                        "x": 21.790491104125977,
+                        "y": 21.849945068359375
+                      }
                     ]
                   ]
                 },
@@ -8826,7 +8893,91 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "MainMenuButton2.png2",
+                  "image": "MainMenuButton2.png3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NextButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Group 9 (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RetryButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Group 10 (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
