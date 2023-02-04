@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.48947417480918354,
+    "zoomFactor": 0.6078573277950038,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3957,6 +3957,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "BossEnemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

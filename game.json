@@ -1012,7 +1012,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/CombinedTop-1Blue.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/CombinedTop-1Blue.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\CombinedTop-1Blue.png",
         "smoothed": false,
         "userAdded": true
@@ -1021,7 +1021,7 @@
         "alwaysLoaded": false,
         "file": "assets/Bub/CombinedTop-1.png.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Bub/CombinedTop-1.png.png\",\"extension\":\".png\"}",
         "name": "assets\\Bub\\CombinedTop-1.png.png",
         "smoothed": false,
         "userAdded": true
