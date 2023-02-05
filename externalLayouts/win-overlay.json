@@ -1,0 +1,79 @@
+{
+  "associatedLayout": "Level 1",
+  "name": "Win Overlay",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "WinText",
+      "persistentUuid": "f3556a93-d56e-4832-b522-d8ad3ca87135",
+      "width": 0,
+      "x": 265,
+      "y": 122,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 873,
+      "layer": "Win Layer",
+      "name": "OverlayBackground",
+      "persistentUuid": "c29574f5-7db0-4a73-a72c-70614ed8e9dc",
+      "width": 1494,
+      "x": -109,
+      "y": -74,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Win Layer",
+      "name": "MenuButton",
+      "persistentUuid": "ac2634a7-9f98-476c-a213-d1a18effbdca",
+      "width": 300,
+      "x": 55,
+      "y": 612,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Win Layer",
+      "name": "NextButton",
+      "persistentUuid": "b83805bd-6e6d-4783-9011-b0d636d22dbe",
+      "width": 300,
+      "x": 909,
+      "y": 612,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.459865227091875,
+    "windowMask": false
+  }
+}

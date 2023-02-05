@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 111,
   "disableInputWhenNotFocused": true,
   "mangledName": "Main_32Menu",
   "name": "Main Menu",
-  "r": 209,
+  "r": 60,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 59,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5236892941320311,
+    "zoomFactor": 0.5963714163013106,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,13 +27,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 153,
+      "height": 286,
       "layer": "",
       "name": "TitleText",
       "persistentUuid": "d69a0bb5-c025-4411-ae03-c675d34d1fdd",
-      "width": 1251,
-      "x": 53,
-      "y": 42,
+      "width": 827,
+      "x": 123,
+      "y": 133,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -41,45 +41,75 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 62,
       "layer": "",
-      "name": "NewGame",
-      "persistentUuid": "7e31b4d6-2268-4a94-8cc1-d826433a1a02",
-      "width": 0,
-      "x": 818,
-      "y": 446,
-      "zOrder": 2,
+      "name": "StartButton",
+      "persistentUuid": "36a0fe4e-6137-40cf-bfde-f4df8e110007",
+      "width": 281,
+      "x": 790,
+      "y": 475,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 63,
       "layer": "",
-      "name": "Continue",
-      "persistentUuid": "2a75227f-7134-476b-a2c0-c774e60c15af",
-      "width": 0,
-      "x": 811,
-      "y": 501,
-      "zOrder": 3,
+      "name": "LevelSelectButton",
+      "persistentUuid": "7244169a-224e-4a3e-8f1e-15064077e872",
+      "width": 283,
+      "x": 788,
+      "y": 559,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "EndGame",
-      "persistentUuid": "79ba6ee3-9a50-4a92-831b-7f78988883aa",
-      "width": 0,
-      "x": 815,
-      "y": 556,
-      "zOrder": 4,
+      "angle": 337,
+      "customSize": true,
+      "height": 140,
+      "layer": "Assets Layer",
+      "name": "Bub1",
+      "persistentUuid": "aeb09b94-fb55-4df9-85cb-6b311aa22d1e",
+      "width": 140,
+      "x": 597,
+      "y": 519,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 32,
+      "customSize": true,
+      "height": 128,
+      "layer": "Assets Layer",
+      "name": "Bub2",
+      "persistentUuid": "4a8664aa-345e-4444-b225-9f32ca8d7849",
+      "width": 128,
+      "x": 1043,
+      "y": 106,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30,
+      "customSize": true,
+      "height": 264,
+      "layer": "Assets Layer",
+      "name": "BronzeBattleAxe",
+      "persistentUuid": "09490124-7eef-416c-bdfb-23eef532e205",
+      "width": 182,
+      "x": 76,
+      "y": 455,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -98,14 +128,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Separation Game",
-      "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+      "string": "Better   Together",
+      "font": "ARCADECLASSIC.TTF",
       "textAlignment": "left",
       "characterSize": 144,
       "color": {
-        "b": 27,
-        "g": 2,
-        "r": 208
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -134,7 +164,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Continue",
+      "name": "LevelSelect",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -173,10 +203,93 @@
         "g": 144,
         "r": 74
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "StartButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "StartButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "LevelSelectButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "LevelSelectButton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -214,6 +327,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -247,9 +361,470 @@
           ]
         }
       ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "NewGame",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "LevelSelect",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level Select\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+            "1",
+            "",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Cursor Parallax",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Bub1",
+            "=",
+            "lerp(Bub1.X(),600-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*50,0.025*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Bub1",
+            "=",
+            "lerp(Bub1.Y(),500+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Bub2",
+            "=",
+            "lerp(Bub2.X(),1000+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "Bub2",
+            "=",
+            "lerp(Bub2.Y(),100+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*50,0.02*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "BronzeBattleAxe",
+            "=",
+            "lerp(BronzeBattleAxe.X(),70+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.05*60*TimeDelta())"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreY"
+          },
+          "parameters": [
+            "BronzeBattleAxe",
+            "=",
+            "lerp(BronzeBattleAxe.Y(),450-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*60,0.005*60*TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Bubs and Sword on Screen",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Bub1",
+            "\"MenuScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "Bub2",
+            "\"MenuScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAnimationName"
+          },
+          "parameters": [
+            "BronzeBattleAxe",
+            "\"MenuScreen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Bub1",
+            "PlatformerObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Bub2",
+            "PlatformerObject",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Buttons",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "StartButton",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "LevelSelectButton",
+            "=",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "StartButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "StartButton",
+            "=",
+            "200"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "hover-sound.mp3",
+                "",
+                "20",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "NewGame",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Cutscene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "LevelSelectButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "LevelSelectButton",
+            "=",
+            "200"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "hover-sound.mp3",
+                "",
+                "20",
+                "0.1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "NewGame",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level Select\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 13654312,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10325776,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Assets Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 0,
       "ambientLightColorG": 0,
@@ -274,6 +849,14 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"

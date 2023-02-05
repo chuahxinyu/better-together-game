@@ -4,59 +4,193 @@
   "name": "Level Logic",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Players"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"UI Overlay\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TouchSimulateMouse"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Win Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Debug Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Lose Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Utility Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "(Bub1.X()+Bub2.X())/2",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "(Bub1.Y()+Bub2.Y())/2",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Layer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "OverlayBackground",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "Camera",
+      "name": "Audio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "EnemyAlert",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "SetCameraCenterX"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "",
-                "=",
-                "lerp(CameraX(), (Bub1.X()+Bub2.X())/2, (0.05*60*TimeDelta()))",
+                "MultiButton",
+                "Players",
+                "True",
                 "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "SetCameraCenterY"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "=",
-                "lerp(CameraY(), (Bub1.Y()+Bub2.Y())/2, (0.05*60*TimeDelta()))",
-                "",
-                ""
-              ]
+              "parameters": []
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          ],
           "actions": [
             {
               "type": {
-                "value": "ClampCamera"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "0",
-                "0",
-                "4000",
-                "720",
+                "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+                "",
                 "",
                 ""
               ]
@@ -64,9 +198,172 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walking Sounds",
+          "comment2": ""
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "Players",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Players",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Players",
+                    "\"Running\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "6e7f6f4f07457e5c074202497f9b57fd8b48f2ed196d3cf2224d208023dbe8b7_Walk_02.wav",
+                    "no",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Players",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Players",
+                    "\"Running\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "7813482f4b08b3acf701846a0bb4b1abcdc11f78ec4014d03e255a5da2622db3_Walk_03.wav",
+                    "no",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Combine Sound",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Players",
+                "Combined",
+                "=",
+                "\"Top\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "b8a7683ddaf1a6f7501e14105285402c467cdd0509d84388620d8a0c7badef01_Powerup 10.aac",
+                "",
+                "20",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -86,7 +383,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -182,6 +478,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "MultiDoor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -271,6 +568,273 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
+          "name": "BossRobot",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BossRobot",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot.BoundingBoxLeft()",
+                        "BossRobot.BoundingBoxBottom()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "BossRobot",
+                        "DebugText"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "DebugText",
+                        "BossRobot",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "BossRobot.BoundingBoxLeft()",
+                        "=",
+                        "BossRobot.BoundingBoxBottom()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DebugText",
+                        "=",
+                        "ToString(BossRobot.Variable(Health))"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "UI Buttons",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "TouchButton",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TouchButton",
+                "=",
+                "100"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Link Button to Player",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "PlayerObjectName",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Bub1",
+                    "TouchButton"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "\"209;230;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "PlayerObjectName",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Bub2",
+                    "TouchButton"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "\"255;200;196\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Rendering",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "IsPressed",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    "TouchButton.VariableString(Type)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
         }
       ],
       "parameters": []
@@ -286,7 +850,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "UIText",
           "conditions": [],
@@ -299,6 +862,16 @@
                 "UIText",
                 "=",
                 "UIText.VariableString(Text)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Text::SetFontSize"
+              },
+              "parameters": [
+                "UIText",
+                "=",
+                "UIText.Variable(FontSize)"
               ]
             }
           ],
@@ -599,7 +1172,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -698,19 +1270,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Make sure players stays in frame",
-          "comment2": ""
-        },
-        {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [
@@ -727,6 +1286,156 @@
           ],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Visibility of Touch Controls",
+              "comment2": ""
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "TouchButton",
+                    "Players",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "TouchButton",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Top\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "TouchButton",
+                        "Type",
+                        "=",
+                        "\"Attack\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "TouchButton"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Top\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Right\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "TouchButton"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "BOTTOM PLAYER/SEPARATED",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -755,7 +1464,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Uses Player Object Variables for controls. Players on Top cannot move.",
+                  "comment": "Uses Player Object Variables for controls. Players on Top cannot move. Also makes sure that players stay in frame.",
                   "comment2": ""
                 },
                 {
@@ -803,7 +1512,7 @@
                       "parameters": [
                         "Players",
                         "<",
-                        "CameraBorderRight()-10"
+                        "CameraBorderRight()-0.5*Players.Width()"
                       ]
                     }
                   ],
@@ -888,7 +1597,7 @@
                       "parameters": [
                         "Players",
                         ">",
-                        "CameraBorderLeft()"
+                        "CameraBorderLeft()+0.5*Players.Width()"
                       ]
                     }
                   ],
@@ -954,6 +1663,263 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Touch Controls. Essentially a duplicate of above.",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "TouchButton",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Players",
+                        "TouchButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Up\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateJumpKey"
+                          },
+                          "parameters": [
+                            "Players",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Right\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BoundingBoxRight"
+                          },
+                          "parameters": [
+                            "Players",
+                            "<",
+                            "CameraBorderRight()-0.5*Players.Width()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Players",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "False"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Players",
+                                "Combined",
+                                "=",
+                                "\"Bottom\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Players"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Players",
+                                "IsFacingLeft",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BoundingBoxLeft"
+                          },
+                          "parameters": [
+                            "Players",
+                            ">",
+                            "CameraBorderLeft()+0.5*Players.Width()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Players",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsFacingLeft",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjetTxt"
+                              },
+                              "parameters": [
+                                "Players",
+                                "Combined",
+                                "=",
+                                "\"Bottom\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AjoutObjConcern"
+                              },
+                              "parameters": [
+                                "",
+                                "Players"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Players",
+                                "IsFacingLeft",
+                                "True"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Players on border cannot move",
+                  "comment2": ""
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -969,7 +1935,7 @@
                           "parameters": [
                             "Players",
                             ">=",
-                            "CameraBorderRight()"
+                            "CameraBorderRight()-0.5*Players.Width()"
                           ]
                         },
                         {
@@ -979,7 +1945,7 @@
                           "parameters": [
                             "Players",
                             "<=",
-                            "CameraBorderLeft()"
+                            "CameraBorderLeft()+0.5*Players.Width()"
                           ]
                         }
                       ]
@@ -1008,7 +1974,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Separation",
+              "comment": "TOP PLAYER",
               "comment2": ""
             },
             {
@@ -1024,115 +1990,327 @@
                     "=",
                     "\"Top\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Players.VariableString(Up)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Players"
-                  ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "ModVarObjetTxt"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "Players",
-                    "Combined",
-                    "=",
-                    "\"False\""
+                  "comment": "Separation",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Players.VariableString(Up)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Players"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"False\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BronzeBattleAxe",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "Delete"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "BronzeBattleAxe",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Attack",
-              "comment2": ""
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                  "comment": "Attack",
+                  "comment2": ""
+                },
                 {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Players",
-                    "Combined",
-                    "=",
-                    "\"Top\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Players",
+                        "Combined",
+                        "=",
+                        "\"Top\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Players.VariableString(Attack)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "BronzeBattleAxe",
+                            "\"AxeIdle\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "5cc7a2026a9fd0c30c4af84cb8ffe2374ad1280a6ac9929f82d5d2f2a15596d9_Woosh 2.aac",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyFromTextPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Players.VariableString(Attack)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "BronzeBattleAxe",
+                            "Players",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsAttacking",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "BronzeBattleAxe",
+                            "\"AxeAttacking\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "KeyFromTextPressed"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "",
-                    "Players.VariableString(Attack)"
-                  ]
+                  "comment": "Touch Controls",
+                  "comment2": ""
                 },
                 {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "BronzeBattleAxe",
-                    "Players",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Players",
-                    "IsAttacking",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "BronzeBattleAxe",
-                    "\"AxeAttacking\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "TouchButton",
+                        "Players",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "TouchButton",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "TouchButton",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Up\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Players",
+                            "Combined",
+                            "=",
+                            "\"False\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "BronzeBattleAxe",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "TouchButton",
+                            "Type",
+                            "=",
+                            "\"Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Players",
+                            "IsAttacking",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "BronzeBattleAxe",
+                            "\"AxeAttacking\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1226,6 +2404,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [
@@ -1283,7 +2462,7 @@
                   "parameters": [
                     "BronzeBattleAxe",
                     "=",
-                    "5"
+                    "3"
                   ]
                 }
               ]
@@ -1388,24 +2567,24 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Create AlertRadius that follows each EnemyGrunt",
-          "comment2": ""
-        },
-        {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "EnemyGrunt",
           "conditions": [],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Create AlertRadius and SpeechBubble that follows each EnemyGrunt",
+              "comment2": ""
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -1424,8 +2603,8 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "EnemyGrunt.BoundingBoxCenterX() - 200",
-                    "EnemyGrunt.BoundingBoxCenterY() - 200",
+                    "EnemyGrunt.PointX(\"Center\")",
+                    "EnemyGrunt.PointY(\"Center\")",
                     "\"Utility Layer\""
                   ]
                 },
@@ -1435,7 +2614,7 @@
                   },
                   "parameters": [
                     "",
-                    "EnemyGrunt",
+                    "Enemies",
                     "AlertRadius"
                   ]
                 },
@@ -1447,6 +2626,103 @@
                     "AlertRadius",
                     "=",
                     "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
+                    "EnemyGrunt.PointY(\"SpeechPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemies",
+                    "SpeechBubble"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "=",
+                    "EnemyGrunt.PointX(\"SpeechPoint\")",
+                    "=",
+                    "EnemyGrunt.PointY(\"SpeechPoint\")"
                   ]
                 }
               ]
@@ -1469,64 +2745,195 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "SetCenter"
                   },
                   "parameters": [
                     "AlertRadius",
                     "=",
-                    "EnemyGrunt.BoundingBoxCenterX() - 200",
+                    "EnemyGrunt.PointX(\"Center\")",
                     "=",
-                    "EnemyGrunt.BoundingBoxCenterY() - 200"
+                    "EnemyGrunt.PointY(\"Center\")"
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Go Toward Players within Radius",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "AlertRadius",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "CollisionNP"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "AlertRadius",
-                "Players",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
+              "comment": "Player in AlertRadius - play sound and speech bubble exclamation",
+              "comment2": ""
+            },
             {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "Players",
-                "50",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "Players",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "\"Chase\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Alert.aac",
+                        "no",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "SpeechBubble",
+                        "EnemyGrunt",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "SpeechBubble",
+                        "\"Exclamation\""
+                      ]
+                    }
+                  ]
+                }
               ]
-            }
-          ],
-          "events": [
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "AlertRadius",
+                    "Players",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "AlertRadius",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    "\"Empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "EnemyGrunt",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -1535,7 +2942,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "EnemyGrunt",
+                    "Enemies",
                     ">",
                     "Players.X()"
                   ]
@@ -1561,7 +2968,7 @@
                     "value": "PosX"
                   },
                   "parameters": [
-                    "EnemyGrunt",
+                    "Enemies",
                     "<",
                     "Players.X()"
                   ]
@@ -1577,77 +2984,6 @@
                     "no"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "EnemyGrunt Collisions",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "LargeBlockNarrowRectangle",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "LargeBlockNarrowRectangle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "EnemyGrunt",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "EnemyGrunt",
-                ""
               ]
             }
           ]
@@ -1817,6 +3153,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1965,6 +3302,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "ButtonsAndDoors",
           "conditions": [],
@@ -2023,13 +3361,116 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Teal\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"80;227;194\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Orange\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"245;166;35\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Purple\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"144;19;254\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "DoorButtonLinkColour",
+                    "=",
+                    "\"Yellow\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "ButtonsAndDoors",
+                    "\"248;231;28\""
+                  ]
+                }
+              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2062,7 +3503,7 @@
                   "parameters": [
                     "Players",
                     "MultiButton",
-                    "False",
+                    "True",
                     "",
                     ""
                   ]
@@ -2107,7 +3548,7 @@
                       "parameters": [
                         "Players",
                         "MultiButton",
-                        "False",
+                        "True",
                         "",
                         ""
                       ]
@@ -2219,7 +3660,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "MultiDoor",
           "conditions": [],
@@ -2252,6 +3692,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2404,7 +3845,7 @@
               },
               "parameters": [
                 "BronzeBattleAxe",
-                "Enemies",
+                "EnemyGrunt",
                 "",
                 "",
                 "yes"
@@ -2442,7 +3883,18 @@
                   "parameters": [
                     "",
                     "AlertRadius",
-                    "Enemies",
+                    "EnemyGrunt",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "SpeechBubble",
+                    "EnemyGrunt",
                     ""
                   ]
                 }
@@ -2450,11 +3902,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "Enemies",
-                    ""
+                    "EnemyGrunt",
+                    "\"Death\""
                   ]
                 },
                 {
@@ -2465,7 +3917,61 @@
                     "AlertRadius",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SpeechBubble",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "e5c6d54c48ff2092d2edd8207f9f9b16f86296d01fb55d4035ea9c126d08240e_Explosion 1.aac",
+                    "",
+                    "50",
+                    ""
+                  ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationEnded2"
+              },
+              "parameters": [
+                "EnemyGrunt"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "\"Death\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                ""
               ]
             }
           ]
@@ -2478,11 +3984,23 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Game Win",
+      "name": "Game End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Win",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2558,11 +4076,48 @@
             },
             {
               "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"UI Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Win Overlay\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Win Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "WinDescription"
               ]
             },
             {
@@ -2582,68 +4137,31 @@
                 "BronzeBattleAxe",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LevelsData[\"Level \" +  ToString(ToNumber(StrAt(CurrentSceneName(), StrLength(CurrentSceneName())-1))+1)].IsUnlocked",
+                "True"
+              ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "NewGame",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ReturnToMenu",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Win Layer\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Main Menu\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Game Loss",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Death/Lose",
+          "comment2": ""
+        },
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
@@ -2659,9 +4177,26 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Death Overlay\"",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ShowLayer"
@@ -2673,34 +4208,78 @@
             },
             {
               "type": {
-                "value": "TextObject::String"
+                "value": "ChangeTimeScale"
               },
               "parameters": [
-                "LoseDesciption",
-                "=",
-                "Players.VariableString(Name)+\" died in the hands of \"+Enemies.VariableString(Name)"
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"UI Layer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "LoseDesciption",
+                    "=",
+                    "Players.VariableString(Name) + \"   \" + Enemies.VariableString(Description)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "LoseDesciption",
+                    "=",
+                    "SceneWindowWidth()/2-LoseDesciption.Width()/2"
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "disabled": true,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Players",
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonPressed"
+                "inverted": true,
+                "value": "CollisionNP"
               },
               "parameters": [
-                "NewGame",
-                "Left"
+                "Players",
+                "EnemyGrunt",
+                "",
+                "",
+                "no"
               ]
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "ReturnToMenu",
+                "Players",
+                "Enemies",
                 "",
                 "",
                 ""
@@ -2708,74 +4287,676 @@
             },
             {
               "type": {
-                "value": "LayerVisible"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "\"Lose Layer\""
-              ]
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
                 "",
-                "\"Main Menu\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "NewGame",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "RetryLevel",
-                "",
+                "\"Death Overlay\"",
                 "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "LayerVisible"
+                "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Lose Layer\""
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "PushScene"
+                "value": "ChangeTimeScale"
               },
               "parameters": [
                 "",
-                "\"Player\""
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"UI Layer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "LoseDesciption",
+                    "=",
+                    "Players.VariableString(Name) + \"   \" + Enemies.VariableString(Description)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "LoseDesciption",
+                    "=",
+                    "ScreenWidth()/2-LoseDesciption.Width()/2"
+                  ]
+                }
               ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Pause",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PauseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Pause Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Pause Overlay\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Checkbox",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player1.Controls.TouchControls",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Checkbox",
+                        "IsChecked",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player1.Controls.TouchControls",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Checkbox",
+                        "IsChecked",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player2.Controls.TouchControls",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Checkbox2",
+                        "IsChecked",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player2.Controls.TouchControls",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Checkbox2",
+                        "IsChecked",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "IsChecked",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "\"Checked\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Player1 Controls\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "IsChecked",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "\"Unchecked\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Player1 Controls\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "NewGame",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hover-sound.mp3",
+                    "",
+                    "20",
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ToggleGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player1.Controls.TouchControls"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Checkbox",
+                    "IsChecked"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Checkbox2",
+                "IsChecked",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Checkbox2",
+                "\"Checked\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Player2 Controls\""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Checkbox2",
+                "IsChecked",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Checkbox2",
+                "\"Unchecked\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Player2 Controls\""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Checkbox2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "hover-sound.mp3",
+                "",
+                "20",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ToggleGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Player2.Controls.TouchControls"
+              ]
+            },
+            {
+              "type": {
+                "value": "ToggleObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Checkbox2",
+                "IsChecked"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "UI Buttons"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "ExitPause",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Layer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player1PauseText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Player2PauseText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ExitPause",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "PauseMenuBackground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Key",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "GoldSquareToggle",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "MenuButton",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeTimeScale"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     }
   ]
 }

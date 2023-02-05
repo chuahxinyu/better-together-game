@@ -110,6 +110,14 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
     },
