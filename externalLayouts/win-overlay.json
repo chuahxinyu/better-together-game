@@ -10,8 +10,8 @@
       "name": "WinText",
       "persistentUuid": "f3556a93-d56e-4832-b522-d8ad3ca87135",
       "width": 0,
-      "x": 277,
-      "y": 161,
+      "x": 265,
+      "y": 122,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,6 +61,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Win Layer",
+      "name": "WinDescription",
+      "persistentUuid": "346c2bba-e61f-47c8-83f6-21ef7e58402e",
+      "width": 0,
+      "x": 247,
+      "y": 475,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -73,7 +88,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6791409909776861,
+    "zoomFactor": 0.459865227091875,
     "windowMask": false
   }
 }

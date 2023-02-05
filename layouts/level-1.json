@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.25,
     "snap": false,
-    "zoomFactor": 0.5710872247649174,
+    "zoomFactor": 0.4598652270918151,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -465,7 +465,7 @@
       "width": 0,
       "x": 3776,
       "y": 464,
-      "zOrder": 22,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

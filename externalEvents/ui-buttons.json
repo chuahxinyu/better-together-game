@@ -327,7 +327,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "NextLevel",
+                "NextButton",
                 ""
               ]
             },
@@ -338,7 +338,28 @@
               "parameters": [
                 "WinText",
                 "=",
-                "\"You Found The Scientist and Won the Game!\""
+                "\"Game Complete!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "WinDescription",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "WinDescription",
+                "ScreenWidth()/2-WinDescription.Width()/2",
+                "475",
+                ""
               ]
             }
           ]

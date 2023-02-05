@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5574076272796016,
+    "zoomFactor": 0.6347694708727041,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1843,7 +1843,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BossEnemy",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2182,7 +2181,6 @@
       "target": "Level Logic"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

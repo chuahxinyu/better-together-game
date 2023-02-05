@@ -7144,6 +7144,39 @@
     },
     {
       "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "WinDescription",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Created by Aussar and Unix",
+      "font": "PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 57,
+        "g": 155,
+        "r": 212
+      }
+    },
+    {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ReturnToMenu",

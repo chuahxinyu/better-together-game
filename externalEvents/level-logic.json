@@ -4089,6 +4089,24 @@
             },
             {
               "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"UI Layer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
@@ -4109,6 +4127,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "WinDescription"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -4123,24 +4149,6 @@
               "parameters": [
                 "BronzeBattleAxe",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"UI Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
               ]
             },
             {
@@ -4277,6 +4285,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pause",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4837,12 +4846,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "",
-      "conditions": [],
-      "actions": []
     }
   ]
 }

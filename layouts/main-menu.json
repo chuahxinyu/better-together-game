@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3866990209613921,
+    "zoomFactor": 0.4802252001020725,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -77,8 +77,8 @@
       "name": "Bub1",
       "persistentUuid": "aeb09b94-fb55-4df9-85cb-6b311aa22d1e",
       "width": 140,
-      "x": 531,
-      "y": 390,
+      "x": 597,
+      "y": 519,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,8 +107,8 @@
       "name": "BronzeBattleAxe",
       "persistentUuid": "09490124-7eef-416c-bdfb-23eef532e205",
       "width": 182,
-      "x": 106,
-      "y": 509,
+      "x": 76,
+      "y": 455,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -424,7 +424,7 @@
           "parameters": [
             "Bub1",
             "=",
-            "lerp(Bub1.X(),500-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*50,0.025*60*TimeDelta())"
+            "lerp(Bub1.X(),600-((SceneWindowWidth()-CursorX())/SceneWindowHeight())*50,0.025*60*TimeDelta())"
           ]
         },
         {
@@ -434,7 +434,7 @@
           "parameters": [
             "Bub1",
             "=",
-            "lerp(Bub1.Y(),300+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
+            "lerp(Bub1.Y(),500+((SceneWindowHeight()-CursorY())/SceneWindowHeight())*10,0.05*60*TimeDelta())"
           ]
         }
       ]
@@ -476,7 +476,7 @@
           "parameters": [
             "BronzeBattleAxe",
             "=",
-            "lerp(BronzeBattleAxe.X(),100+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.05*60*TimeDelta())"
+            "lerp(BronzeBattleAxe.X(),70+((SceneWindowWidth()-CursorX())/SceneWindowHeight())*20,0.05*60*TimeDelta())"
           ]
         },
         {
@@ -486,7 +486,7 @@
           "parameters": [
             "BronzeBattleAxe",
             "=",
-            "lerp(BronzeBattleAxe.Y(),500-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*60,0.005*60*TimeDelta())"
+            "lerp(BronzeBattleAxe.Y(),450-((SceneWindowHeight()-CursorY())/SceneWindowHeight())*60,0.005*60*TimeDelta())"
           ]
         }
       ]
