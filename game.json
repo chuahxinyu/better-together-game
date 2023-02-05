@@ -2528,6 +2528,27 @@
         "metadata": "",
         "name": "assets\\Cutscene.mp4",
         "userAdded": true
+      },
+      {
+        "file": "assets/Comic Game Loop - Mischief.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Cutscene - Trim.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets\\Cutscene - Trim.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

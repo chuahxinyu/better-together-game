@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.29818570815062845,
+    "zoomFactor": 0.40381964928029346,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3936,21 +3936,6 @@
       "x": 432,
       "y": 768,
       "zOrder": 87,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 50,
-      "layer": "",
-      "name": "EnemyGrunt",
-      "persistentUuid": "21fadcbb-a700-48be-b3b6-6965e404b244",
-      "width": 50,
-      "x": 94,
-      "y": 544,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

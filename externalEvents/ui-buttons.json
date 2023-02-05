@@ -340,27 +340,6 @@
                 "=",
                 "\"Game Complete!\""
               ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "WinDescription",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "WinDescription",
-                "ScreenWidth()/2-WinDescription.Width()/2",
-                "475",
-                ""
-              ]
             }
           ]
         }

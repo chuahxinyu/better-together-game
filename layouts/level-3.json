@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6347694708727041,
+    "zoomFactor": 0.3941467131345099,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -102,8 +102,8 @@
       "name": "Bub1",
       "persistentUuid": "0f586d6e-a138-43e9-a675-66b45c6b8fdc",
       "width": 50,
-      "x": 224,
-      "y": 638,
+      "x": 179,
+      "y": 599,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -191,8 +191,8 @@
       "name": "Bub2",
       "persistentUuid": "157f6095-9eb5-47aa-aa7e-cec9e9a025a8",
       "width": 50,
-      "x": 300,
-      "y": 638,
+      "x": 255,
+      "y": 599,
       "zOrder": 10,
       "numberProperties": [
         {
@@ -2298,7 +2298,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Utility Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -2331,7 +2331,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Lose Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -2342,7 +2342,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Win Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -2386,7 +2386,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Pause Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -2397,7 +2397,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Debug Layer",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": []
     }
