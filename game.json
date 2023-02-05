@@ -11394,7 +11394,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Touch Controls\n\n\nLeft\n\n\nRight\n\n\nJump\n\n\nAttack",
+      "string": "\n\n\nLeft\n\n\nRight\n\n\nJump\n\n\nAttack",
       "font": "PressStart2P-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,

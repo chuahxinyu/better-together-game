@@ -3997,7 +3997,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Game End",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4339,6 +4338,8 @@
           ]
         },
         {
+          "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Checkbox",
           "conditions": [],
@@ -4591,6 +4592,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4626,6 +4628,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4661,6 +4664,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
