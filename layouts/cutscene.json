@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5710872247649905,
+    "zoomFactor": 0.5710872247649904,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,29 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 736,
+      "height": 768,
       "layer": "",
-      "name": "CutsceneBackground",
-      "persistentUuid": "d60b88e2-19d8-4b1e-b786-55daa520e926",
-      "width": 1280,
+      "name": "CutsceneVid",
+      "persistentUuid": "5f864e94-1de3-4427-9c4a-67a9154ebfd6",
+      "width": 1365,
       "x": 0,
       "y": 0,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "39bdda9e-9072-492d-9f7f-e70ec0e36e45",
-      "width": 608,
-      "x": 32,
-      "y": 544,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -58,42 +43,86 @@
   "objects": [
     {
       "assetStoreId": "",
-      "height": 32,
-      "name": "CutsceneBackground",
+      "name": "CutsceneVid",
       "tags": "",
-      "texture": "assets\\Factory\\Background_New_Lrg.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "type": "Video::VideoObject",
       "variables": [],
       "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Platform",
-      "tags": "",
-      "texture": "assets\\Factory\\Platform Flat.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "BlackFade",
-      "tags": "",
-      "texture": "New image2",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "assets\\Cutscene.mp4"
+      }
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "ea65ea7fc29892eca209efe8b0e1b6c13469698f14d9bdb56e00e23f2466cb6c_Bit Bit Loop.aac",
+            "",
+            "10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "CutsceneVid"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "CutsceneVid"
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 6418240,

@@ -597,7 +597,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -670,7 +669,7 @@
               },
               "parameters": [
                 "",
-                "\"Level 1\"",
+                "\"Cutscene\"",
                 ""
               ]
             }
