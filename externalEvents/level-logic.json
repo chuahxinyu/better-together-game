@@ -673,7 +673,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "UI Buttons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1173,7 +1172,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Controls, Combined Sticking and Separation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1590,17 +1588,6 @@
                       "parameters": [
                         "",
                         "Players.VariableString(Left)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "TouchButton",
-                        "Type",
-                        "=",
-                        "\"Left\""
                       ]
                     },
                     {
@@ -4402,7 +4389,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pause",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4423,11 +4409,25 @@
             },
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "Left"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SystemInfo::IsMobile"
+                  },
+                  "parameters": []
+                }
               ]
             }
           ],
@@ -4872,11 +4872,25 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "",
-            "\"Left\""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "NewGame",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
           ]
         }
       ],

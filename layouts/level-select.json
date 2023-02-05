@@ -368,11 +368,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": [
             {
               "type": {
@@ -453,11 +448,25 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "NewGame",
-                    "Left"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "NewGame",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": []
+                    }
                   ]
                 }
               ],
