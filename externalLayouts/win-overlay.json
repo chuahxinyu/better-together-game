@@ -19,36 +19,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "ReturnToMenu",
-      "persistentUuid": "fc7b78e2-a620-47a9-a6b6-cdceb8c1899b",
-      "width": 0,
-      "x": 63,
-      "y": 615,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "NextLevel",
-      "persistentUuid": "2eb5db3e-6d61-41bb-b63a-de2ef5e794d2",
-      "width": 0,
-      "x": 952,
-      "y": 620,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 873,
       "layer": "Win Layer",
@@ -58,6 +28,36 @@
       "x": -109,
       "y": -74,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Win Layer",
+      "name": "MenuButton",
+      "persistentUuid": "ac2634a7-9f98-476c-a213-d1a18effbdca",
+      "width": 300,
+      "x": 55,
+      "y": 612,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 70,
+      "layer": "Win Layer",
+      "name": "NextButton",
+      "persistentUuid": "b83805bd-6e6d-4783-9011-b0d636d22dbe",
+      "width": 300,
+      "x": 909,
+      "y": 612,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -73,7 +73,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5236892941320322,
+    "zoomFactor": 0.6791409909776861,
     "windowMask": false
   }
 }

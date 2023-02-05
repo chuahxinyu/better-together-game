@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.33957049548881224,
+    "snap": false,
+    "zoomFactor": 0.6503476410170521,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -740,7 +740,7 @@
       "name": "Level2Window2",
       "persistentUuid": "3f206b26-7bec-42f2-9e40-71721e454966",
       "width": 48,
-      "x": 832,
+      "x": 840,
       "y": 656,
       "zOrder": 31,
       "numberProperties": [],
@@ -4547,7 +4547,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Description",
+          "type": "string",
+          "value": "fell   from   a   high   place."
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -4691,7 +4698,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Background Layer",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -4729,17 +4736,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 8363552,
-      "ambientLightColorG": 6062976,
-      "ambientLightColorR": 9053176,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Debug Layer",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 13,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 8303968,
@@ -4769,6 +4765,50 @@
       "isLightingLayer": false,
       "name": "UI Layer",
       "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13763584,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player2 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13720048,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player1 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8201264,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9952312,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 8363552,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 9053176,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
+      "visibility": false,
       "cameras": [],
       "effects": []
     }

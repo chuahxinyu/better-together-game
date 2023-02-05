@@ -23,7 +23,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "D:\\Gitrepository\\gdev-game-jam\\build",
+    "latestCompilationDirectory": "C:\\Users\\chuah\\OneDrive\\Desktop\\runaway-pixels-2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -248,45 +248,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/30619f9dbf8e5da391f6dde5478da0823eb821fe9fbf57847469681b5f4ab08f_Droid 1_Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/1d1a43595da91abd77f9a4a73657c5478457f1bd132bdabb9127114ca8f627cd_Droid 1_Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Droid 1_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Character/2f9e6d107d2a6470f5b85ebefa65d3ba3f59a20f32c2d377aad24c9ff7271621_Droid 1_Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Hurt.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -320,17 +281,6 @@
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Graduate-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
       },
@@ -500,7 +450,7 @@
         "alwaysLoaded": false,
         "file": "assets/Blank.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Blank.png\"}",
         "name": "Blank",
         "smoothed": false,
         "userAdded": true
@@ -520,15 +470,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Up.png\"}",
         "name": "Up",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Down.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Down.png\"}",
-        "name": "Down",
         "smoothed": false,
         "userAdded": false
       },
@@ -554,7 +495,7 @@
         "alwaysLoaded": false,
         "file": "assets/Attack32.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Attack32.png\"}",
         "name": "Attack3",
         "smoothed": false,
         "userAdded": false
@@ -682,20 +623,6 @@
         }
       },
       {
-        "file": "assets/Power Up 3.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/84a7c1348513e1f578ed3a9439460c1fdecea0034fb447e63810ad450178cc9e_Power Up 3.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "assets/Click_01.aac",
         "kind": "audio",
         "metadata": "",
@@ -783,7 +710,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite34.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite34.png\"}",
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": true
@@ -1630,15 +1557,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/small_droid/edited31.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/small_droid/edited31.png\",\"extension\":\".png\"}",
-        "name": "assets\\small_droid\\edited31.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
         "file": "assets/Explosion 1.aac",
         "kind": "audio",
         "metadata": "",
@@ -1733,20 +1651,6 @@
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/a6c7bd629a056dcc062c396288953fa63788ce83eac3c5891f1cf88999e2349c_Meditating Beat.aac",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Chronos.aac",
-        "kind": "audio",
-        "metadata": "",
-        "name": "eb1a26156713122dd5e35472a754b9be0eed78a86601a544bb2c94bd1091275c_Chronos.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/eb1a26156713122dd5e35472a754b9be0eed78a86601a544bb2c94bd1091275c_Chronos.aac",
           "name": "gdevelop-asset-store"
         }
       },
@@ -1859,6 +1763,764 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/20cf126eb6af22a79ebdefaf678127a45db4f1ff5475504b1bdacab0078821d1_Epic Boss Battle.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "hover-sound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hover-sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MainMenuButton2.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MainMenuButton2.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 9 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 9 (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 10 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 10 (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Group 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LevelButtonBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LevelButtonBackground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LockedLevel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LockedLevel2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartButton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LevelSelectButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LevelSelectButton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Hurt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MenuScreen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MenuScreen",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Idle42.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PauseMenuBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PauseMenuBackground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_0_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_0_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/df2d4fc04c1561e65700c7de7aad28c33094a5b6eba47bf9ac024854d175d7a8_Key_0_1.png",
+          "name": "Key_0_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_1_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/2b437a0e040a04520ffcce37e8f7b91950532abb49a7004118931c0373ad7bd2_Key_1_1.png",
+          "name": "Key_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_2_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/c45fe23a4243a6eef008051c622e15d3bcdd0ec6e60d7142784f02dfe5a6d910_Key_2_1.png",
+          "name": "Key_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_3_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/7c2713e8133811949c41073fc9e06ef0cadb4e3a8bc5041938d408a4d798e5d8_Key_3_1.png",
+          "name": "Key_3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_4_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_4_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/558e9bda696b00244c09dbf1f00983fc36908988897a5aace3a486d40908db7a_Key_4_1.png",
+          "name": "Key_4_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_5_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_5_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/7e1ff137c3d3c235f4174cafe157112f6b20e32929068a33059ee59302225508_Key_5_1.png",
+          "name": "Key_5_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_6_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_6_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/0b659ba158e1ef3a194097cdce068205c9da1928501f2c2b162c0c8d5a6c1e84_Key_6_1.png",
+          "name": "Key_6_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_7_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_7_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/f84c94ce6d72a9621a09f586bbabce21e783eae68d988308c4cf0ccb256f595f_Key_7_1.png",
+          "name": "Key_7_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_8_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_8_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/b5095314b4f5c4d67d7cbe5a61dc7020ccea5eb93bca49eef0228698d9e8780d_Key_8_1.png",
+          "name": "Key_8_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_9_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_9_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/5cdb684ed2a8c0b41d99c559a0b23f70c00319c9958139c9720e3a8efba62114_Key_9_1.png",
+          "name": "Key_9_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_A.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/f31ee14051e9620f1e703bf8fa0ce96d7bd9a89debb347e4d0be26f3d73124d6_Key_A.png",
+          "name": "Key_A.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_B.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/8ad80eafa2117b31029f880e55f0290030cccb06c446c0d5e8748c3ce71cb1aa_Key_B.png",
+          "name": "Key_B.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_C.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/07920e74aa9434f58e949e12ecc30d05db0c0d6238e680b2ca0677bea4aa3a16_Key_C.png",
+          "name": "Key_C.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_D.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/237ffdef0ee1df6b2b27e1482d3e93c5c7792ef64873e0c6dc4582210fc9566e_Key_D.png",
+          "name": "Key_D.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_E.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/b5de322c8c26356c1763c966c8881326fed1b572b2792c5d566aee56c1ab98b5_Key_E.png",
+          "name": "Key_E.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_F.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/abe63c6f8ba99292abccd55013f1bd21da39b5bbca544305a111371d3c7ba978_Key_F.png",
+          "name": "Key_F.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_G.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_G.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/cdc2623623ff4576e022d914ef0e3ddd6bfa526d82e842dd79d0fe725f7d9585_Key_G.png",
+          "name": "Key_G.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_H.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/835bbb3ce792af0cf48a50153a6165422f99c60d96b12f85abf6bdba65e18561_Key_H.png",
+          "name": "Key_H.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_I.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_I.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/da5b3c84d6b30851ae1c759eb3383e2ddc3708e2cda7f6825138384c2dd8120f_Key_I.png",
+          "name": "Key_I.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_J.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/7456cc915094e91533af955fb8ff47cdf103f373cec2a5336377c0cb36d4f3b0_Key_J.png",
+          "name": "Key_J.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_K.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/334dd518411572cea3032a6d3f98f127e5781f1ba8b936a72bc801938a0ca105_Key_K.png",
+          "name": "Key_K.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_L.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/d9e73841b8fb67e2012694091607455ad9576e80031a79df5dd282756377f167_Key_L.png",
+          "name": "Key_L.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_M.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/4a2913a4d4674180b1878ce8833b786f4918d409f1b8d67a02ce3f537808356a_Key_M.png",
+          "name": "Key_M.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_N.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_N.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/85e79d23dcc0d6bccd6e9f18285de66d8c66eb109197b03404a676cf314a23be_Key_N.png",
+          "name": "Key_N.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_O.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_O.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/df2d4fc04c1561e65700c7de7aad28c33094a5b6eba47bf9ac024854d175d7a8_Key_O.png",
+          "name": "Key_O.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_P.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Key_P.png\",\"extension\":\".png\"}",
+        "name": "Key_P.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/15f885e27e585b3e7237f66396de8757d0a227d22a248b3cbeab7ccf1b1e76bf_Key_P.png",
+          "name": "Key_P.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Q.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/0f654062bfe806c944da51b81d96f476c2f7529b84680e5ec887c8ed88a001a6_Key_Q.png",
+          "name": "Key_Q.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_R.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/89ad477c3d8a9acc16d8923ef40ec32cac5d7ffb52a2b8f5b9e96817c9a0815e_Key_R.png",
+          "name": "Key_R.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_S.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_S.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/a8a74a82c03cb2be4c35d445c81207bebd7efe64c00d2f3ea719df27d2bf0cb0_Key_S.png",
+          "name": "Key_S.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_T.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_T.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/3c5d21ac52c1eb39a269583c2b047aab6e2fb1cd01d11edc6c5048d8dab3218e_Key_T.png",
+          "name": "Key_T.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_U.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_U.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/13938bea7a19cdfa81b51a06524cb9cd6400e0056ece7c9c98b72ffff904f6de_Key_U.png",
+          "name": "Key_U.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_V.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_V.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/f9fbe3febcf873dbce93c9a7844ce58fd73f76a6f3e8f9ebd5a80864bd4479a6_Key_V.png",
+          "name": "Key_V.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_W.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_W.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/3c1e0d745df575c7db24b224ae65ae47b4d008c1effa12d22e67b6eb5c5a6f94_Key_W.png",
+          "name": "Key_W.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Windows.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Windows.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/1c873d239b3bd14dd13f6c14f8ad1f391444dc1a97f08a81c964bb40c843cd3c_Key_Windows.png",
+          "name": "Key_Windows.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_X.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/1151569424dd06fca7d0a85fd6221a5fb3cf33abb27a6a4166e0dd928f7c0614_Key_X.png",
+          "name": "Key_X.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Y.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Y.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/78cdbdc713310b50f7da86a29f056f21ef4cc050698748d2218464f7d5d687b4_Key_Y.png",
+          "name": "Key_Y.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_Z.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Key_Z.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/691afc5398e9cfedd26763061354439d9036ac4f2eaa7a62e4a1a0e292e83350_Key_Z.png",
+          "name": "Key_Z.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Up22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Up2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Down",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Left",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key_P.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Key_P.png\",\"extension\":\".png\"}",
+        "name": "assets\\Key_P.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PressStart2P-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold Square Toggle_Off.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Gold Square Toggle_Off.png\",\"extension\":\".png\"}",
+        "name": "Gold Square Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/f60585fc8683ba04f4d95faf340b9aec80a6d81117aa08a9b67a3a11c8954bfd_Gold Square Toggle_Off.png",
+          "name": "Gold Square Toggle_Off.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold Square Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Square Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/b45b4a4f911bcf0fdb90b31b6e300835be589bc5e63297f3daf2817be09e468e_Gold Square Toggle_On.png",
+          "name": "Gold Square Toggle_On.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Checked",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PauseButton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PauseButton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PauseButton.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PauseButton.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold Square Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Gold Square Toggle_On.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold Square Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Gold Square Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Checked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Checked.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2495,6 +3157,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Idle42.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3101,6 +3792,35 @@
               ]
             }
           ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Hurt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3701,6 +4421,36 @@
               ]
             }
           ]
+        },
+        {
+          "name": "MenuScreen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "MenuScreen",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4297,9 +5047,9 @@
       "variables": [
         {
           "folded": true,
-          "name": "Name",
+          "name": "Description",
           "type": "string",
-          "value": "Enemy Grunt"
+          "value": "was   killed   by   an   Enemy   Robot."
         }
       ],
       "effects": [],
@@ -5416,6 +6166,28 @@
                         "x": 3.416118621826172,
                         "y": 18.20232391357422
                       }
+                    ],
+                    [
+                      {
+                        "x": 27.991802215576172,
+                        "y": 13.323138236999512
+                      },
+                      {
+                        "x": 38.77363586425781,
+                        "y": 14.662059783935547
+                      },
+                      {
+                        "x": 48,
+                        "y": 23.188867568969727
+                      },
+                      {
+                        "x": 32.783729553222656,
+                        "y": 27.0646915435791
+                      },
+                      {
+                        "x": 21.790491104125977,
+                        "y": 21.849945068359375
+                      }
                     ]
                   ]
                 },
@@ -5586,16 +6358,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5618,16 +6390,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5650,16 +6422,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5682,16 +6454,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5714,16 +6486,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5746,16 +6518,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5778,16 +6550,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1.1258602142333984,
-                        "y": 14.678850173950195
+                        "x": 11.924758911132812,
+                        "y": 14.873467445373535
                       },
                       {
-                        "x": 2.6233367919921875,
-                        "y": 15.383544921875
+                        "x": 13.968375205993652,
+                        "y": 15.01440715789795
                       },
                       {
-                        "x": 2.3590762615203857,
-                        "y": 17.497629165649414
+                        "x": 11.783819198608398,
+                        "y": 16.28285789489746
                       }
                     ]
                   ]
@@ -5914,7 +6686,7 @@
           "folded": true,
           "name": "Type",
           "type": "string",
-          "value": ""
+          "value": "Left"
         },
         {
           "folded": true,
@@ -6003,7 +6775,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Down",
+                  "image": "Down2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8861,6 +9633,1820 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "MenuButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "MainMenuButton2.png3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NextButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Group 9 (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RetryButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "MainMenuButton2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Group 10 (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "PauseButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "PauseButton.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "PauseButton.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "afcb166233b03c4282b6509d0771bf503ee8b3bf00c6e86b99b73ad3f82a58b6",
+      "name": "Key",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Type",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "Player",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "ControlsType",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "0",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_0_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_1_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_2_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_3_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_4_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_5_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_6_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_7_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "8",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_8_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "9",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_9_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "A",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_A.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_B.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_C.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_D.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "E",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_E.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_F.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_G.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "H",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_H.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "I",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_I.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "J",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_J.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "K",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_K.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "L",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_L.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "M",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_M.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "N",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_N.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "O",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_O.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "P",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_P.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Q",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_Q.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "R",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_R.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_S.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "T",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_T.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "U",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_U.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "V",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_V.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "W",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_W.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_Windows.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "X",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_X.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Y",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_Y.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Z",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Key_Z.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Up2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Right2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "e3e0dc07e540d3197d6b79d0b45db20dde7dec9d9be884c2025c53b386798fd1",
+      "name": "GoldSquareToggle",
+      "tags": "",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variables": [
+        {
+          "folded": true,
+          "name": "IsChecked",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "Player",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "ControlType",
+          "type": "string",
+          "value": "TouchControlsActive"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "State": {
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Gold Square Toggle_Off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Checked",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ExitPause",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "PauseMenuBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "PauseMenuBackground.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Checkbox",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Player",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "ControlType",
+          "type": "string",
+          "value": "TouchControls"
+        },
+        {
+          "name": "IsChecked",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Unchecked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Gold Square Toggle_Off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Checked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Checked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Checkbox2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Player",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "ControlType",
+          "type": "string",
+          "value": "TouchControls"
+        },
+        {
+          "name": "IsChecked",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Unchecked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Gold Square Toggle_Off.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Checked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Checked.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PlayerControls",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Touch Controls\n\n\nLeft\n\n\nRight\n\n\nJump\n\n\nAttack",
+      "font": "PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Player1PauseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PLAYER 1",
+      "font": "PressStart2P-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 226,
+        "g": 144,
+        "r": 74
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Player2PauseText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PLAYER 2",
+      "font": "PressStart2P-Regular.ttf",
+      "textAlignment": "right",
+      "characterSize": 30,
+      "color": {
+        "b": 237,
+        "g": 110,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [
@@ -8899,10 +11485,40 @@
           "name": "MultiDoor"
         }
       ]
+    },
+    {
+      "name": "UI",
+      "objects": [
+        {
+          "name": "RetryLevel"
+        },
+        {
+          "name": "ReturnToMenu"
+        },
+        {
+          "name": "WinText"
+        },
+        {
+          "name": "NextLevel"
+        },
+        {
+          "name": "LoseDesciption"
+        },
+        {
+          "name": "LoseText"
+        },
+        {
+          "name": "UIText"
+        },
+        {
+          "name": "DebugText"
+        }
+      ]
     }
   ],
   "variables": [
     {
+      "folded": true,
       "name": "LevelsData",
       "type": "structure",
       "children": [
@@ -8912,15 +11528,15 @@
           "children": [
             {
               "folded": true,
-              "name": "NextLevel",
-              "type": "string",
-              "value": "\"Level 2\""
+              "name": "IsUnlocked",
+              "type": "boolean",
+              "value": true
             },
             {
               "folded": true,
-              "name": "Unlocked",
-              "type": "boolean",
-              "value": true
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 2\""
             }
           ]
         },
@@ -8930,17 +11546,113 @@
           "children": [
             {
               "folded": true,
-              "name": "NextLevel",
-              "type": "string",
-              "value": "\"Level 3\""
+              "name": "IsUnlocked",
+              "type": "boolean",
+              "value": false
             },
             {
               "folded": true,
-              "name": "Unlocked",
+              "name": "NextLevel",
+              "type": "string",
+              "value": "\"Level 3\""
+            }
+          ]
+        },
+        {
+          "name": "Level3",
+          "type": "structure",
+          "children": [
+            {
+              "name": "IsUnlocked",
               "type": "boolean",
               "value": false
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Player1",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Controls",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Attack",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Left",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Right",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "TouchControls",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "Up",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Player 1"
+        }
+      ]
+    },
+    {
+      "name": "Player2",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Controls",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Attack",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Left",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "Right",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "TouchControls",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "Up",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Player 2"
         }
       ]
     }
@@ -8948,19 +11660,7 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/lose-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-menu"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -8968,16 +11668,36 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscene"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/level-logic"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui-buttons"
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/health"
@@ -8995,6 +11715,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/death-overlay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/pause-overlay"
     }
   ],
   "externalSourceFiles": []

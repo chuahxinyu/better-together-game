@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6078573277949993,
+    "snap": false,
+    "zoomFactor": 0.5574076272796016,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1778,7 +1778,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camera",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2328,17 +2327,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 12630520,
-      "ambientLightColorG": 6062976,
-      "ambientLightColorR": 10317840,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "name": "Debug Layer",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 9138048,
       "ambientLightColorG": 6062976,
       "ambientLightColorR": 10358632,
@@ -2367,6 +2355,50 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "UI Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 150995058,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 13712632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player2 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": -2147483616,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 13712632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Player1 Controls",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 13,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 13712632,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 12630520,
+      "ambientLightColorG": 6062976,
+      "ambientLightColorR": 10317840,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Debug Layer",
       "visibility": true,
       "cameras": [],
       "effects": []
