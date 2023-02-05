@@ -2521,6 +2521,13 @@
         "name": "New image2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Cutscene.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets\\Cutscene.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
