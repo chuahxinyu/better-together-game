@@ -4172,32 +4172,10 @@
               },
               "parameters": [
                 "Players",
-                "EnemyGrunt",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Players",
                 "Enemies",
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "EnemyGrunt",
-                "\"Death\""
               ]
             },
             {
@@ -4269,7 +4247,7 @@
                   "parameters": [
                     "LoseDesciption",
                     "=",
-                    "ScreenWidth()/2-LoseDesciption.Width()/2"
+                    "SceneWindowWidth()/2-LoseDesciption.Width()/2"
                   ]
                 }
               ]
@@ -4277,6 +4255,8 @@
           ]
         },
         {
+          "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Players",
           "conditions": [

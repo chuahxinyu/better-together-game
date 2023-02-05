@@ -380,6 +380,16 @@
                 "=",
                 "\"Game Complete!\""
               ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "LoseDesciption",
+                "=",
+                "SceneWindowWidth()/2-LoseDesciption.Width()/2"
+              ]
             }
           ]
         }

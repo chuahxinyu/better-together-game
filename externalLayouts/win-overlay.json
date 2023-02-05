@@ -61,21 +61,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Win Layer",
-      "name": "WinDescription",
-      "persistentUuid": "346c2bba-e61f-47c8-83f6-21ef7e58402e",
-      "width": 0,
-      "x": 247,
-      "y": 475,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {
