@@ -673,6 +673,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "UI Buttons",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4185,6 +4186,16 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "EnemyGrunt",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -4267,6 +4278,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pause",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
