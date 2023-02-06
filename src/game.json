@@ -18,8 +18,8 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "GDev Game Jam",
-    "description": "",
+    "name": "Better Together",
+    "description": "A local co-op platformer where two defective robots embark on a quest to find a scientist who can repair them. The robots, who narrowly escaped incineration, must work together by separating and connecting to navigate through a series of challenging levels filled with obstacles, traps and enemies.\n\nPlayers can control the robot either using a single keyboard (WASD and Arrow Buttons) or using the on-screen touch controls or both. The game can be played alone, but as the game title suggests, it is better played together!\n\nItch.io Link: https://aussar.itch.io/better-together\n\nGitHub Link: https://github.com/chuahxinyu/better-together-game",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -27,7 +27,36 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "Icon.png",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "1920x1080Thumbnail.png"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -44,9 +73,17 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
-    "categories": [],
-    "playableDevices": [],
+    "authorIds": [
+      "CNFJnJomlCR6cSymPP8wnj8WuCG2"
+    ],
+    "categories": [
+      "platformer"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -2548,6 +2585,33 @@
         "kind": "video",
         "metadata": "",
         "name": "assets\\Cutscene - Trim.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GitHub-Thumbnail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GitHub-Thumbnail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1920x1080Thumbnail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1920x1080Thumbnail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon.png",
+        "smoothed": false,
         "userAdded": true
       }
     ],
